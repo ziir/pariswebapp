@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Tempête de boulettes géantes",
+    "speakers": [ "Agnès Haasser" ],
+    "location": "big",
+    "day": "thursday",
+    "year": 2018,
+    "start": "09:20",
+    "end": "10:10"
+  },
+  {
+    "title": "Create an Engaging Native App with Vue and NativeScript",
+    "speakers": ["Jen Looper"],
+    "location": "big",
+    "day": "thursday",
+    "year": 2018,
+    "start": "10:20",
+    "end": "11:10"
+  }
+]
