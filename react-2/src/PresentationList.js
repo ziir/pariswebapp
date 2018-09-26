@@ -4,15 +4,11 @@ import React, { Component } from 'react';
 import ListItem, { type Attending } from './ListItem';
 import data from './data/agenda.json';
 
-type State = {
-  attending: Array<Attending>,
-};
-class List extends Component<{||}, State> {
-  state = { attending: data.map((entry, idx) => false) };
+class List extends Component<{||}> {
+  attending: Array<Attending> = data.map(() => false);
 
-  handleChange(index: number, attending: Attending) {
-    this.state.attending[index] = attending;
-    this.setState({ attending: this.state.attending });
+  changeCallback(index: number, attending: Attending) {
+    this.attending[index] = attending;
   }
 
   render() {
@@ -22,8 +18,7 @@ class List extends Component<{||}, State> {
           <ListItem
             entry={entry}
             index={idx}
-            attending={this.state.attending[idx]}
-            handleChange={this.handleChange.bind(this, idx)}
+            changeCallback={this.changeCallback.bind(this, idx)}
           />
         ))}
       </section>
