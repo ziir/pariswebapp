@@ -7,16 +7,12 @@ import data from './data/agenda.json';
 type State = {
   attending: Array<Attending>,
 };
-class List extends Component<any, State> {
-  state = { attending: data.map((entry, idx) => 'no') };
+class List extends Component<{||}, State> {
+  state = { attending: data.map((entry, idx) => false) };
 
-  handleChange(index: number) {
-    return (value: Attending) => (
-      evt: SyntheticInputEvent<HTMLInputElement>
-    ) => {
-      this.state.attending[index] = value;
-      this.setState({ attending: this.state.attending });
-    };
+  handleChange(index: number, attending: Attending) {
+    this.state.attending[index] = attending;
+    this.setState({ attending: this.state.attending });
   }
 
   render() {
@@ -26,8 +22,8 @@ class List extends Component<any, State> {
           <ListItem
             entry={entry}
             index={idx}
-            value={this.state.attending[idx]}
-            handleChange={this.handleChange.bind(this)(idx)}
+            attending={this.state.attending[idx]}
+            handleChange={this.handleChange.bind(this, idx)}
           />
         ))}
       </section>

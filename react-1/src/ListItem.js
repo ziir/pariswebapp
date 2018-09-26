@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-export type Attending = 'yes' | 'no' | 'maybe';
+export type Attending = boolean | void;
 export type Location = 'small' | 'medium' | 'big';
 export type Entry = {
   title: string,
@@ -16,11 +16,9 @@ export type Entry = {
 
 type Props = {
   index: number,
-  value: Attending,
+  attending: Attending,
   entry: Entry,
-  handleChange: (
-    value: Attending
-  ) => (evt: SyntheticInputEvent<HTMLInputElement>) => any,
+  handleChange: (attending: Attending) => any,
 };
 
 function ListItem(props: Props) {
@@ -48,8 +46,8 @@ function ListItem(props: Props) {
             id={`${props.index}-no`}
             name={props.index}
             value="no"
-            checked={props.value === 'no'}
-            onChange={props.handleChange('no')}
+            checked={props.attending === false}
+            onChange={props.handleChange.bind(null, false)}
           />
           <label htmlFor={`${props.index}-no`}>No</label>
         </div>
@@ -59,8 +57,8 @@ function ListItem(props: Props) {
             id={`${props.index}-maybe`}
             name={props.index}
             value="maybe"
-            checked={props.value === 'maybe'}
-            onChange={props.handleChange('maybe')}
+            checked={props.attending === undefined}
+            onChange={props.handleChange.bind(null, undefined)}
           />
           <label htmlFor={`${props.index}-maybe`}>Maybe</label>
         </div>
@@ -70,8 +68,8 @@ function ListItem(props: Props) {
             id={`${props.index}-yes`}
             name={props.index}
             value="yes"
-            checked={props.value === 'yes'}
-            onChange={props.handleChange('yes')}
+            checked={props.attending === true}
+            onChange={props.handleChange.bind(null, true)}
           />
           <label htmlFor={`${props.index}-yes`}>Yes</label>
         </div>
