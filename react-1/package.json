@@ -1,5 +1,5 @@
 {
-  "name": "pariswebapp",
+  "name": "react-1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,6 @@
     "react-scripts": "1.1.5"
   },
   "scripts": {
-    "precommit": "lint-staged",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -16,15 +15,6 @@
   },
   "devDependencies": {
     "flow-bin": "^0.81.0",
-    "flow-typed": "^2.5.1",
-    "husky": "^1.0.0-rc.15",
-    "lint-staged": "^7.3.0",
-    "prettier": "^1.14.3"
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --write",
-      "git add"
-    ]
+    "flow-typed": "^2.5.1"
   }
 }

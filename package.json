@@ -1,0 +1,21 @@
+{
+  "name": "pariswebapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "husky": "^1.0.0-rc.15",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3"
+  },
+  "lint-staged": {
+    "*/src/**/*.{js,jsx,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
