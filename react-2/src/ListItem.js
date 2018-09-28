@@ -17,6 +17,7 @@ export type Entry = {
 type Props = {
   index: number,
   entry: Entry,
+  attendingInitialValue: Attending,
   changeCallback: (attending: Attending) => any,
 };
 
@@ -25,7 +26,7 @@ type State = {
 };
 
 export default class ListItem extends Component<Props, State> {
-  state = { attending: false };
+  state = { attending: this.props.attendingInitialValue };
 
   handleChange = (attending: Attending) => {
     this.setState({ attending });
