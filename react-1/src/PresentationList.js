@@ -1,7 +1,11 @@
 // @flow
 
 import React, { Component, Fragment } from 'react';
-import ListItem, { type Attending, type ConferenceData } from './ListItem';
+import ListItem, {
+  type Attending,
+  type ConferenceData,
+  type Day,
+} from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
 
@@ -15,6 +19,7 @@ type State = {|
   attending: Array<Attending>,
   filterString: string,
   selectedYear: number,
+  selectedDay: Day | null,
 |};
 
 class List extends Component<Props, State> {
@@ -41,6 +46,7 @@ class List extends Component<Props, State> {
     attending: [],
     filterString: '',
     selectedYear: 2018,
+    selectedDay: null,
   };
 
   handleAttendingChange(index: number, attending: Attending) {
@@ -52,23 +58,34 @@ class List extends Component<Props, State> {
     this.setState({ filterString: str.toLowerCase() });
   }
 
-  handleSelectedYearChange(year: number) {
+  handleSelectedYearChange(year: number | null) {
+    if (year === null) {
+      // Shouldn't happen, but this makes Flow happy
+      return;
+    }
     this.setState({ selectedYear: year });
+  }
+
+  handleSelectedDayChange(day: Day | null) {
+    this.setState({ selectedDay: day });
   }
 
   render() {
     const { agenda } = this.props;
-    const { filterString, selectedYear } = this.state;
+    const { filterString, selectedYear, selectedDay } = this.state;
 
     const availableYears = [...new Set(agenda.map(entry => entry.year))].sort(
       (a, b) => b - a
     );
+
+    const availableDays = [null, 'thursday', 'friday', 'saturday'];
 
     const filteredData = agenda
       .map((entry, idx) => ({ entry, idx }))
       .filter(
         ({ entry }) =>
           entry.year === selectedYear &&
+          (selectedDay === null || entry.day === selectedDay) &&
           (entry.title.toLowerCase().includes(filterString) ||
             entry.speakers.some(speaker =>
               speaker.toLowerCase().includes(filterString)
@@ -82,6 +99,12 @@ class List extends Component<Props, State> {
           values={availableYears}
           selectedValue={selectedYear}
           onChange={this.handleSelectedYearChange.bind(this)}
+        />
+        <ValueChooser
+          label="Choisissez le jour"
+          values={availableDays}
+          selectedValue={selectedDay}
+          onChange={this.handleSelectedDayChange.bind(this)}
         />
         <InputField
           label="Filtrer"

@@ -7,15 +7,15 @@ import './ValueChooser.css';
 
 type Props<T> = {|
   +label: string,
-  +values: $ReadOnlyArray<T>,
-  +selectedValue: T,
-  +onChange: T => mixed,
+  +values: $ReadOnlyArray<T | null>,
+  +selectedValue: T | null,
+  +onChange: (T | null) => mixed,
 |};
 
 export default class ValueChooser<T: number | string> extends Component<
   Props<T>
 > {
-  handleClick(value: T) {
+  handleClick(value: T | null) {
     this.props.onChange(value);
   }
 
