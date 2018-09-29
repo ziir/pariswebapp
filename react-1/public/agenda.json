@@ -52,5 +52,14 @@
     "year": 2018,
     "start": "09:30",
     "end": "12:50"
+  },
+  {
+    "title": "Accessibilité, je t'emmènerai jusqu'au bout du back",
+    "speakers": ["Julie Moynat"],
+    "location": "small",
+    "day": "friday",
+    "year": 2017,
+    "start": "09:00",
+    "end": "09:50"
   }
 ]
