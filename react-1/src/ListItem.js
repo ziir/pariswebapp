@@ -3,23 +3,24 @@
 import React from 'react';
 
 export type Attending = boolean | void;
-export type Location = 'small' | 'medium' | 'big';
-export type Entry = {
-  title: string,
-  speakers: Array<string>,
-  location: Location,
-  day: string,
-  year: number,
-  start: string,
-  end: string,
-};
+export type Location = 'small' | 'big' | 'unknown';
+export type Day = 'thursday' | 'friday' | 'saturday';
+export type ConferenceData = {|
+  +title: string,
+  +speakers: Array<string>,
+  +location: Location,
+  +day: Day,
+  +year: number,
+  +start: string,
+  +end: string,
+|};
 
-type Props = {
-  index: number,
-  attending: Attending,
-  entry: Entry,
-  handleChange: (attending: Attending) => any,
-};
+type Props = {|
+  +index: number,
+  +attending: Attending,
+  +entry: ConferenceData,
+  +handleChange: (attending: Attending) => any,
+|};
 
 function ListItem(props: Props) {
   return (
