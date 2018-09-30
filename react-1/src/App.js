@@ -29,9 +29,18 @@ class App extends Component<{||}, State> {
   }
 
   async fetchData() {
-    const fetchResult = await fetch('/agenda.json');
-    const result = await fetchResult.json();
-    this.setState({ agenda: result });
+    try {
+      const fetchResponse = await fetch('/agenda.json');
+      if (!fetchResponse.ok) {
+        throw new Error(
+          `Got an error HTTP Response with status ${fetchResponse.status}`
+        );
+      }
+      const result = await fetchResponse.json();
+      this.setState({ agenda: result });
+    } catch (e) {
+      console.error('Got an error while fetching the agenda.', e);
+    }
     this._timeoutId = setTimeout(() => this.fetchData(), FETCH_INTERVAL_MS);
   }
 
