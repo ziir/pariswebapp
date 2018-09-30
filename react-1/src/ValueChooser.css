@@ -1,0 +1,10 @@
+.ValueChooser-button {
+  background: #ccc;
+  border: 1px solid #aaa;
+}
+
+.ValueChooser-button_selected {
+  background: #888;
+  border-color: #666;
+  color: white;
+}
