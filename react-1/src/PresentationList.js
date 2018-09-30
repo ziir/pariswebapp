@@ -27,13 +27,15 @@ class List extends Component<{||}, State> {
 
   render() {
     const { filterString } = this.state;
-    const filteredData = data.filter(
-      entry =>
-        entry.title.toLowerCase().includes(filterString) ||
-        entry.speakers.some(speaker =>
-          speaker.toLowerCase().includes(filterString)
-        )
-    );
+    const filteredData = data
+      .map((entry, idx) => ({ entry, idx }))
+      .filter(
+        ({ entry }) =>
+          entry.title.toLowerCase().includes(filterString) ||
+          entry.speakers.some(speaker =>
+            speaker.toLowerCase().includes(filterString)
+          )
+      );
 
     return (
       <Fragment>
@@ -43,7 +45,7 @@ class List extends Component<{||}, State> {
           value={filterString}
         />
         <section>
-          {filteredData.map((entry, idx) => (
+          {filteredData.map(({ entry, idx }) => (
             <ListItem
               entry={entry}
               index={idx}
