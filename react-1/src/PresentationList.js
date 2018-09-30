@@ -1,18 +1,42 @@
 // @flow
 
 import React, { Component, Fragment } from 'react';
-import ListItem, { type Attending } from './ListItem';
+import ListItem, { type Attending, type ConferenceData } from './ListItem';
 import InputField from './InputField';
-import data from './data/agenda.json';
+
+export type Agenda = $ReadOnlyArray<ConferenceData>;
+
+type Props = {|
+  +agenda: Agenda,
+|};
 
 type State = {|
   attending: Array<Attending>,
   filterString: string,
 |};
 
-class List extends Component<{||}, State> {
+class List extends Component<Props, State> {
+  static getDerivedStateFromProps(
+    { agenda }: Props,
+    { attending }: State
+  ): $Shape<State> | null {
+    if (agenda.length > attending.length) {
+      const newAttending = attending.slice();
+      for (var i = attending.length; i < agenda.length; i++) {
+        newAttending.push(false);
+      }
+      return {
+        attending: newAttending,
+      };
+    }
+
+    return null;
+  }
+
   state = {
-    attending: data.map((entry, idx) => false),
+    // This initial value is needed by Flow, but it will be rewritten in
+    // `getDerivedStateFromProps` at the first render.
+    attending: [],
     filterString: '',
   };
 
@@ -26,8 +50,9 @@ class List extends Component<{||}, State> {
   }
 
   render() {
+    const { agenda } = this.props;
     const { filterString } = this.state;
-    const filteredData = data
+    const filteredData = agenda
       .map((entry, idx) => ({ entry, idx }))
       .filter(
         ({ entry }) =>
