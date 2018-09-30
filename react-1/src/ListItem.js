@@ -41,7 +41,7 @@ function ListItem(props: Props) {
       </p>
       <fieldset>
         <legend>Attend?</legend>
-        <div>
+        <label>
           <input
             type="radio"
             id={`${props.index}-no`}
@@ -50,9 +50,9 @@ function ListItem(props: Props) {
             checked={props.attending === false}
             onChange={props.handleChange.bind(null, false)}
           />
-          <label htmlFor={`${props.index}-no`}>No</label>
-        </div>
-        <div>
+          No
+        </label>
+        <label>
           <input
             type="radio"
             id={`${props.index}-maybe`}
@@ -61,9 +61,9 @@ function ListItem(props: Props) {
             checked={props.attending === undefined}
             onChange={props.handleChange.bind(null, undefined)}
           />
-          <label htmlFor={`${props.index}-maybe`}>Maybe</label>
-        </div>
-        <div>
+          Maybe
+        </label>
+        <label>
           <input
             type="radio"
             id={`${props.index}-yes`}
@@ -72,8 +72,8 @@ function ListItem(props: Props) {
             checked={props.attending === true}
             onChange={props.handleChange.bind(null, true)}
           />
-          <label htmlFor={`${props.index}-yes`}>Yes</label>
-        </div>
+          Yes
+        </label>
       </fieldset>
     </div>
   );
