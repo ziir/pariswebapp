@@ -2,23 +2,58 @@
 
 import React, { Component } from 'react';
 
-import PresentationList from './PresentationList';
+import PresentationList, { type Agenda } from './PresentationList';
 
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component<{||}> {
+const FETCH_INTERVAL_MS = 5000;
+
+type State = {|
+  agenda: Agenda | null,
+|};
+
+class App extends Component<{||}, State> {
+  _timeoutId: TimeoutID | null = null;
+  state = { agenda: null };
+
+  componentDidMount() {
+    this.fetchData();
+  }
+
+  componentWillUnmount() {
+    if (this._timeoutId !== null) {
+      clearTimeout(this._timeoutId);
+      this._timeoutId = null;
+    }
+  }
+
+  async fetchData() {
+    try {
+      const fetchResponse = await fetch('/agenda.json');
+      if (!fetchResponse.ok) {
+        throw new Error(
+          `Got an error HTTP Response with status ${fetchResponse.status}`
+        );
+      }
+      const result = await fetchResponse.json();
+      this.setState({ agenda: result });
+    } catch (e) {
+      console.error('Got an error while fetching the agenda.', e);
+    }
+    this._timeoutId = setTimeout(() => this.fetchData(), FETCH_INTERVAL_MS);
+  }
+
   render() {
+    const { agenda } = this.state;
+
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Paris Web App</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <PresentationList />
+        {agenda ? <PresentationList agenda={agenda} /> : null}
       </div>
     );
   }
