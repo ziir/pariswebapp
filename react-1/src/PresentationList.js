@@ -20,6 +20,7 @@ type State = {|
   filterString: string,
   selectedYear: number,
   selectedDay: Day | null,
+  displaySelectedTalks: boolean,
 |};
 
 class List extends Component<Props, State> {
@@ -47,6 +48,7 @@ class List extends Component<Props, State> {
     filterString: '',
     selectedYear: 2018,
     selectedDay: null,
+    displaySelectedTalks: false,
   };
 
   handleAttendingChange(index: number, attending: Attending) {
@@ -70,9 +72,18 @@ class List extends Component<Props, State> {
     this.setState({ selectedDay: day });
   }
 
+  handleSelectedTalkCheckbox(e: SyntheticInputEvent<HTMLInputElement>) {
+    this.setState({ displaySelectedTalks: e.currentTarget.checked });
+  }
+
   render() {
     const { agenda } = this.props;
-    const { filterString, selectedYear, selectedDay } = this.state;
+    const {
+      filterString,
+      selectedYear,
+      selectedDay,
+      displaySelectedTalks,
+    } = this.state;
 
     const availableYears = [...new Set(agenda.map(entry => entry.year))].sort(
       (a, b) => b - a
@@ -83,9 +94,10 @@ class List extends Component<Props, State> {
     const filteredData = agenda
       .map((entry, idx) => ({ entry, idx }))
       .filter(
-        ({ entry }) =>
+        ({ entry, idx }) =>
           entry.year === selectedYear &&
           (selectedDay === null || entry.day === selectedDay) &&
+          (displaySelectedTalks === false || this.state.attending[idx]) &&
           (entry.title.toLowerCase().includes(filterString) ||
             entry.speakers.some(speaker =>
               speaker.toLowerCase().includes(filterString)
@@ -106,20 +118,30 @@ class List extends Component<Props, State> {
           selectedValue={selectedDay}
           onChange={this.handleSelectedDayChange.bind(this)}
         />
+        <label>
+          Afficher uniquement les talks sélectionnés{' '}
+          <input
+            type="checkbox"
+            checked={displaySelectedTalks}
+            onChange={this.handleSelectedTalkCheckbox.bind(this)}
+          />
+        </label>
         <InputField
           label="Filtrer"
           onChange={this.handleFilterSearchChange.bind(this)}
           value={filterString}
         />
         <section>
-          {filteredData.map(({ entry, idx }) => (
-            <ListItem
-              entry={entry}
-              index={idx}
-              attending={this.state.attending[idx]}
-              handleChange={this.handleAttendingChange.bind(this, idx)}
-            />
-          ))}
+          {filteredData.length
+            ? filteredData.map(({ entry, idx }) => (
+                <ListItem
+                  entry={entry}
+                  index={idx}
+                  attending={this.state.attending[idx]}
+                  handleChange={this.handleAttendingChange.bind(this, idx)}
+                />
+              ))
+            : "Aucune présentation n'a été sélectionnée par les multiples filtres, essayez de les modifier."}
         </section>
       </Fragment>
     );
