@@ -1,7 +1,11 @@
 // @flow
 
 import React, { Component, Fragment } from 'react';
-import ListItem, { type Attending, type ConferenceData } from './ListItem';
+import ListItem, {
+  type Attending,
+  type ConferenceData,
+  type Day,
+} from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
 
@@ -15,6 +19,8 @@ type State = {|
   attending: Array<Attending>,
   filterString: string,
   selectedYear: number,
+  selectedDay: Day | null,
+  displaySelectedTalks: boolean,
 |};
 
 class List extends Component<Props, State> {
@@ -41,6 +47,8 @@ class List extends Component<Props, State> {
     attending: [],
     filterString: '',
     selectedYear: 2018,
+    selectedDay: null,
+    displaySelectedTalks: false,
   };
 
   handleAttendingChange(index: number, attending: Attending) {
@@ -52,23 +60,44 @@ class List extends Component<Props, State> {
     this.setState({ filterString: str.toLowerCase() });
   }
 
-  handleSelectedYearChange(year: number) {
+  handleSelectedYearChange(year: number | null) {
+    if (year === null) {
+      // Shouldn't happen, but this makes Flow happy
+      return;
+    }
     this.setState({ selectedYear: year });
+  }
+
+  handleSelectedDayChange(day: Day | null) {
+    this.setState({ selectedDay: day });
+  }
+
+  handleSelectedTalkCheckbox(e: SyntheticInputEvent<HTMLInputElement>) {
+    this.setState({ displaySelectedTalks: e.currentTarget.checked });
   }
 
   render() {
     const { agenda } = this.props;
-    const { filterString, selectedYear } = this.state;
+    const {
+      filterString,
+      selectedYear,
+      selectedDay,
+      displaySelectedTalks,
+    } = this.state;
 
     const availableYears = [...new Set(agenda.map(entry => entry.year))].sort(
       (a, b) => b - a
     );
 
+    const availableDays = [null, 'thursday', 'friday', 'saturday'];
+
     const filteredData = agenda
       .map((entry, idx) => ({ entry, idx }))
       .filter(
-        ({ entry }) =>
+        ({ entry, idx }) =>
           entry.year === selectedYear &&
+          (selectedDay === null || entry.day === selectedDay) &&
+          (displaySelectedTalks === false || this.state.attending[idx]) &&
           (entry.title.toLowerCase().includes(filterString) ||
             entry.speakers.some(speaker =>
               speaker.toLowerCase().includes(filterString)
@@ -83,20 +112,36 @@ class List extends Component<Props, State> {
           selectedValue={selectedYear}
           onChange={this.handleSelectedYearChange.bind(this)}
         />
+        <ValueChooser
+          label="Choisissez le jour"
+          values={availableDays}
+          selectedValue={selectedDay}
+          onChange={this.handleSelectedDayChange.bind(this)}
+        />
+        <label>
+          Afficher uniquement les talks sélectionnés{' '}
+          <input
+            type="checkbox"
+            checked={displaySelectedTalks}
+            onChange={this.handleSelectedTalkCheckbox.bind(this)}
+          />
+        </label>
         <InputField
           label="Filtrer"
           onChange={this.handleFilterSearchChange.bind(this)}
           value={filterString}
         />
         <section>
-          {filteredData.map(({ entry, idx }) => (
-            <ListItem
-              entry={entry}
-              index={idx}
-              attending={this.state.attending[idx]}
-              handleChange={this.handleAttendingChange.bind(this, idx)}
-            />
-          ))}
+          {filteredData.length
+            ? filteredData.map(({ entry, idx }) => (
+                <ListItem
+                  entry={entry}
+                  index={idx}
+                  attending={this.state.attending[idx]}
+                  handleChange={this.handleAttendingChange.bind(this, idx)}
+                />
+              ))
+            : "Aucune présentation n'a été sélectionnée par les multiples filtres, essayez de les modifier."}
         </section>
       </Fragment>
     );
