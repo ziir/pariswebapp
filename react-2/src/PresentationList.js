@@ -1,5 +1,6 @@
 // @flow
 
+import memoize from 'memoize-one';
 import React, { Component, Fragment } from 'react';
 import ListItem, {
   type Attending,
@@ -64,6 +65,23 @@ class List extends Component<Props, State> {
     displaySelectedTalks: false,
   };
 
+  getFilteredData = memoize(
+    (agenda, filterString, selectedYear, selectedDay, displaySelectedTalks) => {
+      return agenda
+        .map((entry, idx) => ({ entry, idx }))
+        .filter(
+          ({ entry, idx }) =>
+            entry.year === selectedYear &&
+            (selectedDay === null || entry.day === selectedDay) &&
+            (displaySelectedTalks === false || this.state.attending[idx]) &&
+            (entry.title.toLowerCase().includes(filterString) ||
+              entry.speakers.some(speaker =>
+                speaker.toLowerCase().includes(filterString)
+              ))
+        );
+    }
+  );
+
   handleAttendingChange(index: number, attending: Attending) {
     this.state.attending[index] = attending;
     this.setState({ attending: this.state.attending });
@@ -108,18 +126,13 @@ class List extends Component<Props, State> {
 
     const availableDays = [null, 'thursday', 'friday', 'saturday'];
 
-    const filteredData = agenda
-      .map((entry, idx) => ({ entry, idx }))
-      .filter(
-        ({ entry, idx }) =>
-          entry.year === selectedYear &&
-          (selectedDay === null || entry.day === selectedDay) &&
-          (displaySelectedTalks === false || this.state.attending[idx]) &&
-          (entry.title.toLowerCase().includes(filterString) ||
-            entry.speakers.some(speaker =>
-              speaker.toLowerCase().includes(filterString)
-            ))
-      );
+    const filteredData = this.getFilteredData(
+      agenda,
+      filterString,
+      selectedYear,
+      selectedDay,
+      displaySelectedTalks
+    );
 
     return (
       <Fragment>
