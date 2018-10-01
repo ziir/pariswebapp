@@ -4,7 +4,7 @@ import React from 'react';
 
 export type Attending = boolean | null;
 export type Location = 'small' | 'big' | 'unknown';
-export type Day = 'thursday' | 'friday' | 'saturday';
+export type Day = 'jeudi' | 'vendredi' | 'samedi';
 export type ConferenceData = {|
   +title: string,
   +speakers: Array<string>,
