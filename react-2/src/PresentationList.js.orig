@@ -124,7 +124,7 @@ class List extends Component<Props, State> {
       (a, b) => b - a
     );
 
-    const availableDays = [null, 'jeudi', 'vendredi', 'samedi'];
+    const availableDays = [null, 'thursday', 'friday', 'saturday'];
 
     const filteredData = this.getFilteredData(
       agenda,
