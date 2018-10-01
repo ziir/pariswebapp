@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-export type Attending = boolean | void;
+export type Attending = boolean | null;
 export type Location = 'small' | 'big' | 'unknown';
 export type Day = 'thursday' | 'friday' | 'saturday';
 export type ConferenceData = {|
@@ -58,8 +58,8 @@ function ListItem(props: Props) {
             id={`${props.index}-maybe`}
             name={props.index}
             value="maybe"
-            checked={props.attending === undefined}
-            onChange={props.handleChange.bind(null, undefined)}
+            checked={props.attending === null}
+            onChange={props.handleChange.bind(null, null)}
           />
           Maybe
         </label>

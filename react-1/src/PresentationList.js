@@ -29,10 +29,23 @@ class List extends Component<Props, State> {
     { attending }: State
   ): $Shape<State> | null {
     if (agenda.length > attending.length) {
+      let storedAttending;
+
+      try {
+        storedAttending = JSON.parse(window.localStorage.getItem('attending'));
+      } catch (err) {
+        console.error('Error while parsing stored `attending` data.');
+      }
+
+      storedAttending = storedAttending || [];
+
       const newAttending = attending.slice();
       for (var i = attending.length; i < agenda.length; i++) {
-        newAttending.push(false);
+        newAttending.push(
+          storedAttending[i] !== undefined ? storedAttending[i] : false
+        );
       }
+
       return {
         attending: newAttending,
       };
@@ -54,6 +67,10 @@ class List extends Component<Props, State> {
   handleAttendingChange(index: number, attending: Attending) {
     this.state.attending[index] = attending;
     this.setState({ attending: this.state.attending });
+    window.localStorage.setItem(
+      'attending',
+      JSON.stringify(this.state.attending)
+    );
   }
 
   handleFilterSearchChange(str: string) {
