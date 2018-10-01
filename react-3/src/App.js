@@ -9,6 +9,38 @@ import './App.css';
 
 const FETCH_INTERVAL_MS = 5000;
 
+type SourceAgenda = Array<{|
+  +title: string,
+  +date: string,
+  +year: string,
+  +day: 'thursday' | 'friday' | 'saturday',
+  +start: string,
+  +duration: string,
+  +type: 'Conférences' | 'Ateliers',
+  +speakers: string[],
+  +themes: string[],
+|}>;
+
+function timeAdd(startTime: string, duration: number): string {
+  const [hour, minutes] = startTime.split(':');
+  const endTotalMinutes = parseInt(hour) * 60 + parseInt(minutes) + duration;
+  const endHour = Math.floor(endTotalMinutes / 60);
+  const endMinutes = endTotalMinutes % 60;
+  return `${endHour}:${endMinutes < 10 ? '0' + endMinutes : endMinutes}`;
+}
+
+function processAgenda(sourceAgenda): Agenda {
+  return sourceAgenda.map(sourceEntry => ({
+    title: sourceEntry.title,
+    speakers: sourceEntry.speakers,
+    location: 'unknown',
+    day: sourceEntry.day,
+    year: parseInt(sourceEntry.year),
+    start: sourceEntry.start,
+    end: timeAdd(sourceEntry.start, parseInt(sourceEntry.duration)),
+  }));
+}
+
 type State = {|
   agenda: Agenda | null,
   lastModified: string | null,
@@ -47,7 +79,8 @@ class App extends Component<{||}, State> {
         console.error('Unable to retrieve Last-Modified response header.', e);
       }
       if (!lastModified || lastModified !== this.state.lastModified) {
-        this.setState({ agenda: result, lastModified });
+        const agenda = processAgenda(result);
+        this.setState({ agenda, lastModified });
       }
     } catch (e) {
       console.error('Got an error while fetching the agenda.', e);

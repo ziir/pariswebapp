@@ -106,7 +106,7 @@ class List extends Component<Props, State> {
       (a, b) => b - a
     );
 
-    const availableDays = [null, 'thursday', 'friday', 'saturday'];
+    const availableDays = [null, 'jeudi', 'vendredi', 'samedi'];
 
     const filteredData = agenda
       .map((entry, idx) => ({ entry, idx }))
