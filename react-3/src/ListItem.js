@@ -17,66 +17,99 @@ export type ConferenceData = {|
 
 type Props = {|
   +index: number,
-  +attending: Attending,
   +entry: ConferenceData,
-  +handleChange: (attending: Attending) => any,
+  +attendingInitialValue: Attending,
+  +changeCallback: (attending: Attending) => any,
 |};
 
-function ListItem(props: Props) {
-  return (
-    <div>
-      <h3>{props.entry.title}</h3>
-      <ul>
-        {props.entry.speakers.map(speaker => (
-          <li>{speaker}</li>
-        ))}
-      </ul>
-      <p>
-        This presentation will take place:
-        <br />- on{' '}
-        <em>
-          {props.entry.day} {props.entry.start} - {props.entry.end}
-        </em>
-        <br />- in room <strong>{props.entry.location}</strong>
-      </p>
-      <fieldset>
-        <legend>Attend?</legend>
-        <label>
-          <input
-            type="radio"
-            id={`${props.index}-no`}
-            name={props.index}
-            value="no"
-            checked={props.attending === false}
-            onChange={props.handleChange.bind(null, false)}
-          />
-          No
-        </label>
-        <label>
-          <input
-            type="radio"
-            id={`${props.index}-maybe`}
-            name={props.index}
-            value="maybe"
-            checked={props.attending === null}
-            onChange={props.handleChange.bind(null, null)}
-          />
-          Maybe
-        </label>
-        <label>
-          <input
-            type="radio"
-            id={`${props.index}-yes`}
-            name={props.index}
-            value="yes"
-            checked={props.attending === true}
-            onChange={props.handleChange.bind(null, true)}
-          />
-          Yes
-        </label>
-      </fieldset>
-    </div>
-  );
-}
+type State = {
+  attending: Attending,
+};
 
-export default ListItem;
+const attendingValueMap = {
+  yes: true,
+  maybe: null,
+  no: false,
+};
+
+export default class ListItem extends React.Component<Props, State> {
+  state = { attending: this.props.attendingInitialValue };
+
+  handleChange = (evt: SyntheticInputEvent<HTMLInputElement>) => {
+    let attending;
+
+    switch (evt.currentTarget.value) {
+      case 'yes':
+        attending = true;
+        break;
+      case 'no':
+        attending = false;
+        break;
+      case 'maybe':
+      default:
+        attending = null;
+    }
+
+    this.setState({ attending });
+    this.props.changeCallback(attending);
+  };
+
+  render() {
+    const { props, state } = this;
+
+    return (
+      <div>
+        <h3>{props.entry.title}</h3>
+        <ul>
+          {props.entry.speakers.map(speaker => (
+            <li>{speaker}</li>
+          ))}
+        </ul>
+        <p>
+          This presentation will take place:
+          <br />- on{' '}
+          <em>
+            {props.entry.day} {props.entry.start} - {props.entry.end}
+          </em>
+          <br />- in room <strong>{props.entry.location}</strong>
+        </p>
+        <fieldset>
+          <legend>Attend?</legend>
+          <label>
+            <input
+              type="radio"
+              id={`${props.index}-no`}
+              name={props.index}
+              value="no"
+              checked={state.attending === false}
+              onChange={this.handleChange}
+            />
+            No
+          </label>
+          <label>
+            <input
+              type="radio"
+              id={`${props.index}-maybe`}
+              name={props.index}
+              value="maybe"
+              checked={state.attending === null}
+              onChange={this.handleChange}
+            />
+            Maybe
+          </label>
+          <label>
+            <input
+              type="radio"
+              id={`${props.index}-yes`}
+              name={props.index}
+              value="yes"
+              checked={state.attending === true}
+              onChange={this.handleChange}
+            />
+            Yes
+          </label>
+        </fieldset>
+      </div>
+    );
+  }
+}

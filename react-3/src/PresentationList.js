@@ -25,35 +25,22 @@ type State = {|
 |};
 
 class List extends Component<Props, State> {
-  static getDerivedStateFromProps(
-    { agenda }: Props,
-    { attending }: State
-  ): $Shape<State> | null {
-    if (agenda.length > attending.length) {
-      let storedAttending;
+  attending = (() => {
+    const { props } = this;
+    let storedAttending = [];
 
-      try {
-        storedAttending = JSON.parse(window.localStorage.getItem('attending'));
-      } catch (err) {
-        console.error('Error while parsing stored `attending` data.');
-      }
-
-      storedAttending = storedAttending || [];
-
-      const newAttending = attending.slice();
-      for (var i = attending.length; i < agenda.length; i++) {
-        newAttending.push(
-          storedAttending[i] !== undefined ? storedAttending[i] : false
-        );
-      }
-
-      return {
-        attending: newAttending,
-      };
+    try {
+      storedAttending =
+        JSON.parse(window.localStorage.getItem('attending')) || [];
+    } catch (err) {
+      console.error('Error while parsing stored `attending` data.');
     }
 
-    return null;
-  }
+    return props.agenda.map(
+      (current, idx) =>
+        storedAttending[idx] !== undefined ? storedAttending[idx] : false
+    );
+  })();
 
   state = {
     // This initial value is needed by Flow, but it will be rewritten in
@@ -73,7 +60,7 @@ class List extends Component<Props, State> {
           ({ entry, idx }) =>
             entry.year === selectedYear &&
             (selectedDay === null || entry.day === selectedDay) &&
-            (displaySelectedTalks === false || this.state.attending[idx]) &&
+            (displaySelectedTalks === false || this.attending[idx]) &&
             (entry.title.toLowerCase().includes(filterString) ||
               entry.speakers.some(speaker =>
                 speaker.toLowerCase().includes(filterString)
@@ -82,13 +69,9 @@ class List extends Component<Props, State> {
     }
   );
 
-  handleAttendingChange(index: number, attending: Attending) {
-    this.state.attending[index] = attending;
-    this.setState({ attending: this.state.attending });
-    window.localStorage.setItem(
-      'attending',
-      JSON.stringify(this.state.attending)
-    );
+  attendingChangeCallback(index: number, attending: Attending) {
+    this.attending[index] = attending;
+    window.localStorage.setItem('attending', JSON.stringify(this.attending));
   }
 
   handleFilterSearchChange(str: string) {
@@ -167,8 +150,8 @@ class List extends Component<Props, State> {
                 <ListItem
                   entry={entry}
                   index={idx}
-                  attending={this.state.attending[idx]}
-                  handleChange={this.handleAttendingChange.bind(this, idx)}
+                  attendingInitialValue={this.attending[idx]}
+                  changeCallback={this.attendingChangeCallback.bind(this, idx)}
                 />
               ))
             : "Aucune présentation n'a été sélectionnée par les multiples filtres, essayez de les modifier."}

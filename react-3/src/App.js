@@ -11,12 +11,12 @@ const FETCH_INTERVAL_MS = 5000;
 
 type State = {|
   agenda: Agenda | null,
+  lastModified: string | null,
 |};
 
 class App extends Component<{||}, State> {
   _timeoutId: TimeoutID | null = null;
-  _LastModified: string | null;
-  state = { agenda: null };
+  state = { agenda: null, lastModified: null };
 
   componentDidMount() {
     this.fetchData();
@@ -39,16 +39,15 @@ class App extends Component<{||}, State> {
       }
       const result = await fetchResponse.json();
 
-      let LastModified;
+      let lastModified;
       try {
-        LastModified = fetchResponse.headers.get('Last-Modified');
+        lastModified = fetchResponse.headers.get('Last-Modified');
       } catch (e) {
-        LastModified = null;
+        lastModified = new Date().toUTCString();
         console.error('Unable to retrieve Last-Modified response header.', e);
       }
-      if (!LastModified || LastModified !== this._LastModified) {
-        this.setState({ agenda: result });
-        this._LastModified = LastModified;
+      if (!lastModified || lastModified !== this.state.lastModified) {
+        this.setState({ agenda: result, lastModified });
       }
     } catch (e) {
       console.error('Got an error while fetching the agenda.', e);
@@ -58,7 +57,7 @@ class App extends Component<{||}, State> {
   }
 
   render() {
-    const { agenda } = this.state;
+    const { agenda, lastModified } = this.state;
 
     return (
       <div className="App">
@@ -66,7 +65,14 @@ class App extends Component<{||}, State> {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Paris Web App</h1>
         </header>
-        {agenda ? <PresentationList agenda={agenda} /> : null}
+        {agenda ? (
+          // Use `lastModified` as `key` here allows to simplify
+          // remount the `PresentationList` component whenever the agenda
+          // content changes. This way, `attending` initial values
+          // (default or coming from the ) are computed only once in
+          // PresentationList's constructor.
+          <PresentationList key={lastModified} agenda={agenda} />
+        ) : null}
       </div>
     );
   }
