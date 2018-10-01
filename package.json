@@ -1,18 +1,31 @@
 {
   "name": "pariswebapp",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-  },
+  "repository": "https://github.com/ziir/pariswebapp",
+  "homepage": "https://www.paris-web.fr/2018/ateliers/petits-trucs-pour-rendre-vos-applications-react-plus-performantes.php",
   "scripts": {
-    "precommit": "lint-staged"
+    "start": "NODE_ENV=production node index.js",
+    "dev": "nodemon index.js",
+    "precommit": "lint-staged",
+    "postinstall": "[ -z \"$VHOST\" ] && exit 0; ./build-all.sh && ./clean-all.sh",
+    "deploy": "ssh 840271@git.sd6.gpaas.net deploy default.git"
+  },
+  "dependencies": {
+    "morgan": "^1.9.1",
+    "serve-handler": "^5.0.5",
+    "yarn": "^1.10.1"
   },
   "devDependencies": {
     "husky": "^1.0.0-rc.15",
     "lint-staged": "^7.3.0",
+    "nodemon": "^1.18.4",
     "prettier": "^1.14.3"
   },
   "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ],
     "*/src/**/*.{js,jsx,json,css}": [
       "prettier --write",
       "git add"

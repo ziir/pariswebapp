@@ -30,7 +30,7 @@ class App extends Component<{||}, State> {
 
   async fetchData() {
     try {
-      const fetchResponse = await fetch('/agenda.json');
+      const fetchResponse = await fetch('agenda.json');
       if (!fetchResponse.ok) {
         throw new Error(
           `Got an error HTTP Response with status ${fetchResponse.status}`
