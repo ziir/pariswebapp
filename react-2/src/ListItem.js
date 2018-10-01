@@ -1,93 +1,82 @@
 // @flow
 
-import React, { Component } from 'react';
+import React from 'react';
 
-export type Attending = boolean | void;
-export type Location = 'small' | 'medium' | 'big';
-export type Entry = {
-  title: string,
-  speakers: Array<string>,
-  location: Location,
-  day: string,
-  year: number,
-  start: string,
-  end: string,
-};
+export type Attending = boolean | null;
+export type Location = 'small' | 'big' | 'unknown';
+export type Day = 'thursday' | 'friday' | 'saturday';
+export type ConferenceData = {|
+  +title: string,
+  +speakers: Array<string>,
+  +location: Location,
+  +day: Day,
+  +year: number,
+  +start: string,
+  +end: string,
+|};
 
-type Props = {
-  index: number,
-  entry: Entry,
-  changeCallback: (attending: Attending) => any,
-};
+type Props = {|
+  +index: number,
+  +attending: Attending,
+  +entry: ConferenceData,
+  +handleChange: (attending: Attending) => any,
+|};
 
-type State = {
-  attending: Attending,
-};
-
-export default class ListItem extends Component<Props, State> {
-  state = { attending: false };
-
-  handleChange = (attending: Attending) => {
-    this.setState({ attending });
-    this.props.changeCallback(attending);
-  };
-
-  render() {
-    const { props, state } = this;
-
-    return (
-      <div>
-        <h3>{props.entry.title}</h3>
-        <ul>
-          {props.entry.speakers.map(speaker => (
-            <li key={`${props.index}-${speaker}`}>{speaker}</li>
-          ))}
-        </ul>
-        <p>
-          This presentation will take place:
-          <br />- on{' '}
-          <em>
-            {props.entry.day} {props.entry.start} - {props.entry.end}
-          </em>
-          <br />- in room <strong>{props.entry.location}</strong>
-        </p>
-        <fieldset>
-          <legend>Attend?</legend>
-          <div>
-            <input
-              type="radio"
-              id={`${props.index}-no`}
-              name={props.index}
-              value="no"
-              checked={state.attending === false}
-              onChange={this.handleChange.bind(null, false)}
-            />
-            <label htmlFor={`${props.index}-no`}>No</label>
-          </div>
-          <div>
-            <input
-              type="radio"
-              id={`${props.index}-maybe`}
-              name={props.index}
-              value="maybe"
-              checked={state.attending === undefined}
-              onChange={this.handleChange.bind(null, undefined)}
-            />
-            <label htmlFor={`${props.index}-maybe`}>Maybe</label>
-          </div>
-          <div>
-            <input
-              type="radio"
-              id={`${props.index}-yes`}
-              name={props.index}
-              value="yes"
-              checked={state.attending === true}
-              onChange={this.handleChange.bind(null, true)}
-            />
-            <label htmlFor={`${props.index}-yes`}>Yes</label>
-          </div>
-        </fieldset>
-      </div>
-    );
-  }
+function ListItem(props: Props) {
+  return (
+    <div>
+      <h3>{props.entry.title}</h3>
+      <ul>
+        {props.entry.speakers.map(speaker => (
+          <li>{speaker}</li>
+        ))}
+      </ul>
+      <p>
+        This presentation will take place:
+        <br />- on{' '}
+        <em>
+          {props.entry.day} {props.entry.start} - {props.entry.end}
+        </em>
+        <br />- in room <strong>{props.entry.location}</strong>
+      </p>
+      <fieldset>
+        <legend>Attend?</legend>
+        <label>
+          <input
+            type="radio"
+            id={`${props.index}-no`}
+            name={props.index}
+            value="no"
+            checked={props.attending === false}
+            onChange={props.handleChange.bind(null, false)}
+          />
+          No
+        </label>
+        <label>
+          <input
+            type="radio"
+            id={`${props.index}-maybe`}
+            name={props.index}
+            value="maybe"
+            checked={props.attending === null}
+            onChange={props.handleChange.bind(null, null)}
+          />
+          Maybe
+        </label>
+        <label>
+          <input
+            type="radio"
+            id={`${props.index}-yes`}
+            name={props.index}
+            value="yes"
+            checked={props.attending === true}
+            onChange={props.handleChange.bind(null, true)}
+          />
+          Yes
+        </label>
+      </fieldset>
+    </div>
+  );
 }
+
+export default ListItem;
