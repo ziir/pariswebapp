@@ -42,6 +42,11 @@ class List extends Component<Props, State> {
     );
   })();
 
+  handleSelectedYearChange = this.handleSelectedYearChange.bind(this);
+  handleSelectedDayChange = this.handleSelectedDayChange.bind(this);
+
+  availableDays: Array<Day | null> = [null, 'thursday', 'friday', 'saturday'];
+
   state = {
     // This initial value is needed by Flow, but it will be rewritten in
     // `getDerivedStateFromProps` at the first render.
@@ -67,6 +72,12 @@ class List extends Component<Props, State> {
               ))
         );
     }
+  );
+
+  getAvailableYears = memoize(agenda =>
+    [...new Set(this.props.agenda.map(entry => entry.year))].sort(
+      (a, b) => b - a
+    )
   );
 
   attendingChangeCallback(index: number, attending: Attending) {
@@ -103,12 +114,6 @@ class List extends Component<Props, State> {
       displaySelectedTalks,
     } = this.state;
 
-    const availableYears = [...new Set(agenda.map(entry => entry.year))].sort(
-      (a, b) => b - a
-    );
-
-    const availableDays = [null, 'thursday', 'friday', 'saturday'];
-
     const filteredData = this.getFilteredData(
       agenda,
       filterString,
@@ -117,19 +122,21 @@ class List extends Component<Props, State> {
       displaySelectedTalks
     );
 
+    const availableYears = this.getAvailableYears(agenda);
+
     return (
       <Fragment>
         <ValueChooser
           label="Choisissez l'année"
           values={availableYears}
           selectedValue={selectedYear}
-          onChange={this.handleSelectedYearChange.bind(this)}
+          onChange={this.handleSelectedYearChange}
         />
         <ValueChooser
           label="Choisissez le jour"
-          values={availableDays}
+          values={this.availableDays}
           selectedValue={selectedDay}
-          onChange={this.handleSelectedDayChange.bind(this)}
+          onChange={this.handleSelectedDayChange}
         />
         <label>
           Afficher uniquement les talks sélectionnés{' '}

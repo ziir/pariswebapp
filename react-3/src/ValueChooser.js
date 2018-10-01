@@ -1,6 +1,6 @@
 // @flow
 
-import React, { Component } from 'react';
+import React from 'react';
 import cx from 'classnames';
 
 import './ValueChooser.css';
@@ -12,9 +12,9 @@ type Props<T> = {|
   +onChange: (T | null) => mixed,
 |};
 
-export default class ValueChooser<T: number | string> extends Component<
-  Props<T>
-> {
+export default class ValueChooser<
+  T: number | string
+> extends React.PureComponent<Props<T>> {
   handleClick(value: T | null) {
     this.props.onChange(value);
   }
