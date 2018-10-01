@@ -45,7 +45,7 @@ class List extends Component<Props, State> {
   handleSelectedYearChange = this.handleSelectedYearChange.bind(this);
   handleSelectedDayChange = this.handleSelectedDayChange.bind(this);
 
-  availableDays: Array<Day | null> = [null, 'thursday', 'friday', 'saturday'];
+  availableDays: Array<Day | null> = [null, 'jeudi', 'vendredi', 'samedi'];
 
   state = {
     // This initial value is needed by Flow, but it will be rewritten in

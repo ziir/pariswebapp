@@ -1,65 +1,6122 @@
 [
+
   {
-    "title": "Tempête de boulettes géantes",
-    "speakers": ["Agnès Haasser"],
-    "location": "big",
-    "day": "thursday",
-    "year": 2018,
-    "start": "09:20",
-    "end": "10:10"
+    "title":"Freelance je me lance ? Ou pas.",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Véronique Lapierre"],
+    "themes":["métier","retour d'expérience"]
   },
+
   {
-    "title": "History of Web Security",
-    "speakers": ["April King"],
-    "location": "big",
-    "day": "thursday",
-    "year": 2018,
-    "start": "10:20",
-    "end": "11:10"
+    "title":"Intégration de l’accessibilité dans les processus",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Stéphane Deschamps"],
+    "themes":["accessibilité","méthodologie","WCAG"]
   },
+
   {
-    "title": "UX en Terre Inconnue",
-    "speakers": ["Sébastien Desbenoit"],
-    "location": "small",
-    "day": "thursday",
-    "year": 2018,
-    "start": "10:20",
-    "end": "11:10"
+    "title":"Mise en pratique de l'Atomic Design",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Dylan Cozian"],
+    "themes":["design","méthodologie","style guide","UX"]
   },
+
   {
-    "title": "Create an Engaging Native App with Vue and NativeScript",
-    "speakers": ["Jen Looper"],
-    "location": "big",
-    "day": "friday",
-    "year": 2018,
-    "start": "14:20",
-    "end": "15:10"
+    "title":"Petits trucs pour rendre vos applications React plus performantes",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Timothée Pillard","Julien Wajsberg"],
+    "themes":["JavaScript","performance","React"]
   },
+
   {
-    "title": "Les jeux vidéo sont-ils des logiciels comme les autres ?",
-    "speakers": ["Jérôme Dupire"],
-    "location": "big",
-    "day": "friday",
-    "year": 2018,
-    "start": "09:00",
-    "end": "09:50"
+    "title":"Le W3C pour les développeurs Web, échanges et discussions",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Dominique Hazael-Massieux"],
+    "themes":["méthodologie","standardisation","W3C"]
   },
+
   {
-    "title": "React is undefined",
-    "speakers": ["Hugo Giraudel", "Mike Smart"],
-    "location": "unknown",
-    "day": "saturday",
-    "year": 2018,
-    "start": "09:30",
-    "end": "12:50"
+    "title":"Épatez vos amis en maîtrisant la force des WCAG 2.1 !",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Vincent Aniort"],
+    "themes":["accessibilité","tests","WCAG"]
   },
+
   {
-    "title": "Accessibilité, je t'emmènerai jusqu'au bout du back",
-    "speakers": ["Julie Moynat"],
-    "location": "small",
-    "day": "friday",
-    "year": 2017,
-    "start": "09:00",
-    "end": "09:50"
+    "title":"La petite clinique des images responsives",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Nicolas Hoizey"],
+    "themes":["CSS","design","performance"]
+  },
+
+  {
+    "title":"CSS Grid Layout, les mains dans le cambouis",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphael Goetter"],
+    "themes":["CSS"]
+  },
+
+  {
+    "title":"Création d'un starter kit A11y orienté UX/DA, pour rendre accessible l'accessibilité !",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Emilie Pistorius"],
+    "themes":["accessibilité","design","méthodologie","UX"]
+  },
+
+  {
+    "title":"Organiser son code JavaScript sans framework",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Thomas Zilliox"],
+    "themes":["API","JavaScript","méthodologie"]
+  },
+
+  {
+    "title":"Le projet « Style Guide » ou comment fait-on le manuel de style d'un site ?",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Bert Bos"],
+    "themes":["design","méthodologie","retour d'expérience","style guide","W3C"]
+  },
+
+  {
+    "title":"React is undefined",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Hugo Giraudel","Mike Smart"],
+    "themes":["JavaScript","React"]
+  },
+
+  {
+    "title":"Le formulaire parfait",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Bertrand Keller"],
+    "themes":["accessibilité","design"]
+  },
+
+  {
+    "title":"Nos objets connectés sont bavards : mais de quoi parlent-ils ?",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Esther Onfroy","Rayna Stamboliyska"],
+    "themes":["IoT","sécurité","vie privée"]
+  },
+
+  {
+    "title":"Atelier introduction à Docker",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Renaud Chaput"],
+    "themes":["devops"]
+  },
+
+  {
+    "title":"Éradiquer les régressions visuelles grâce à BackstopJS",
+    "date":"2018-10-06",
+    "year":"2018",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Corinne Schillinger"],
+    "themes":["CSS","JavaScript","méthodologie","style guide","tests"]
+  },
+
+  {
+    "title":"Ceci n'est pas un travail à distance",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"17:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Karl Dubost"],
+    "themes":["méthodologie","métier","retour d'expérience"]
+  },
+
+  {
+    "title":"Bien choisir son outil de prototypage (en 2018)",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"17:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thibault Cabanas"],
+    "themes":["design","méthodologie","tests","UX"]
+  },
+
+  {
+    "title":"L'UX du X",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"16:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Quentin Bouissou"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Making the World Wide Web world wide",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"16:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Richard Ishida"],
+    "themes":["internationalisation","W3C"]
+  },
+
+  {
+    "title":"L’ère de l’analyse à tout va, ou comment les applications nous rendent accro à leurs produits",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"15:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sabine Condiescu"],
+    "themes":["design","éthique","UX"]
+  },
+
+  {
+    "title":"Les objets connectés liés à la santé portent-ils atteinte à la vie privée ?",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"15:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Emmanuelle Aboaf"],
+    "themes":["éthique","IoT"]
+  },
+
+  {
+    "title":"Create an Engaging Native App with Vue and NativeScript",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"14:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jen Looper"],
+    "themes":["IoT","JavaScript","Vue.js"]
+  },
+
+  {
+    "title":"Demain je serai dresseur d’Intelligences Artificielles",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"14:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Xavier Vasques","Willy Leloutre"],
+    "themes":["IA","prospective"]
+  },
+
+  {
+    "title":"Sécurité pour tous: on aurait TOR de ne pas (se) renseigner",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Marion Magné"],
+    "themes":["éthique","retour d'expérience","sécurité","vie privée"]
+  },
+
+  {
+    "title":"WCAG 2.1 : revue rapide et digestion lente",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Aurélien Levy"],
+    "themes":["accessibilité","WCAG"]
+  },
+
+  {
+    "title":"Maîtriser SVG en 50'00",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"11:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jérémie Patonnier","Corinne Schillinger"],
+    "themes":["CSS","SVG"]
+  },
+
+  {
+    "title":"Le charme du quotidien, nécessaire, ordinaire, routinier",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"11:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Rayna Stamboliyska"],
+    "themes":["éthique","IoT","sécurité","vie privée"]
+  },
+
+  {
+    "title":"The Past, Present and Future of Resource Loading",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"10:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Yoav Weiss"],
+    "themes":["performance"]
+  },
+
+  {
+    "title":"Votre base de données avec des informations personnelles sera piratée",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"10:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Bortzmeyer"],
+    "themes":["éthique","RGPD","sécurité","vie privée"]
+  },
+
+  {
+    "title":"Les jeux vidéo sont-ils des logiciels comme les autres ?",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"09:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jérôme Dupire"],
+    "themes":["accessibilité","jeux vidéo","UX"]
+  },
+
+  {
+    "title":"[Sponsor] - Donner le pouvoir de la donnée aux webapps",
+    "date":"2018-10-05",
+    "year":"2018",
+    "day":"vendredi",
+    "start":"09:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Cyrille Perois"],
+    "themes":["JavaScript","React","retour d'expérience"]
+  },
+
+  {
+    "title":"L’accessibilité au-delà des spécifications",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"17:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Hugo Giraudel"],
+    "themes":["accessibilité","CSS","design","retour d'expérience"]
+  },
+
+  {
+    "title":"Cultivez la bienveillance en mode projet",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"17:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Audrey Buffières","Audrey Vittecoq-Laporte"],
+    "themes":["management","méthodologie","métier","retour d'expérience"]
+  },
+
+  {
+    "title":"Dear Developer, the Web Isn't About You",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"16:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Charlie Owen"],
+    "themes":["accessibilité","design","éthique"]
+  },
+
+  {
+    "title":"RGPD & ePrivacy : ce que vous devez savoir pour votre site",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"16:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Laurie-Anne Bourdain"],
+    "themes":["RGPD","vie privée"]
+  },
+
+  {
+    "title":"La donnée graphique avec HTML et CSS",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"15:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Gaël Poupard"],
+    "themes":["CSS","design","SVG"]
+  },
+
+  {
+    "title":"[Sponsor] - Capitaine Flemme !",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"15:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Maxime Bréhin"],
+    "themes":["devops","méthodologie"]
+  },
+
+  {
+    "title":"L’IA et la fin du Silicium : introduction aux ordinateurs quantiques",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"14:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Rousset"],
+    "themes":["IA","prospective"]
+  },
+
+  {
+    "title":"Publishing across platforms",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"14:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Chris Ashton"],
+    "themes":["retour d'expérience"]
+  },
+
+  {
+    "title":"Se construire en construisant l’open-source",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["JB Audras"],
+    "themes":["retour d'expérience"]
+  },
+
+  {
+    "title":"Le W3C pour les développeurs Web",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Dominique Hazael-Massieux"],
+    "themes":["méthodologie","standardisation","W3C"]
+  },
+
+  {
+    "title":"Les WebExtensions, du rêve et du cauchemar",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"11:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Daniel Glazman"],
+    "themes":["API","JavaScript","retour d'expérience","WebExtensions"]
+  },
+
+  {
+    "title":"UX du futur : au-delà des buzzwords",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"11:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Amélie Boucher"],
+    "themes":["IA","prospective","UX"]
+  },
+
+  {
+    "title":"UX en Terre Inconnue",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"10:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sébastien Desbenoit"],
+    "themes":["méthodologie","retour d'expérience","UX"]
+  },
+
+  {
+    "title":"History of Web Security",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"10:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["April King"],
+    "themes":["sécurité","tests"]
+  },
+
+  {
+    "title":"Tempête de boulettes géantes",
+    "date":"2018-10-04",
+    "year":"2018",
+    "day":"jeudi",
+    "start":"09:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Agnès Haasser"],
+    "themes":["devops","méthodologie","retour d'expérience"]
+  },
+
+  {
+    "title":"CSP : C'est Super Palpitant",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Nicolas Hoffmann"],
+    "themes":["CSP","sécurité"]
+  },
+
+  {
+    "title":"Comment évaluer des composants dynamiques à l'aide d'un lecteur d'écran ?",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Sylvie Duchateau","Florian Sanders"],
+    "themes":["accessibilité","RGAA"]
+  },
+
+  {
+    "title":"Plan de vol : Ground Control to Major Tom",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Sarah Haïm","Éric Daspet"],
+    "themes":["métier"]
+  },
+
+  {
+    "title":"Construire une architecture d'information adaptée au mobile",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Stéphanie Walter"],
+    "themes":["architecture d'information","mobile","UX"]
+  },
+
+  {
+    "title":"Comment passer de la conception web au prototypage d'une fusée ?",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Willy Leloutre","Olivier Furin"],
+    "themes":["expérimentation","IA","IoT","Node.js"]
+  },
+
+  {
+    "title":"Atelier hygiène numérique",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Delphine Malassingne"],
+    "themes":["outils","sécurité","vie privée"]
+  },
+
+  {
+    "title":"Webpack comme des grand·e·s !",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["développement","JavaScript","Webpack"]
+  },
+
+  {
+    "title":"Questionner son cahier des charges",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["David Bruant","Clémentine Hahn"],
+    "themes":["collaboration","méthodologie","métier"]
+  },
+
+  {
+    "title":"Prioriser les critères d'ergonomie avec l'accessibilité, yeah !",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Vincent Aniort","Patricia Loubet"],
+    "themes":["accessibilité","audit","ergonomie","UX"]
+  },
+
+  {
+    "title":"Décliner des sites statiques performants avec un GSS (Jekyll, Hugo…)",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Bertrand Keller"],
+    "themes":["gestion de contenus","performance","publication"]
+  },
+
+  {
+    "title":"Le web à la poursuite des applications natives avec les Progressive Web Apps",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Xavier Julien","Clément Dubois"],
+    "themes":["développement","JavaScript","outils","PWA"]
+  },
+
+  {
+    "title":"Des composants accessibles et de qualité, le double effet kiss cool",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Aurélien Levy","Nicolas Hoffmann"],
+    "themes":["accessibilité"]
+  },
+
+  {
+    "title":"Web responsable : éco-concevons un site ensemble !",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jean-Christophe Saintenoy","Frédéric Bordage"],
+    "themes":["éco-conception","écologie","méthodologie","outils"]
+  },
+
+  {
+    "title":"Intégrer correctement un e-mail, c'est possible ! Démonstration en 1h30",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Sébastien Lejeune"],
+    "themes":["e-mail","intégration"]
+  },
+
+  {
+    "title":"Initiation à la direction artistique pour le web",
+    "date":"2017-10-07",
+    "year":"2017",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Julien Dubedout"],
+    "themes":["design","direction artistique"]
+  },
+
+  {
+    "title":"Développeur et protection de la vie privée",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"16:45",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Erwan Richard"],
+    "themes":["développement","éthique","réflexion","vie privée"]
+  },
+
+  {
+    "title":"Échapper au 'zombie styleguide' : 3 méthodes pour armer une équipe dans la conception de son styleguide",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"16:45",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Thibault Mahe"],
+    "themes":["design","méthodologie","métier"]
+  },
+
+  {
+    "title":"Quel sera le web de demain ?",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"16:20",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Valérie Galassi"],
+    "themes":["métier","qualité","réflexion"]
+  },
+
+  {
+    "title":"De mes 100 échecs, j’ai fait une application de communication universelle",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"16:20",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Olivier Jeannel"],
+    "themes":["accessibilité","handicap","inclusion"]
+  },
+
+  {
+    "title":"Guide de survie front-end en environnement .NET",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"16:05",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Luc Poupard"],
+    "themes":["développement","front-end"]
+  },
+
+  {
+    "title":"De l'accessibilité vite fait, bien fait",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"16:05",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Lena Chandelier"],
+    "themes":["accessibilité"]
+  },
+
+  {
+    "title":"Devenir mentor, mode d'emploi",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"15:50",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Sonia Prévost-Mercier"],
+    "themes":["bienveillance","formation","métier"]
+  },
+
+  {
+    "title":"Surdité et accessibilité du web",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"15:50",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Fanny C."],
+    "themes":["accessibilité","handicap","inclusion"]
+  },
+
+  {
+    "title":"CSS, tu peux pas test !",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"14:45",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Thomas Zilliox"],
+    "themes":["CSS","intégration","outils","qualité"]
+  },
+
+  {
+    "title":"Designing the Conversation",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"14:45",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Aaron Gustafson"],
+    "themes":["accessibilité","design","UX"]
+  },
+
+  {
+    "title":"J'entre dans un magasin…",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"13:50",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Boris Schapira"],
+    "themes":["design","e-commerce","métier"]
+  },
+
+  {
+    "title":"La décentralisation qui vient",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"13:50",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Christopher Talib"],
+    "themes":["métier","prospective"]
+  },
+
+  {
+    "title":"Let's Work Together!",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"11:55",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Brad Frost"],
+    "themes":["collaboration","design","métier","outils","UX"]
+  },
+
+  {
+    "title":"Concevoir des sites et applications web adaptés aux marchés africains",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"11:55",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Damien Senger"],
+    "themes":["design","international","métier","retour d'expérience"]
+  },
+
+  {
+    "title":"La sécurité de demain dans le web d'aujourd'hui : mission impossible ?",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"11:00",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Aeris"],
+    "themes":["back-end","sécurité"]
+  },
+
+  {
+    "title":"Design et accessibilité, frères d'arme ou ennemis ?",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"11:00",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Julien Dubedout","Aurélien Levy"],
+    "themes":["accessibilité","design"]
+  },
+
+  {
+    "title":"Why Fast Matters",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"09:55",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Harry Roberts"],
+    "themes":["développement","performance"]
+  },
+
+  {
+    "title":"Dyslexie, des solutions numériques pour rendre le web plus lisible !",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"09:55",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Nathalie Pican","Séverine Malin"],
+    "themes":["accessibilité","handicap","test utilisateur"]
+  },
+
+  {
+    "title":"Le Green IT : facteur incontournable pour laver plus vert le web responsable",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"09:00",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Christophe Clouzeau"],
+    "themes":["écologie","prospective"]
+  },
+
+  {
+    "title":"L'épopée d'une couleur",
+    "date":"2017-10-06",
+    "year":"2017",
+    "day":"vendredi",
+    "start":"09:00",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Maryla U."],
+    "themes":["CSS","design"]
+  },
+
+  {
+    "title":"Projet perso n°42 : une aventure ultrasonique",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"17:25",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Hubert Sablonnière"],
+    "themes":["métier","retour d'expérience"]
+  },
+
+  {
+    "title":"Rendez-vous en terre inconnue",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"17:25",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Matthieu Bué"],
+    "themes":["développement","front-end","méthodologie","métier","retour d'expérience","UX"]
+  },
+
+  {
+    "title":"Améliorer la Performance : entre réalité et perception",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"16:30",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Geoffrey Crofte"],
+    "themes":["performance","UI","UX"]
+  },
+
+  {
+    "title":"The State of WebFonts",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"16:30",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Chris Lilley"],
+    "themes":["typographie","webfonts"]
+  },
+
+  {
+    "title":"Lecteurs d'écran : le choc des titans",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"15:25",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Sylvie Duchateau"],
+    "themes":["accessibilité","handicap"]
+  },
+
+  {
+    "title":"Designing BBC Account: with BIG DATA comes BIG RESPONSIBILITY",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"15:25",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Cyrièle Piancastelli"],
+    "themes":["architecture d'information","big data","design","retour d'expérience","UX"]
+  },
+
+  {
+    "title":"« C'est la faute de l'utilisateur » — Où est passée l'empathie de mon équipe ?",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"15:00",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["My Lê"],
+    "themes":["collaboration","métier","retour d'expérience","UX"]
+  },
+
+  {
+    "title":"Namaste qualité",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"14:45",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Marie Terrier"],
+    "themes":["bienveillance","collaboration","international","méthodologie","qualité","retour d'expérience","UI","UX"]
+  },
+
+  {
+    "title":"Les questions oubliées des spécifications : la partie cachée de l'iceberg site web",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"14:45",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Sylvie Clément"],
+    "themes":["back-office","méthodologie","spécifications"]
+  },
+
+  {
+    "title":"Changer notre façon de concevoir une API avec GraphQL",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"13:50",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Aurélien David"],
+    "themes":["API","développement","performance"]
+  },
+
+  {
+    "title":"HTML re-invented for the age of web apps",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"13:50",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Lea Verou"],
+    "themes":[]
+  },
+
+  {
+    "title":"UX en Agence, 5 ans pour s'y mettre « en vrai »",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"12:25",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Nicolas Le Cam"],
+    "themes":["méthodologie","métier","retour d'expérience","UX"]
+  },
+
+  {
+    "title":"Souriez (?) #GDPR, #PrivacyByDesign, #PrivacyByDefault deviennent réalité !",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"12:10",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Stéphane Lebarque"],
+    "themes":["éthique","sécurité","vie privée"]
+  },
+
+  {
+    "title":"« L'informatique est trop importante pour être laissée aux hommes »",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"11:55",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Nathalie Pauchet"],
+    "themes":["inclusion","métier","parité"]
+  },
+
+  {
+    "title":"Recreating the ZX Spectrum loader with Web APIs",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"11:55",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Remy Sharp"],
+    "themes":["API","développement","histoire","performance","retour d'expérience"]
+  },
+
+  {
+    "title":"La revue de code (bienveillante)",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"11:00",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Gilles Roustan"],
+    "themes":["bienveillance","collaboration","développement","méthodologie"]
+  },
+
+  {
+    "title":"L'accessibilité numérique à l'ère de l'intelligence artificielle",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"11:00",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Elie Sloïm","Denis Boudreau"],
+    "themes":["accessibilité","IA","inclusion","prospective"]
+  },
+
+  {
+    "title":"Expliciter l'implicite — je veux juste un site web",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"10:25",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Sylvain Abélard"],
+    "themes":["collaboration","méthodologie","spécifications"]
+  },
+
+  {
+    "title":"Je prends en main ma vie numérique… et c'est pas si facile !",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Delphine Malassingne"],
+    "themes":["retour d'expérience","vie privée"]
+  },
+
+  {
+    "title":"Alors, qu'y a-t-il dans ES2020 ?",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["développement","JavaScript"]
+  },
+
+  {
+    "title":"Accessibilité, je t'emmènerai jusqu'au bout du back",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"09:15",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Julie Moynat"],
+    "themes":["accessibilité","back-office"]
+  },
+
+  {
+    "title":"Le secret de la correspondance numérique",
+    "date":"2017-10-05",
+    "year":"2017",
+    "day":"jeudi",
+    "start":"09:15",
+    "duration":"45",
+    "type":"Conférences",
+    "speakers":["Laurent Chemla","Julien Dubedout"],
+    "themes":["éthique","histoire","retour d'expérience","vie privée"]
+  },
+
+  {
+    "title":"Git is choupi",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Guillaume Turri","Agnès Haasser"],
+    "themes":["développement","méthodologie"]
+  },
+
+  {
+    "title":"Trucs & astuces pour débuter sereinement",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Laurence Vagner","Corinne Schillinger"],
+    "themes":["métier","retour d'expérience"]
+  },
+
+  {
+    "title":"Tripotage de Flexbox",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Goetter"],
+    "themes":["CSS","méthodologie"]
+  },
+
+  {
+    "title":"Pourquoi s'attaquer à l'accessibilité numérique ?",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Emmanuelle Aboaf"],
+    "themes":["accessibilité","retour d'expérience"]
+  },
+
+  {
+    "title":"JavaScript fonctionnel",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Alain Vagner","Vincent Lark"],
+    "themes":["développement","javascript"]
+  },
+
+  {
+    "title":"Le Web et les troubles de l'attention : immersion dans un handicap invisible",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Damien Senger"],
+    "themes":["accessibilité","retour d'expérience"]
+  },
+
+  {
+    "title":"La phase exploratoire en UX",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Yharrassarry"],
+    "themes":["design","méthodologie","UX"]
+  },
+
+  {
+    "title":"Réaliser un jeu avec PhaserJS",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"13:35",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Pierre Chabiland","Alvin Berthelot"],
+    "themes":["javascript"]
+  },
+
+  {
+    "title":"Deviens testeur en accessibilité mobile, en 1h30 chrono",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Alex Bernier","Olivier Nourry"],
+    "themes":["accessibilité","développement","mobile"]
+  },
+
+  {
+    "title":"Programmer ou être programmé !",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Willy Leloutre","Olivier Furin"],
+    "themes":["développement","pédagogie"]
+  },
+
+  {
+    "title":"Asynchrone moderne en JS : promesses, async et await",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["développement","javascript"]
+  },
+
+  {
+    "title":"Passez de l'idée à l'action grâce à la méthodologie Design Thinking",
+    "date":"2016-10-01",
+    "year":"2016",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Melissa Aldana","Vincent Dromer"],
+    "themes":["design"]
+  },
+
+  {
+    "title":"L'audio n'a pas dit son dernier mot",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"15:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Carine Fillot"],
+    "themes":["accessibilité","IoT","UX"]
+  },
+
+  {
+    "title":"L'activation de fonctionnalités en production chez BlaBlaCar",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"15:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Benjamin De Bernardi","Olivier Dolbeau"],
+    "themes":["programmation","retour d'expérience"]
+  },
+
+  {
+    "title":"Le déploiement manuel : non merci, j'essaie d'arrêter !",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"15:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Sferruzza"],
+    "themes":["industrialisation","méthodologie"]
+  },
+
+  {
+    "title":"Vers l'infini et au delà des référentiels",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"14:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Eric Gateau","Aurélien Levy"],
+    "themes":["accessibilité","standards"]
+  },
+
+  {
+    "title":"HTML5.1 + web platform APIs",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"14:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Charles McCathieNevile","Léonie Watson"],
+    "themes":["développement","standards"]
+  },
+
+  {
+    "title":"CSS et édition WYSIWYG, l'amour vache",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"14:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Daniel Glazman"],
+    "themes":["CSS","UX"]
+  },
+
+  {
+    "title":"WCAG.next - where do we go from here?",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"14:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["John Foliot"],
+    "themes":["accessibilité","standards"]
+  },
+
+  {
+    "title":"Leboncoin, les coulisses d'une refonte graphique",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"13:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jérémie Pereira","Margaux Chenard"],
+    "themes":["retour d'expérience","UX"]
+  },
+
+  {
+    "title":"Progressive Web Apps : le futur du web arrive",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"11:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Hubert Sablonnière"],
+    "themes":["responsive","web app"]
+  },
+
+  {
+    "title":"Développement artisanal d'un logiciel en 20 itérations",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"11:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Damien Beaufils","Abel André"],
+    "themes":["méthodologie","retour d'expérience"]
+  },
+
+  {
+    "title":"La blockchain, quand l'individu sert au collectif... malgré lui",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"11:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["François Zaninotto"],
+    "themes":["développement","méthodologie","sécurité"]
+  },
+
+  {
+    "title":"Pourquoi le web devrait s'intéresser au livre numérique",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"11:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jiminy Panoz"],
+    "themes":["accessibilité","édition","standards"]
+  },
+
+  {
+    "title":"Une graphiste parmi les devs",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"10:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Florie Séchaud"],
+    "themes":["design","développement","retour d'expérience"]
+  },
+
+  {
+    "title":"Kit de survie en atelier de co-conception fonctionnelle UX",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"10:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Emeline Racon"],
+    "themes":["retour d'expérience","UX"]
+  },
+
+  {
+    "title":"D'imposteur à mentor ?",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"10:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nicolas Guenin","Matthieu Bué"],
+    "themes":["CSS","pédagogie"]
+  },
+
+  {
+    "title":"Ne passons pas à côté des choses simples",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"10:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Frank Taillandier","Bertrand Keller"],
+    "themes":["développement","webperf"]
+  },
+
+  {
+    "title":"WWW: World Wide Web, not Wealthy Westerners' Web",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"09:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Bruce Lawson"],
+    "themes":["webperf"]
+  },
+
+  {
+    "title":"L'accessibilité décomplexée - ce qu'elle peut faire pour vous",
+    "date":"2016-09-30",
+    "year":"2016",
+    "day":"vendredi",
+    "start":"09:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nicolas Hoffmann"],
+    "themes":["accessibilité","méthodologie"]
+  },
+
+  {
+    "title":"Questionnements sur l'Internet prêt-à-porter",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Amélie Boucher"],
+    "themes":["design","UX"]
+  },
+
+  {
+    "title":"Quand les militaires se prennent au jeu du design sprint",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Marie-Amélie Cotillon"],
+    "themes":["design","UX"]
+  },
+
+  {
+    "title":"Il n'y a pas que class et id dans la vie",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"16:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Gaël Poupard"],
+    "themes":["accessibilité","CSS"]
+  },
+
+  {
+    "title":"[Conf Sponsor] Node.js partout",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["développement"]
+  },
+
+  {
+    "title":"Retour d'expérience sur la refactorisation d'une application (d'e-mail)",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Noëlie Andrieu"],
+    "themes":["développement","métier"]
+  },
+
+  {
+    "title":"Éco-conception : mon site web au régime",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Frédéric Bordage"],
+    "themes":["design","webperf"]
+  },
+
+  {
+    "title":"Le monde physique, les beacons, le web mobile et vous",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jen Looper"],
+    "themes":["IoT","mobile"]
+  },
+
+  {
+    "title":"Web security by design",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jérémie Jourdin","Benjamin Leroux"],
+    "themes":["sécurité","UX","vie privée"]
+  },
+
+  {
+    "title":"The Invisible Interface: Designing the Screenless Experience",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Avi Itzkovitch"],
+    "themes":["design","IoT","UX"]
+  },
+
+  {
+    "title":"Open Design",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"12:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["My Lê"],
+    "themes":["design"]
+  },
+
+  {
+    "title":"UX et éthique",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"12:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Raphaël Yharrassarry"],
+    "themes":["métier","UX"]
+  },
+
+  {
+    "title":"Organisez des cryptoparties !",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"12:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Xavier Mouton-Dubosc"],
+    "themes":["sécurité"]
+  },
+
+  {
+    "title":"DIY Mobile Usability Testing",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"11:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Bernard Tyers","Belen Barros Pena"],
+    "themes":["mobile","UX"]
+  },
+
+  {
+    "title":"Lancer son site à l'international facile ? Oui, si l'on pense à tout !",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"10:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Aurélie Guillaume"],
+    "themes":["méthodologie","UX"]
+  },
+
+  {
+    "title":"L'épopée d'un développeur front au pays des cartes",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"10:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Erik Escoffier"],
+    "themes":["cartographie","développement"]
+  },
+
+  {
+    "title":"Libérée, délivrée... du syndrome de l'imposteur",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Agnès Haasser"],
+    "themes":["développement","métier"]
+  },
+
+  {
+    "title":"Y'a pas d'avancement, pas de grimaces !",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thomas Gasc"],
+    "themes":["e-commerce","qualité web","UX"]
+  },
+
+  {
+    "title":"Anatomie d'une désintoxication au Web sous surveillance",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"09:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thibault Jouannic"],
+    "themes":["vie privée"]
+  },
+
+  {
+    "title":"WebAssembly, la cible de compilation pour le web",
+    "date":"2016-09-29",
+    "year":"2016",
+    "day":"jeudi",
+    "start":"09:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Benjamin Bouvier"],
+    "themes":["développement","webperf"]
+  },
+
+  {
+    "title":"Amélioration progressive de la théorie à la pratique",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Goulven Champenois"],
+    "themes":["Accessibilité","amélioration progressive","Dégradation gracieuse","Interactivité","interface"]
+  },
+
+  {
+    "title":"Observer les utilisateurs en condition réelle pour mieux comprendre les enjeux du contexte et les besoins",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Julien Champagne"],
+    "themes":["design","Méthodologie","observation","UX"]
+  },
+
+  {
+    "title":"Faire son testament numérique",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Stéphane Deschamps"],
+    "themes":[]
+  },
+
+  {
+    "title":"Accessibilité automatique et ses amis Node, Grunt…",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Vincent Aniort","Loïc Laussel"],
+    "themes":["Accessibilité","automatisation","grunt","nodejs","tests"]
+  },
+
+  {
+    "title":"WebGL in practice",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Martin Naumann"],
+    "themes":["3D","JavaScript","WebGL"]
+  },
+
+  {
+    "title":"Et dans 20 ans, je fais quoi ?",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Nathalie Rosenberg"],
+    "themes":[]
+  },
+
+  {
+    "title":"Désendettement de code Javascript : le guide anti-crise",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"13:45",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Michael Akbaraly","François Petitit"],
+    "themes":["AngularJS","JavaScript","nodejs","tests"]
+  },
+
+  {
+    "title":"ES6 c'est maintenant, les gens !",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["JavaScript","langage"]
+  },
+
+  {
+    "title":"Initiation à la facilitation graphique",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Romain Couturier"],
+    "themes":["facilitation graphique","pensée visuelle"]
+  },
+
+  {
+    "title":"Créer et partager sa single-page application en 1h avec React, Node.js, PouchDB et NPM",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Frank Rousseau"],
+    "themes":["JavaScript","nodejs","npm"]
+  },
+
+  {
+    "title":"Le prototypage rapide",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"10:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Louis-Jean Teitelbaum"],
+    "themes":["prototypage","UX"]
+  },
+
+  {
+    "title":"Tester l'accessibilité de son site Web avec NVDA",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Denis Boudreau"],
+    "themes":["Accessibilité","approche","écran","expérience","introduction","lecteur","Méthodologie"]
+  },
+
+  {
+    "title":"Evaluer l'UX : des méthodes simples mais efficaces !",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Carine Lallemand","Guillaume Gronier"],
+    "themes":["Méthodologie","UX"]
+  },
+
+  {
+    "title":"Adoptez un workflow web !",
+    "date":"2015-10-03",
+    "year":"2015",
+    "day":"samedi",
+    "start":"09:15",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Thierry Michel"],
+    "themes":["Méthodologie","optimisation","Outils","performance"]
+  },
+
+  {
+    "title":"Le jour où l'on n'aura plus besoin de l'accessibilité",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"17:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivier Nourry"],
+    "themes":["Accessibilité","futur"]
+  },
+
+  {
+    "title":"Vie privée, surveillance, dépendance aux GAFAs, faut-il réinventer le web pour éviter la dystopie ?",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Tristan Nitot"],
+    "themes":["Hébergement","logiciel libre","Vie privée"]
+  },
+
+  {
+    "title":"Le « RUN » (ou la Tierce Maintenance Applicative)",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"15:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Leila Touati"],
+    "themes":[]
+  },
+
+  {
+    "title":"Design de soi : valoriser son identité et son expertise sur le web",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Marie Guillaumet"],
+    "themes":["communication","design","e-réputation","identité","individu","sémiotique","storytelling","Vie privée"]
+  },
+
+  {
+    "title":"WebGL and WebVR: 3D web today and tomorrow",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Martin Naumann"],
+    "themes":["3D","WebGL"]
+  },
+
+  {
+    "title":"Pasdecalais.fr, histoire d'une démarche d'accessibilité",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Bertrand Binois"],
+    "themes":["Accessibilité","responsive"]
+  },
+
+  {
+    "title":"Découper son application monolithique : Pourquoi ? Comment ?",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Benjamin Fraud","Olivier Dolbeau"],
+    "themes":["découpage","microservices","soa"]
+  },
+
+  {
+    "title":"Vendez votre méthodologie",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"12:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-Philippe Cabaroc"],
+    "themes":["design","Méthodologie"]
+  },
+
+  {
+    "title":"[Conf Sponsor] Vorlon.JS : un outil pour simplifier le debug web sur toutes les plateformes",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"12:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Étienne Margraff","David Rousset"],
+    "themes":["front-end","outils"]
+  },
+
+  {
+    "title":"CSP : Content Security Policy",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"11:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nicolas Hoffmann"],
+    "themes":["amélioration continue","front-end","sécurité"]
+  },
+
+  {
+    "title":"Découvrir ES6 par le code",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"11:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Matthieu Lux"],
+    "themes":["Babel","JavaScript"]
+  },
+
+  {
+    "title":"Privacy-by-designer: delivering personalisation & privacy from flow to finish",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"11:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Ann Wuyts"],
+    "themes":["design","UX","Vie privée"]
+  },
+
+  {
+    "title":"Creating a Culture of Code Quality",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"11:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David West"],
+    "themes":["automatisation","culture","linting","qualité","tests"]
+  },
+
+  {
+    "title":"Le designer qui chuchotait à l'oreille des ordinateurs",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"10:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thierry Michel"],
+    "themes":["Outils","performance"]
+  },
+
+  {
+    "title":"DIY : une console de jeux web",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"10:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Alvin Berthelot"],
+    "themes":[]
+  },
+
+  {
+    "title":"Bons robots, mauvais robots : un intense trafic",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"10:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["François Hodierne"],
+    "themes":["Hébergement","HTTP","robots","sécurité","spam"]
+  },
+
+  {
+    "title":"Itinéraire d'une licorne : de la psychologie sociale à l'UX design",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Maxime Fortelle"],
+    "themes":["ergonomie","interface","psychologie","UX"]
+  },
+
+  {
+    "title":"La veille techno pour les vieux croutons",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thibault Jouannic"],
+    "themes":["veille techno"]
+  },
+
+  {
+    "title":"Vers une bonne pratique du Pair Design",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"09:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Catherine Verfaillie"],
+    "themes":["Méthodologie","Pair Design","UX"]
+  },
+
+  {
+    "title":"Quoi de neuf sous le ciel de la sécurité du web et des internets",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Virginie Galindo"],
+    "themes":["sécurité","W3C"]
+  },
+
+  {
+    "title":"Death and UX: Digital Afterlife and Digital Legacy",
+    "date":"2015-10-02",
+    "year":"2015",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Agnieszka Maria Walorska"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Le défi d'une personne aveugle : conseiller sur l'accessibilité dans un web toujours plus visuel",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sylvie Duchateau"],
+    "themes":["Accessibilité","formation","handicap","intégration","Méthodologie"]
+  },
+
+  {
+    "title":"Panorama des solutions mobile hybrides",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Mickael Dumand"],
+    "themes":[]
+  },
+
+  {
+    "title":"Êtes-vous au top ?",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"16:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Natacha Hennocq"],
+    "themes":["design","performance","travail d'équipe","UX"]
+  },
+
+  {
+    "title":"Le styleguide, bien alimenté il tient ses promesses",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Laurent Guitton"],
+    "themes":["Bonnes pratiques","charte graphique","codestyle","cohérence","CSS","DA","équipe","front-end","HTML","styleguide"]
+  },
+
+  {
+    "title":"[Conf Sponsor] Les données animées en temps réel : c’est quoi ? pourquoi faire ? et comment les intégrer ?",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Cédric Tran-Xuan","Allan Denis"],
+    "themes":["streaming API","UI"]
+  },
+
+  {
+    "title":"De grands « pouvoirs » impliquent de grandes « responsabilités »",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Étienne Samson"],
+    "themes":["accomplissement","apprentissage","grandir"]
+  },
+
+  {
+    "title":"Webperf 2.0",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Rios"],
+    "themes":["HTML","HTTP","Performance web"]
+  },
+
+  {
+    "title":"Confessions d'un serial killer",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Virginie Caplet"],
+    "themes":["balance","bien-être","creativité","idées","métier","projet"]
+  },
+
+  {
+    "title":"OpenID Connect, le nouveau standard d'authentification sur le web : mise en oeuvre sur FranceConnect",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"12:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["François Petitit"],
+    "themes":["identité","sécurité"]
+  },
+
+  {
+    "title":"Il est beau il est frais mon RGAA 3",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"12:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Aurélien Levy"],
+    "themes":["Accessibilité","HTML","JavaScript"]
+  },
+
+  {
+    "title":"« Hey, tu peux reprendre ce projet ? »",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"12:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sylvain Zyssman"],
+    "themes":["Méthodologie","métier","projet"]
+  },
+
+  {
+    "title":"La crypto pour les devs : petit état des lieux des outils d'aujourd'hui et des techniques de demain",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"11:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Matthias Dugué"],
+    "themes":["sécurité"]
+  },
+
+  {
+    "title":"An Introduction to CSS Grid Layout",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"11:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Rachel Andrew"],
+    "themes":["CSS"]
+  },
+
+  {
+    "title":"« Acceptation Générale » mon prénom, mon adresse, mon domaine seront-ils acceptés par tous les formulaires ?",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"10:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Bortzmeyer"],
+    "themes":["Bonnes pratiques","formulaire"]
+  },
+
+  {
+    "title":"Service workers : reprendre le contrôle du navigateur",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Éric Daspet"],
+    "themes":["HTML","JavaScript","mobile","offline"]
+  },
+
+  {
+    "title":"[Conf Sponsor] Le dev front à Mach 1 au quotidien",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["feedback","live","Outils","prototypage","reload"]
+  },
+
+  {
+    "title":"Internet et libertés : pour un engagement des acteurs du numérique",
+    "date":"2015-10-01",
+    "year":"2015",
+    "day":"jeudi",
+    "start":"09:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Adrienne Charmet"],
+    "themes":["législation","militantisme","neutralité du net","Vie privée"]
+  },
+
+  {
+    "title":"Un peu de <del>musique</del> <ins>programmation</ins> d'ascenseur",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Thomas Parisot"],
+    "themes":[]
+  },
+
+  {
+    "title":"Editer du code… avec plaisir !",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["David Boureau"],
+    "themes":["développement","méthodologie"]
+  },
+
+  {
+    "title":"Construire ensemble un enseignement du front-end pertinent, pédagogique et pérenne",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"16:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Delphine Malassingne","Rémi Parmentier"],
+    "themes":["développement","métier"]
+  },
+
+  {
+    "title":"Let's sketch together",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Alvin Berthelot"],
+    "themes":["design"]
+  },
+
+  {
+    "title":"Les Web Components, oui, mais tout de suite !",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Rougeron"],
+    "themes":["développement"]
+  },
+
+  {
+    "title":"Applications cartographiques modernes et mobiles",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Benjamin Becquet"],
+    "themes":["cartographie","mobile"]
+  },
+
+  {
+    "title":"Node.js démystifié",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"14:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["développement","JavaScript"]
+  },
+
+  {
+    "title":"UX Blur - L'utilisateur décide dans le brouillard !",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Yves Koekkoek"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Finissons-en ensemble avec le mythe du Responsive web Design lent",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Matthias Dugué","Nicolas Hoizey"],
+    "themes":["RWD"]
+  },
+
+  {
+    "title":"Les clés pour s'orienter dans un projet libre",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"11:20",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Julien Wajsberg"],
+    "themes":["développement"]
+  },
+
+  {
+    "title":"Un jeu web accessible avec HTML 5, JavaScript et ARIA",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Sylvie Duchateau","Victor Brito"],
+    "themes":["accessibilité"]
+  },
+
+  {
+    "title":"Les outils des designers web : l’ère post-Adobe",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Benoit Vrins"],
+    "themes":["design"]
+  },
+
+  {
+    "title":"Réutiliser son JavaScript côté serveur et côté client",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Yannick Croissant"],
+    "themes":["JavaScript"]
+  },
+
+  {
+    "title":"Créer un clone de WhatsApp en HTML5",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Yacine Rezgui"],
+    "themes":["développement","mobile"]
+  },
+
+  {
+    "title":"Votre site web est-il lisible, compréhensible et utilisable par tous ?",
+    "date":"2014-10-18",
+    "year":"2014",
+    "day":"samedi",
+    "start":"09:30",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Sophie Schuermans"],
+    "themes":["accessibilité","design","ergonomie"]
+  },
+
+  {
+    "title":"Lightning talks",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Daniel Glazman","Robin Berjon"],
+    "themes":[]
+  },
+
+  {
+    "title":"Le futur de l'industrialisation du web : l'ingénierie dirigée par les modèles",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"16:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Alain Vagner"],
+    "themes":["méthodologie"]
+  },
+
+  {
+    "title":"Le design d'interface et la théorie de la Gestalt",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"16:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Vincent Desdoigts"],
+    "themes":["ergonomie"]
+  },
+
+  {
+    "title":"Comment optimiser le checkout sur mobile ?",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nicolas El Azzi"],
+    "themes":["e-commerce","ergonomie","mobile"]
+  },
+
+  {
+    "title":"Comment tirer le meilleur parti de ses erreurs ?",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Vanessa Ilmany"],
+    "themes":["méthodologie"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"16:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Mes projets web se passent toujours bien !",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"15:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jeremie Patonnier"],
+    "themes":["méthodologie","métier"]
+  },
+
+  {
+    "title":"Dark patterns, la contre-attaque du pire",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"15:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Clément Hardoüin"],
+    "themes":["design","éthique"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"15:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Frontend Performance Beginner to Expert to Crazy Person",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Philip Tellis"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Internet et les TIC, pas très écologiques ?",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Luc Poupard"],
+    "themes":["société"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Petits secrets entre amis : les acteurs du web doivent ils prêter serment ?",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-Philippe Simonnet"],
+    "themes":["éthique","métier"]
+  },
+
+  {
+    "title":"Le burnout et comment on l'évite",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Deschamps"],
+    "themes":["métier"]
+  },
+
+  {
+    "title":"[Conf Sponsor] Microsoft — Introduction à TypeScript et retour d'expérience sur le portage de BabylonJS",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Rousset"],
+    "themes":["JavaScript"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Les recettes du web multi-écran",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"11:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Hubert Sablonnière"],
+    "themes":["développement","ergonomie","JavaScript"]
+  },
+
+  {
+    "title":"Exploring PayPal’s Bootstrap Accessibility Plugin",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"11:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Dennis Lembree"],
+    "themes":["accessibilité"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"11:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Le Reverse Proxy, ce majordome à votre service",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"10:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nicolas Steinmetz"],
+    "themes":["backend","performance"]
+  },
+
+  {
+    "title":"100 % de revue de code",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Agnès Haasser"],
+    "themes":["développement","méthodologie"]
+  },
+
+  {
+    "title":"[Conf Sponsor] La « logiciellisation » du web",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jeremie Patonnier"],
+    "themes":[]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Convivialité des interfaces des réseaux sociaux et spécificités culturelles ",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Léonie Marin"],
+    "themes":["culture","ergonomie","UX"]
+  },
+
+  {
+    "title":"Code de qualité : ce qu'il faut savoir",
+    "date":"2014-10-17",
+    "year":"2014",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Julien Wajsberg","Anthony Ricaud"],
+    "themes":["développement","méthodologie"]
+  },
+
+  {
+    "title":"Things I wish I knew when I started in Digital Accessibility",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"16:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Billy Gregory"],
+    "themes":["accessibilité","méthodologie","métier"]
+  },
+
+  {
+    "title":"Mutation d’un géant du web vers le Mobile",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"16:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-Loup Yu"],
+    "themes":["développement","méthodologie","métier","mobile"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"16:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Créer des ponts entre le point de vente physique et la vente en ligne",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"16:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Eric Nouri"],
+    "themes":["e-commerce"]
+  },
+
+  {
+    "title":"Profession : pompier",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"16:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Bastien Jaillot"],
+    "themes":["méthodologie","métier"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"16:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Sortons l'intégration d'e-mails de la préhistoire",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Rémi Parmentier"],
+    "themes":["e-mail","intégration","mobile"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Responsive Web Design: Clever Tips and Techniques",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Vitaly Friedman"],
+    "themes":["RWD"]
+  },
+
+  {
+    "title":"Responsive Web Typography",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Marko Dugonjić"],
+    "themes":["RWD","typographie"]
+  },
+
+  {
+    "title":"Petite histoire d’une méthodologie agilement établie",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Alexandre Jakubiak","Julien Oger"],
+    "themes":["Agile","méthodologie"]
+  },
+
+  {
+    "title":"Informelles",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Présentation des outils de tests Cross Browser",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"12:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Cyril Balit"],
+    "themes":["intégration","métier"]
+  },
+
+  {
+    "title":"Intitulés de poste : bas les masques !",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"12:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Goulven Champenois"],
+    "themes":["métier"]
+  },
+
+  {
+    "title":"Interactions : Animations et interfaces",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"11:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivia Lor"],
+    "themes":["animation","design","UX"]
+  },
+
+  {
+    "title":"Web Components, the right way",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"11:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Bruce Lawson","Karl Groves"],
+    "themes":["développement","intégration"]
+  },
+
+  {
+    "title":"Le web fait pousser mes tomates",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"10:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivier de Villardi"],
+    "themes":["culture","design"]
+  },
+
+  {
+    "title":"Les masques CSS : vers de nouveaux usages dans le webdesign",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Vincent De Oliveira"],
+    "themes":["CSS","design","SVG"]
+  },
+
+  {
+    "title":"[Conf Sponsor] JS + toi = <3",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christophe Porteneuve"],
+    "themes":["développement","JavaScript"]
+  },
+
+  {
+    "title":"Science-fiction & interaction !",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"09:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Raphaël Yharrassarry"],
+    "themes":["culture","design"]
+  },
+
+  {
+    "title":"Qualité web : l’heure de passer à la caisse",
+    "date":"2014-10-16",
+    "year":"2014",
+    "day":"jeudi",
+    "start":"09:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Élie Sloïm","Nicolas Hoffmann"],
+    "themes":["méthodologie","qualité"]
+  },
+
+  {
+    "title":"Construire pour le futur",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Xavier Mouton-Dubosc"],
+    "themes":["pérennité"]
+  },
+
+  {
+    "title":"Des modèles de conceptions pour vos composants d'interface grâce à ARIA",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Aurélien Levy"],
+    "themes":["accessibilité"]
+  },
+
+  {
+    "title":"Redesign dans le navigateur ? Et pourquoi pas !",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Stéphane Verdier"],
+    "themes":["design","intégration","navigateurs","outils"]
+  },
+
+  {
+    "title":"Projets responsive : mise en commun de retours d'expérience",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Rudy Rigot","Jérémie Patonnier"],
+    "themes":["responsive design"]
+  },
+
+  {
+    "title":"Mise en place d'outils de monitoring",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Arnaud Limbourg"],
+    "themes":["monitoring"]
+  },
+
+  {
+    "title":"Maquetter : Critiquer & être Critiqué",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Maxime Fortelle"],
+    "themes":["maquettage"]
+  },
+
+  {
+    "title":"SVG, devenez maître des vecteurs",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jonathan Rivalan"],
+    "themes":["SVG"]
+  },
+
+  {
+    "title":"Les outils pour développeurs inclus dans les navigateurs Web",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Thomas Bassetto"],
+    "themes":["développement","outils"]
+  },
+
+  {
+    "title":"Rendre son application HTML5 accessible en 4 étapes",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jean-Pierre Villain"],
+    "themes":["accessibilité","HTML5"]
+  },
+
+  {
+    "title":"Votre site à l'épreuve des tests utilisateurs DIY, on vient avec nos ergonomes (3 heures)",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Julien Champagne","Raphaël Yharrassarry"],
+    "themes":["tests utilisateurs"]
+  },
+
+  {
+    "title":"[Atelier Sponsor] SEO, SMO et Social CRM les meilleures pratiques",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Catherine Headley","Vincent Dutot"],
+    "themes":[]
+  },
+
+  {
+    "title":"Tester son JS, c'est possible !",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Rougeron"],
+    "themes":["JavaScript","tests"]
+  },
+
+  {
+    "title":"Après la macro, la micro !",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Vincent Valentin"],
+    "themes":["typographie"]
+  },
+
+  {
+    "title":"Et si on enrichissait nos frameworks CSS ?",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Goetter","Nicolas Hoffmann"],
+    "themes":["CSS","frameworks"]
+  },
+
+  {
+    "title":"Analysing Complex User Needs with User Matrices",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Stephanie Troeth"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Tutoriel HTML5",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Michel Buffa"],
+    "themes":["HTML5","JavaScript","web API"]
+  },
+
+  {
+    "title":"CSS3/JS Selectors: When your HTML5 Has No Class",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Estelle Weyl"],
+    "themes":["CSS","HTML5","JavaScript"]
+  },
+
+  {
+    "title":"Test unitaire ? Mock ? TDD ? Kezako ? (En finir avec les régressions)",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["David Wursteisen"],
+    "themes":["tests"]
+  },
+
+  {
+    "title":"Le dessous des grilles",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Bertrand Keller"],
+    "themes":["CSS","frameworks","grilles"]
+  },
+
+  {
+    "title":"Responsive, l’indispensable révolution des outils et processus",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Goulven Champenois"],
+    "themes":["responsive design"]
+  },
+
+  {
+    "title":"Développons notre efficacité !",
+    "date":"2013-10-12",
+    "year":"2013",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Teddy Marie-Luce"],
+    "themes":["croyances limitatives","métier"]
+  },
+
+  {
+    "title":"Lightning talks",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Robin Berjon","Daniel Glazman"],
+    "themes":[]
+  },
+
+  {
+    "title":"Le paradoxe du choix",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"16:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Anne Lacan"],
+    "themes":["décalé"]
+  },
+
+  {
+    "title":"Mobile et accessibilité, une partie à Troie",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"16:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Goulven Champenois"],
+    "themes":["accessibilité","web mobile"]
+  },
+
+  {
+    "title":"[Conf Sponsor] « Listening Platforms » : outils indispensables à la rationalisation de votre présence Web ?",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"16:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Frédéric Bon"],
+    "themes":["présence web"]
+  },
+
+  {
+    "title":"Conférence informelle",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"16:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Designing with Sensors: Creating Adaptive Experiences",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"15:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Avi Itzkovitch"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Multimodalité & interfaces. Le design est une question d'humains, pas de machine",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"15:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Geoffrey  Dorne "],
+    "themes":["design"]
+  },
+
+  {
+    "title":"Conférence informelle",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"15:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Understanding DOM and its importance for accessibility",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Karl Groves"],
+    "themes":["accessibilité","DOM"]
+  },
+
+  {
+    "title":"HTML / CSS : bousculez vos habitudes ! ",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Raphaël Goetter"],
+    "themes":["CSS","HTML","intégration"]
+  },
+
+  {
+    "title":"Esthétique et pratique du Web qui rouille",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivier Thereaux","Karl Dubost"],
+    "themes":["archivage","pérennité"]
+  },
+
+  {
+    "title":"Les méthodes d’influence dans le web par l’exemple",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Yannick Bonnieux"],
+    "themes":["influence"]
+  },
+
+  {
+    "title":"Keep calm and carry on",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Lou Schwartz"],
+    "themes":["décalé"]
+  },
+
+  {
+    "title":"[Conf Sponsor] Utilisez le GPU pour améliorer la performance de vos applications Web",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Catuhe","David Rousset"],
+    "themes":[]
+  },
+
+  {
+    "title":"Conférence informelle",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"12:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Livre Électronique et Standards du Web",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"11:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Daniel Glazman"],
+    "themes":["livres numérique","standards"]
+  },
+
+  {
+    "title":"Penser l'expérience utilisateur mobile",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"11:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Amélie Boucher"],
+    "themes":["UX","web mobile"]
+  },
+
+  {
+    "title":"Guide de survie en milieu responsive",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"11:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Cyril Balit","Nicolas Massouh","Guillaume Abel"],
+    "themes":["responsive design"]
+  },
+
+  {
+    "title":"Vers une nouvelle éthique",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Xavier Mouton-Dubosc"],
+    "themes":["éthique","neutralité"]
+  },
+
+  {
+    "title":"Boucles de rétroactions, ou comment personnaliser vos applications",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"10:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Florian Le Goff"],
+    "themes":["analyse des données","ergonomie"]
+  },
+
+  {
+    "title":"L'intégration, ce monde du « ça dépend »",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"10:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nicolas Hoffmann"],
+    "themes":["intégration"]
+  },
+
+  {
+    "title":"Un bon design n'est pas beau ! ",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"10:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sébastien Desbenoit"],
+    "themes":["design"]
+  },
+
+  {
+    "title":"Conférence informelle",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"10:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Adaptive Images for Responsive Web Design",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christopher Schmitt"],
+    "themes":["images","responsive design"]
+  },
+
+  {
+    "title":"Le web après les mots de passe",
+    "date":"2013-10-11",
+    "year":"2013",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivier Potonniée"],
+    "themes":["authentification","sécurité"]
+  },
+
+  {
+    "title":"HTML5 JavaScript APIs",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Estelle Weyl"],
+    "themes":["API","HTML5","JavaScript"]
+  },
+
+  {
+    "title":"La rencontre entre hacktivisme et sociétés civiles, un enjeu pour les libertés numériques",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Amaëlle Guiton"],
+    "themes":["hacktivisme"]
+  },
+
+  {
+    "title":"Conférence informelle",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Être bien pour produire bien",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Delphine Malassingne"],
+    "themes":["qualité"]
+  },
+
+  {
+    "title":"Impactful User Experience Strategy",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stephanie Troeth"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Web Apps et sites web, le jeu des différences",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jérémie Patonnier"],
+    "themes":["web apps"]
+  },
+
+  {
+    "title":"Deux ou trois choses que vous ne savez peut-être pas sur la sécurité de votre site Web",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"15:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Bortzmeyer"],
+    "themes":["HTTPS","sécurité"]
+  },
+
+  {
+    "title":"jQuery sans jQuery",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"15:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Raphaël Rougeron"],
+    "themes":["JavaScript"]
+  },
+
+  {
+    "title":"Un petit pas pour l'em, un grand pas pour le Web",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"15:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nicolas Hoizey"],
+    "themes":["CSS","responsive design"]
+  },
+
+  {
+    "title":"S.A.R.A.H. maison intelligente pour connecter l'internet des objets",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-Philippe Encausse"],
+    "themes":["internet des objets"]
+  },
+
+  {
+    "title":"Learning to love: Crash course in emotional UX design",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Mariusz Ciesla"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Goûts et mauvais goût : de la subjectivité en design",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-Philippe Cabaroc"],
+    "themes":["design"]
+  },
+
+  {
+    "title":"\"Accessibiliser\" avec subtilité",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"12:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Johan Ramon"],
+    "themes":["accessibilité"]
+  },
+
+  {
+    "title":"Les 7 préceptes d'un projet web raté !",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"12:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Julien Oger"],
+    "themes":["décalé","gestion de projet"]
+  },
+
+  {
+    "title":"Conférence informelle",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"12:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Soyez responsables : construisez votre API",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Matthias Dugué"],
+    "themes":["API"]
+  },
+
+  {
+    "title":"Théorie du flow et webdocumentaires",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Florent Maurin"],
+    "themes":["UX","webdocumentaires"]
+  },
+
+  {
+    "title":"HTML5 accessibility",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Steve Faulkner"],
+    "themes":["accessibilité","HTML5"]
+  },
+
+  {
+    "title":"Je code donc je teste …",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"10:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Cyril Balit"],
+    "themes":["tests"]
+  },
+
+  {
+    "title":"Bonnes pratiques des API",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"10:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Éric Daspet"],
+    "themes":["API"]
+  },
+
+  {
+    "title":"[Conf Sponsor] Le retour sur investissement de la qualité web",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"10:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Muriel de Dona"],
+    "themes":["qualité"]
+  },
+
+  {
+    "title":"La folle journée, ou les fourberies d'un projet",
+    "date":"2013-10-10",
+    "year":"2013",
+    "day":"jeudi",
+    "start":"09:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Julien Dubedout","Florian Boudot","Christophe Andrieu"],
+    "themes":["gestion de projet","métier"]
+  },
+
+  {
+    "title":"HTML5/CSS3 et l'effet \"Waouh !\" : les dessous de la magie",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jérémie Patonnier","Corinne Schillinger"],
+    "themes":["CSS3","HTML5","Javascript"]
+  },
+
+  {
+    "title":"Un site efficace ? Six questions, six outils pour y répondre",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Marc Van Rymenant"],
+    "themes":["neurosciences","UX"]
+  },
+
+  {
+    "title":"HTML5 : stockage local et synchronisation",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"15:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Rougeron"],
+    "themes":["HTML5","stockage","web API"]
+  },
+
+  {
+    "title":"Clinique des navigateurs",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Anthony Ricaud"],
+    "themes":["navigateurs"]
+  },
+
+  {
+    "title":"Gestion personnelle d'information: outils et méthodologie pour survivre au déluge ... d'informations",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Véronique Gendner"],
+    "themes":["documentation","gestion du temps","méthodologie","veille"]
+  },
+
+  {
+    "title":"Petit florilège de bonnes pratiques graphiques",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Romy Duhem Verdière"],
+    "themes":["accessibilité","typographie","webdesign"]
+  },
+
+  {
+    "title":"Le projet web dont vous êtes le héros agile",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Bruno Bord","Pablo Pernot"],
+    "themes":["agilité"]
+  },
+
+  {
+    "title":"Le processus créatif du brief au prototype",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Virginie Caplet","Marie Alhomme"],
+    "themes":["prototypage","zoning"]
+  },
+
+  {
+    "title":"Bien démarrer avec le Responsive Webdesign",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Grégoire Hoin","Benoît Vrins"],
+    "themes":["responsive design"]
+  },
+
+  {
+    "title":"Optimisation des images .png et .jpg, compression Deflate extrême des fichiers statiques",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Frédéric Kayser"],
+    "themes":["compression","images","optimisation","SEO"]
+  },
+
+  {
+    "title":"1001 techniques pour faire exploser un projet web (et comment les éviter)",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Maxime Fortelle","Goulven Champenois"],
+    "themes":["gestion de projet","méthodes agiles","métier"]
+  },
+
+  {
+    "title":"Ami freelance, tu aurais besoin d'un petit recadrage",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Thibault Jouannic"],
+    "themes":["freelance","gestion de projet"]
+  },
+
+  {
+    "title":"Envie d'un référentiel ? Créons-le ! Là, maintenant :)",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Delphine Malassingne","Élie Sloïm"],
+    "themes":["communautaire","référentiels"]
+  },
+
+  {
+    "title":"La performance sur les sites mobiles",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jean-Pierre Vincent"],
+    "themes":["mobile","performance"]
+  },
+
+  {
+    "title":"Les grilles macro-typo sur le web ? Facile !",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Vincent Valentin","Marie Guillaumet"],
+    "themes":["CSS","typographie"]
+  },
+
+  {
+    "title":"Recommandation, le défi",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Thomas Gasc"],
+    "themes":["développement","social"]
+  },
+
+  {
+    "title":"Le Web fait du hors piste !",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jonathan Blanchet"],
+    "themes":["Javascript","RFID","web API"]
+  },
+
+  {
+    "title":"Un site sans sens ni dessus dessous",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Aurélien Masfrand"],
+    "themes":["CSS","localisation"]
+  },
+
+  {
+    "title":"Collecter et prioriser les besoins de vos utilisateurs à l’aide de Focus Groups “Agile UX”.",
+    "date":"2012-10-20",
+    "year":"2012",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Gautier Barrère","Éric Mazzone"],
+    "themes":["agilité","UX"]
+  },
+
+  {
+    "title":"Lightning talks",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Robin Berjon","Daniel Glazman"],
+    "themes":[]
+  },
+
+  {
+    "title":"Il était une fois une maquette",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thomas Zilliox"],
+    "themes":["CSS","HTML"]
+  },
+
+  {
+    "title":"Les tendances dans le web design, faut-il les suivre ou les fuir ?",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sébastien Desbenoit","Francis Chouquet"],
+    "themes":["design"]
+  },
+
+  {
+    "title":"Les informelles",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"2012, l'année où le web est devenu un ouvre-boite universel",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Anthony Ricaud"],
+    "themes":["identité numérique","mobile","privacy"]
+  },
+
+  {
+    "title":"Fast Mobile UIs",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Horia Dragomir"],
+    "themes":["mobile"]
+  },
+
+  {
+    "title":"Les informelles",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Les objets se font internet",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Dominique Sciamma"],
+    "themes":["design","inspiration"]
+  },
+
+  {
+    "title":"Application cache",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jake Archibald"],
+    "themes":["cache","web API","web apps"]
+  },
+
+  {
+    "title":"Les informelles",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Une journée accélérée en pure mobilité : une idée fixe ?",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Tanguy Lohéac"],
+    "themes":["accessibilité","mobilité"]
+  },
+
+  {
+    "title":"1 + 1 = 3, le « pair programming » appliqué au web",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Angel","Mathieu Pillard"],
+    "themes":["gestion de projet","méthodologie","métier"]
+  },
+
+  {
+    "title":"Les informelles",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Le livre numérique : et si c’était du web ?",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"11:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Mikael Randy"],
+    "themes":["livre numérique"]
+  },
+
+  {
+    "title":"WebGL, la 3D, c'est maintenant dans votre navigateur",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"11:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Verdier"],
+    "themes":["3D","animations","WebGL"]
+  },
+
+  {
+    "title":"README, un fichier nommé plaisir",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thomas Parisot"],
+    "themes":["métier","qualité"]
+  },
+
+  {
+    "title":"The Real Me",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Aarron Walter"],
+    "themes":["design","personas","storytelling"]
+  },
+
+  {
+    "title":"Open quality management : vers le tout ouvert !",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Élie Sloïm","Pascal Romain"],
+    "themes":["gestion de projet","méthodologie","open data"]
+  },
+
+  {
+    "title":"Et si la fin du monde était causée par l'obésité du web ?",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"10:40",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivier Philippot"],
+    "themes":["green IT","performance"]
+  },
+
+  {
+    "title":"Le jeu en vie",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"10:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thibault Cabanas"],
+    "themes":["jeu"]
+  },
+
+  {
+    "title":"Du réel au réel, Internet des usages",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-François Cauche"],
+    "themes":["mobilité","personas","storytelling"]
+  },
+
+  {
+    "title":"Les icônes, qui sont-elles ? Quels sont leurs pictos ?  ",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sébastien Desbenoit"],
+    "themes":["accessibilité","ergonomie","pictogrammes","UX"]
+  },
+
+  {
+    "title":"Amélioration continue : retour d’expérience",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Cyril Balit"],
+    "themes":["méthodologie","qualité","testing"]
+  },
+
+  {
+    "title":"Les tests utilisateurs à distance : intérêt et limites dans le cycle de conception centré utilisateur",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christian Bastien"],
+    "themes":["ergonomie","tests utilisateurs","UX"]
+  },
+
+  {
+    "title":"Web Design's Lego: visual grammar and lexicon of the web",
+    "date":"2012-10-19",
+    "year":"2012",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Denise Jacobs"],
+    "themes":["design","storytelling"]
+  },
+
+  {
+    "title":"De l'art de prendre la fuite",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"17:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thibault Jouannic"],
+    "themes":["gestion de projet","méthodologie","métier"]
+  },
+
+  {
+    "title":"Souriez (?) vous êtes trackés !",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Lebarque"],
+    "themes":["identité numérique","privacy"]
+  },
+
+  {
+    "title":"Comprendre l'autisme pour améliorer les projets transmédias",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Véronique Marino"],
+    "themes":["personas","storytelling"]
+  },
+
+  {
+    "title":"Les informelles",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Le web sera sécurisé ou ne sera pas",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Virginie Galindo"],
+    "themes":["sécurité"]
+  },
+
+  {
+    "title":"Influence du Bauhaus dans le digital par l’exemple",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Guillaume Abel"],
+    "themes":["décalé","UX"]
+  },
+
+  {
+    "title":"Les informelles",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Advanced Typesetting for Web",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Marko Dugonjić"],
+    "themes":["typographie"]
+  },
+
+  {
+    "title":"Faire du web moderne à destination de tous",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Julien Wajsberg"],
+    "themes":["CSS3","HTML5","Javascript"]
+  },
+
+  {
+    "title":"Scrum vu des petites tranchées",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Langlois"],
+    "themes":["agilité","scrum"]
+  },
+
+  {
+    "title":"Hacktivisme : hacker la politique et les ONG",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Frédéric Bardeau"],
+    "themes":["hacktivisme","politique","société"]
+  },
+
+  {
+    "title":"Applications mobiles : utiliser le web",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Bruno Michel","Anne-Sophie Tranchet"],
+    "themes":["HTML5","Javascript","mobile"]
+  },
+
+  {
+    "title":"How Designers Destroyed the World",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Mike Monteiro"],
+    "themes":["design","inspiration","motivation"]
+  },
+
+  {
+    "title":"Les User Agents, c'est le mal !",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Rudy Rigot"],
+    "themes":["navigateurs"]
+  },
+
+  {
+    "title":"L'audiodescription pour sauver l'humanité",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Armony Altinier"],
+    "themes":["accessibilité"]
+  },
+
+  {
+    "title":"Creative Technologist, Web Evangelist, Developer Advocate !?!",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Florian Harmel"],
+    "themes":["évangélisation","métier"]
+  },
+
+  {
+    "title":"Responsive Web Design: Clever Tricks and Techniques",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Vitaly Friedman"],
+    "themes":["responsive design","UX"]
+  },
+
+  {
+    "title":"Les nouveaux horizons de la cartographie sur le web",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Benjamin Becquet"],
+    "themes":["cartographie","web API","web apps"]
+  },
+
+  {
+    "title":"13.0.0.0.0, ou toute la vérité sur le calendrier maya, internet et l’homo evolutis",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Régis Kuckaertz"],
+    "themes":["décalé"]
+  },
+
+  {
+    "title":"Utilisez les APIs Web d'aujourd'hui pour créer les interfaces de demain",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Luz Caballero"],
+    "themes":["web API","web apps"]
+  },
+
+  {
+    "title":"On a monté une équipe de zéro",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Julien Fusco","Anne-Sophie Tranchet"],
+    "themes":["agilité","gestion de projet","méthodologie"]
+  },
+
+  {
+    "title":"Le tournant des CSS vers le Layout",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Daniel Glazman"],
+    "themes":["CSS"]
+  },
+
+  {
+    "title":"Future Reading : nouveaux espaces, patterns et tendances pour les architectes de l’information ",
+    "date":"2012-10-18",
+    "year":"2012",
+    "day":"jeudi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Grandin Donovan","Claudio Vandi"],
+    "themes":["ergonomie","géolocalisation","UX"]
+  },
+
+  {
+    "title":"CoffeeScript, le Javascript simple et élégant",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"16:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jonathan Blanchet"],
+    "themes":["Javascript"]
+  },
+
+  {
+    "title":"Planification ou itération ? Spécialisation ou hétérogénéité ? Transmission orale ou écrite ? Deux jeux pour nous amuser et en parler",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"16:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Pablo Pernot"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Développer pour le mobile en pratique : outils et techniques",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"16:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Goulven Champenois"],
+    "themes":["Mobile"]
+  },
+
+  {
+    "title":"Simply Responsive CSS3",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"16:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Denise Jacobs"],
+    "themes":["CSS3"]
+  },
+
+  {
+    "title":"Comment argumenter en faveur d'un poste de responsable qualité web",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"16:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Delphine Malassingne"],
+    "themes":["Métier","Qualité"]
+  },
+
+  {
+    "title":"Intégrateur : entre le marteau et l'enclume",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Romy Duhem-Verdière"],
+    "themes":["Intégration","Métier"]
+  },
+
+  {
+    "title":"Dompter le Web Mobile",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Yves Van Goethem"],
+    "themes":["Mobile"]
+  },
+
+  {
+    "title":"Intégration HTML : appréhender un gros projet en grosse agence",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Florian Boudot"],
+    "themes":["Intégration","Métier"]
+  },
+
+  {
+    "title":"Fast and Furious Enough - Définissez et testez rapidement votre premier MVP en utilisant des pratiques issues de Lean Startup",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Mathieu Gandin","Thomas Lissajoux"],
+    "themes":["Prototypage"]
+  },
+
+  {
+    "title":"Client-développeur : comment  bien rédiger un contrat de développement de site ou d'application pour éviter de perdre de l'argent",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Marc Lipskier"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Création et partages d'archives Web personnelles",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Éric van der Vlist"],
+    "themes":["Archivage"]
+  },
+
+  {
+    "title":"Stockage anodin de données personnelles : conciliez légal et éthique",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Florian Le Goff"],
+    "themes":["Stockage des données"]
+  },
+
+  {
+    "title":"Améliorer le confort d'utilisation des sites web",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Stéphane Deschamps"],
+    "themes":["Accessibilité","UX"]
+  },
+
+  {
+    "title":"Flash ou HTML5 ? Quelle techno choisir et pour quel prix.",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Adrien Leygues"],
+    "themes":["Flash","HTML5"]
+  },
+
+  {
+    "title":"Typography for Programmers",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Marko Dugonjic"],
+    "themes":["Typographie"]
+  },
+
+  {
+    "title":"SVG et le web design moderne",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jérémie Patonnier"],
+    "themes":["SVG"]
+  },
+
+  {
+    "title":"Comment gérer ses relations client simplement quand on débute",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Julien Dubedout"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Ces indices dans les CSS qui indiquent que votre projet web est mal parti",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"11:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Olivier Gendrin"],
+    "themes":["CSS","Métier"]
+  },
+
+  {
+    "title":"Développeurs, cachez-moi cette page !",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Hugo Hamon"],
+    "themes":["HTTP","Performance"]
+  },
+
+  {
+    "title":"Vive les tableaux de mise en page !",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Goetter"],
+    "themes":["CSS3","HTML5"]
+  },
+
+  {
+    "title":"La lisibilité des contenus",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Monique Brunel"],
+    "themes":["Accessibilité","Ergonomie","UX"]
+  },
+
+  {
+    "title":"Premier pas pour le développement accessible",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Aurélien Levy"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"Travaillons avec le Web",
+    "date":"2011-10-15",
+    "year":"2011",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Karl Dubost"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Table ronde des navigateurs",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Dominique Hazael-Massieux","David Rousset","Karl Dubost","Paul Rouget","Sam Dutton"],
+    "themes":["HTML5","Mobile","Navigateurs","Technologie"]
+  },
+
+  {
+    "title":"Principes d’ingénierie du développement Web",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Benoit Piette"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Maîtrisez l'imprévu et le facteur humain dans votre conduite de qualité : la charte CATEEA",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Rudy Rigot"],
+    "themes":["KISS","Métier"]
+  },
+
+  {
+    "title":"Les données ouvertes et liées (Linked Open Data) pour les allergiques au RDF",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivier Thereaux"],
+    "themes":["OpenData"]
+  },
+
+  {
+    "title":"HTML5 pour l’écriture d’applications cross-devices : challenges et solutions",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Rousset"],
+    "themes":["HTML5"]
+  },
+
+  {
+    "title":"SEO, mobilité et accessibilité : la sainte trinité d'un développement Web inclusif",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Denis Boudreau"],
+    "themes":["Accessibilité","Mobile","SEO"]
+  },
+
+  {
+    "title":"L'OpenData : une évolution culturelle, politique et technique",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Larlet"],
+    "themes":["OpenData"]
+  },
+
+  {
+    "title":"Javascript as a Programming Language",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Marco Cedaro"],
+    "themes":["Javascript"]
+  },
+
+  {
+    "title":"Le KISS des OS",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thierry Stœhr"],
+    "themes":["KISS","Standards"]
+  },
+
+  {
+    "title":"Le web développement durable : Green IT à toutes les sauces",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christophe Clouzeau"],
+    "themes":["Green IT"]
+  },
+
+  {
+    "title":"The mobile browser world",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Peter-Paul Koch"],
+    "themes":["Mobile"]
+  },
+
+  {
+    "title":"La typo, mon navigateur et moi",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jérémie Patonnier"],
+    "themes":["Typographie"]
+  },
+
+  {
+    "title":"La Sagesse du Web",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Célinecélines"],
+    "themes":["Métier","UX"]
+  },
+
+  {
+    "title":"Ga, Bu, Zo, Meu, ou pourquoi faire simple quand on peut faire compliqué ?",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Patrick Chanezon"],
+    "themes":["KISS","Technologie"]
+  },
+
+  {
+    "title":"Industrialisation de l'intégration Web : la révolution de l'artisan devenu ouvrier",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Thomas Parisot"],
+    "themes":["Intégration","Métier"]
+  },
+
+  {
+    "title":"Immediate Inspiration",
+    "date":"2011-10-14",
+    "year":"2011",
+    "day":"vendredi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Denise Jacobs"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Tester vos services, mythes et réalités !",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Raphaël Yharrassarry"],
+    "themes":["Ergonomie","UX"]
+  },
+
+  {
+    "title":"Lightning talks",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"16:50",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Daniel Glazman","Robin Berjon"],
+    "themes":[]
+  },
+
+  {
+    "title":"Ouvrir le Web un bug à la fois",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Karl Dubost"],
+    "themes":["Interopérabilité","Navigateurs"]
+  },
+
+  {
+    "title":"L’accessibilité vue d’un grand compte et comment la loi de 2005 a changé nos façons de travailler",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Arthur Rigaud"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"Petite arithmétique de l’UX : choisir, renoncer, construire",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Nacéra Benfedda","Amélie Boucher"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Un navigateur, comment ça marche ?",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"15:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Anthony Ricaud"],
+    "themes":["Navigateurs"]
+  },
+
+  {
+    "title":"HTML5 APIs: Where no man has gone before",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Robert Nyman"],
+    "themes":["HTML5"]
+  },
+
+  {
+    "title":"Les neurosciences au service du design numérique",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"14:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Marc Van Rymenant"],
+    "themes":["Design"]
+  },
+
+  {
+    "title":"Je veux un VRAI sous-titrage !",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Sophie Drouvroy "],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"Formulaires HTML5 : où en est-on ? Que peut-on faire ?",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"12:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Mounir Lamouri"],
+    "themes":["HTML5"]
+  },
+
+  {
+    "title":"Optimizing your layout for phones and tablets using viewport and media queries",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Andreas Bovens"],
+    "themes":["Mobile"]
+  },
+
+  {
+    "title":"Tester l'ergonomie de son site même sans budget",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"11:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Maurice Svay"],
+    "themes":["Ergonomie","UX"]
+  },
+
+  {
+    "title":"Les goûts et les couleurs",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Rault"],
+    "themes":["Design"]
+  },
+
+  {
+    "title":"Comment améliorer les performances avec l'usage mixé d'hébergeurs, CDN et Clouds ?",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Enten","Julien Coulon"],
+    "themes":["Performance"]
+  },
+
+  {
+    "title":"Accessibilité : soyons agiles",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Élie Sloïm","Laurent Denis"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"KISS dans une grande entreprise ?",
+    "date":"2011-10-13",
+    "year":"2011",
+    "day":"jeudi",
+    "start":"09:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stéphane Deschamps"],
+    "themes":["KISS","Métier"]
+  },
+
+  {
+    "title":"Performance Web",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"15:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jean-Pierre Vincent"],
+    "themes":["Performance","Technologie"]
+  },
+
+  {
+    "title":"HTML5 pour mon ordinateur et mon mobile",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"15:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["François Petitit","Mickaël Morier"],
+    "themes":["HTML5"]
+  },
+
+  {
+    "title":"Le Web Analytics au service de l’utilisabilité",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"15:40",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Olivier de Segonzac"],
+    "themes":["Ergonomie"]
+  },
+
+  {
+    "title":"Les erreurs les plus fréquentes en accessibilité du Web",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Denis Boudreau"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"Tirer parti des périphériques mobiles dans une application web : qui a dit qu’il fallait coder plusieurs versions natives ?",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Christophe Porteneuve "],
+    "themes":["JavaScript","Technologie"]
+  },
+
+  {
+    "title":"Comment convaincre un client de la qualité de votre prestation ?",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Loïc Mathaud","Corinne Schillinger"],
+    "themes":["Métier","Qualité"]
+  },
+
+  {
+    "title":"Prendre en compte les handicaps cognitifs",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Monique Brunel"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"Référencement et utilisabilité : des objectifs différents, des méthodes qui convergent",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Sébastien Billard"],
+    "themes":["Ergonomie","SEO"]
+  },
+
+  {
+    "title":"Prototypage papier et design itératif",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"14:00",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Vincent Mayol"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Le jeu de la valeur métier",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"10:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Laurent Morisseau"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Ne perdez plus vos internautes : faites du « card sorting »",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"10:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Eric Mazzone","Marie Baudy","Gautier Barrère"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Mettre en place la gestion de la qualité web",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"10:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Delphine Malassingne"],
+    "themes":["Qualité"]
+  },
+
+  {
+    "title":"Web sémantique, un baptême technique",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"10:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Fabien Gandon"],
+    "themes":["Web sémantique"]
+  },
+
+  {
+    "title":"Webdesign et Photoshop : qualité et productivité",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"10:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Julien Dubedout"],
+    "themes":["Design","Qualité"]
+  },
+
+  {
+    "title":"Plus belle la vie avec HTML5 et CSS3",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"10:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Raphaël Goetter","Pascale Lambert-Charreteur"],
+    "themes":["CSS","HTML5"]
+  },
+
+  {
+    "title":"Industrialiser l’artisanat de l’intégration HTML",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"10:50",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Thomas Parisot"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Comment ça c’est pas du Flash ?",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Christophe Porteneuve "],
+    "themes":["Technologie"]
+  },
+
+  {
+    "title":"Le web temps réel",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jonathan Blanchet"],
+    "themes":["Technologie","Websockets"]
+  },
+
+  {
+    "title":"Mettre en forme un texte pour le web ? Facile !",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jacques Pyrat"],
+    "themes":["Contenu"]
+  },
+
+  {
+    "title":"CSS 3 aujourd’hui : quoi et comment ?",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Jérémie Patonnier"],
+    "themes":["CSS"]
+  },
+
+  {
+    "title":"Internationalisation du Front",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Yannick Croissant"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"XP Game",
+    "date":"2010-10-16",
+    "year":"2010",
+    "day":"samedi",
+    "start":"09:10",
+    "duration":"90",
+    "type":"Ateliers",
+    "speakers":["Laurent Morisseau"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"La conférence dont vous êtes le héros",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"16:25",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":[],
+    "themes":[]
+  },
+
+  {
+    "title":"Le web vu d’un client grand compte",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"15:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Pascal Aubin"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Demystifying the UX toolbox: creating an effective framework",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"15:30",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Stephanie Troeth"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Le web, un métier de valeur",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"14:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Éric Daspet"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"HTML5 et ses amis : nouvelles APIs",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"14:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Paul Rouget"],
+    "themes":["HTML5","JavaScript"]
+  },
+
+  {
+    "title":"Un player vidéo accessible, si c’est possible !",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Vincent Aniort","David Molina"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"Étude de cas sur la mise en accessibilité d’un site Web",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"13:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Denis Boudreau"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"Building usability into accessibility",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"13:45",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["James Taylor","Christophe Jolif"],
+    "themes":["Accessibilité","Ergonomie"]
+  },
+
+  {
+    "title":"Comment un vigneron étranger utilise le web pour s'intégrer dans la France rurale",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"12:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Ryan O'Connell"],
+    "themes":["Ergonomie"]
+  },
+
+  {
+    "title":"Au boulot les cerveaux !",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"12:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Virginie Caplet"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Upgrading The Front End: adding new web technology into an existing design workflow",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"11:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Dave Shea"],
+    "themes":["Design"]
+  },
+
+  {
+    "title":"Un framework html est-il possible ?",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"11:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Cédric Morin"],
+    "themes":["Design"]
+  },
+
+  {
+    "title":"Rendre une application d'entreprise accessible : contraintes et pragmatisme",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"09:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Tanguy Loheac"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"La macrotypographie de la page Web",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"09:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Anne-Sophie Fradier"],
+    "themes":["Typographie"]
+  },
+
+  {
+    "title":"La typographie comme outil de design",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"08:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["David Rault"],
+    "themes":["Typographie"]
+  },
+
+  {
+    "title":"HTML5 c’est maintenant (IE6 inclus)",
+    "date":"2010-10-15",
+    "year":"2010",
+    "day":"vendredi",
+    "start":"08:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-Pierre Vincent"],
+    "themes":["HTML5"]
+  },
+
+  {
+    "title":"CSS3/Photoshop : quel avenir pour le métier de web designer ? ",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Francis Chouquet"],
+    "themes":["Design"]
+  },
+
+  {
+    "title":"Innover de 9 à 5",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"17:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Olivier Thereaux"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Reusable Code, for good or for awesome!",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"16:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jake Archibald"],
+    "themes":["JavaScript"]
+  },
+
+  {
+    "title":"Méthodologie du Design d’expérience utilisateur",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"16:05",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Matthieu Mingasson"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"L’accessibilité dans une chaîne de production Web",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"14:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Vincent François","Denis Boudreau"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"HTML5 et le web de demain",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"14:55",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Robin Berjon","Dominique Hazael-Massieux","François Daoust"],
+    "themes":["HTML5"]
+  },
+
+  {
+    "title":"Le Kit documentaire de conception pour simplifier la communication projet",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"14:35",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christophe Cotin Valois","Cédric Magnin"],
+    "themes":["UX"]
+  },
+
+  {
+    "title":"Méthode Daisy : les CSS feuille à feuille",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"14:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Romy Duhem Verdière"],
+    "themes":["CSS"]
+  },
+
+  {
+    "title":"Le texte : parent pauvre du web ?",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Jean-Marc Hardy"],
+    "themes":["Contenu"]
+  },
+
+  {
+    "title":"Estimer l’accessibilité de son site, 15 minutes top chrono !",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"14:00",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Laurent Denis","Aurélien Levy"],
+    "themes":["Accessibilité"]
+  },
+
+  {
+    "title":"L’utilisabilité dans la stratégie web des organisations internationales",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"11:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Aurélie Valtat"],
+    "themes":["Ergonomie","UX"]
+  },
+
+  {
+    "title":"Let’s interface - how to make people as excited about tech as we are",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"11:20",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Christian Heilmann"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"Internautes sous surveillance : retours de la réalité pour un web meilleur",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Amélie Boucher"],
+    "themes":["Ergonomie","UX"]
+  },
+
+  {
+    "title":"Le javascript server side, faire un point",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"10:10",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Quentin Adam"],
+    "themes":["JavaScript"]
+  },
+
+  {
+    "title":"Espace construit et espace virtuel, un retour vers le futur ?",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"09:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Fabien Basmaison"],
+    "themes":["Métier"]
+  },
+
+  {
+    "title":"La conception universelle, est-ce toujours possible ?",
+    "date":"2010-10-14",
+    "year":"2010",
+    "day":"jeudi",
+    "start":"09:15",
+    "duration":"50",
+    "type":"Conférences",
+    "speakers":["Matt May"],
+    "themes":["UX"]
   }
 ]
