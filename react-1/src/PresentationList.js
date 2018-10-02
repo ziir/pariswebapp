@@ -1,15 +1,10 @@
 // @flow
 
 import React, { Component, Fragment } from 'react';
-import ListItem, {
-  type Attending,
-  type ConferenceData,
-  type Day,
-} from './ListItem';
+import ListItem, { type Attending } from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
-
-export type Agenda = $ReadOnlyArray<ConferenceData>;
+import type { Agenda, Day } from './types';
 
 type Props = {|
   +agenda: Agenda,

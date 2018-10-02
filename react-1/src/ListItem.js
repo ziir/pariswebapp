@@ -1,19 +1,9 @@
 // @flow
 
 import React from 'react';
+import type { ConferenceData } from './types';
 
 export type Attending = boolean | null;
-export type Location = 'small' | 'big' | 'unknown';
-export type Day = 'jeudi' | 'vendredi' | 'samedi';
-export type ConferenceData = {|
-  +title: string,
-  +speakers: Array<string>,
-  +location: Location,
-  +day: Day,
-  +year: number,
-  +start: string,
-  +end: string,
-|};
 
 type Props = {|
   +index: number,
