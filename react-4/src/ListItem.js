@@ -26,12 +26,6 @@ type State = {
   attending: Attending,
 };
 
-const attendingValueMap = {
-  yes: true,
-  maybe: null,
-  no: false,
-};
-
 export default class ListItem extends React.Component<Props, State> {
   state = { attending: this.props.attendingInitialValue };
 
