@@ -19,14 +19,14 @@ type Props = {|
   +index: number,
   +entry: ConferenceData,
   +attendingInitialValue: Attending,
-  +changeCallback: (attending: Attending) => any,
+  +changeCallback: (index: number, attending: Attending) => any,
 |};
 
 type State = {
   attending: Attending,
 };
 
-export default class ListItem extends React.Component<Props, State> {
+export default class ListItem extends React.PureComponent<Props, State> {
   state = { attending: this.props.attendingInitialValue };
 
   handleChange = (evt: SyntheticInputEvent<HTMLInputElement>) => {
@@ -45,7 +45,7 @@ export default class ListItem extends React.Component<Props, State> {
     }
 
     this.setState({ attending });
-    this.props.changeCallback(attending);
+    this.props.changeCallback(this.props.index, attending);
   };
 
   render() {
