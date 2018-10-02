@@ -44,6 +44,7 @@ class List extends Component<Props, State> {
 
   handleSelectedYearChange = this.handleSelectedYearChange.bind(this);
   handleSelectedDayChange = this.handleSelectedDayChange.bind(this);
+  handleFilterSearchChange = this.handleFilterSearchChange.bind(this);
 
   availableDays: Array<Day | null> = [null, 'jeudi', 'vendredi', 'samedi'];
 
@@ -148,7 +149,7 @@ class List extends Component<Props, State> {
         </label>
         <InputField
           label="Filtrer"
-          onChange={this.handleFilterSearchChange.bind(this)}
+          onChange={this.handleFilterSearchChange}
           value={filterString}
         />
         <section>

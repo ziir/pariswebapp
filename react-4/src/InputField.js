@@ -1,6 +1,6 @@
 // @flow
 
-import React, { Component } from 'react';
+import React from 'react';
 
 type Props = {|
   +className?: string,
@@ -9,7 +9,7 @@ type Props = {|
   +onChange: string => mixed,
 |};
 
-export default class InputField extends Component<Props> {
+export default class InputField extends React.PureComponent<Props> {
   onChange(e: SyntheticInputEvent<HTMLInputElement>) {
     this.props.onChange(e.currentTarget.value.trim());
   }
