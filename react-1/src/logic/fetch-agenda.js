@@ -2,9 +2,11 @@
 
 import type { Agenda, Day } from '../types';
 
+const AGENDA_URL = 'https://www.paris-web.fr/flux-SJW.json';
+
 export default async function fetchAgenda(): Promise<Agenda | null> {
   try {
-    const fetchResponse = await fetch('agenda.json');
+    const fetchResponse = await fetch(AGENDA_URL);
     if (!fetchResponse.ok) {
       throw new Error(
         `Got an error HTTP Response with status ${fetchResponse.status}`
