@@ -30,6 +30,7 @@ yarn start
 ## Run the webserver serving all the apps
 
 ```
+./build-all.sh
 yarn dev
 ```
 
