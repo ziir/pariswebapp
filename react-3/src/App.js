@@ -13,7 +13,7 @@ type SourceAgenda = Array<{|
   +title: string,
   +date: string,
   +year: string,
-  +day: 'thursday' | 'friday' | 'saturday',
+  +day: 'jeudi' | 'vendredi' | 'samedi',
   +start: string,
   +duration: string,
   +type: 'Conférences' | 'Ateliers',
@@ -29,7 +29,7 @@ function timeAdd(startTime: string, duration: number): string {
   return `${endHour}:${endMinutes < 10 ? '0' + endMinutes : endMinutes}`;
 }
 
-function processAgenda(sourceAgenda): Agenda {
+function processAgenda(sourceAgenda: SourceAgenda): Agenda {
   return sourceAgenda.map(sourceEntry => ({
     title: sourceEntry.title,
     speakers: sourceEntry.speakers,
