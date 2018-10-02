@@ -156,6 +156,7 @@ class List extends Component<Props, State> {
           {filteredData.length
             ? filteredData.map(({ entry, idx }) => (
                 <ListItem
+                  key={idx}
                   entry={entry}
                   index={idx}
                   attendingInitialValue={this.attending[idx]}
