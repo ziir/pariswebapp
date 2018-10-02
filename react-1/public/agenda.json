@@ -5,11 +5,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Véronique Lapierre"],
-    "themes":["métier","retour d'expérience"]
+    "themes":[
+"métier","retour d'expérience"]
   },
 
   {
@@ -17,11 +19,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Stéphane Deschamps"],
-    "themes":["accessibilité","méthodologie","WCAG"]
+    "themes":[
+"accessibilité","méthodologie","WCAG"]
   },
 
   {
@@ -29,11 +33,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Dylan Cozian"],
-    "themes":["design","méthodologie","style guide","UX"]
+    "themes":[
+"design","méthodologie","style guide","UX"]
   },
 
   {
@@ -41,11 +47,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Grand amphithéâtre",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Timothée Pillard","Julien Wajsberg"],
-    "themes":["JavaScript","performance","React"]
+    "themes":[
+"JavaScript","performance","React"]
   },
 
   {
@@ -53,11 +61,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Dominique Hazael-Massieux"],
-    "themes":["méthodologie","standardisation","W3C"]
+    "themes":[
+"méthodologie","standardisation","W3C"]
   },
 
   {
@@ -65,11 +75,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Vincent Aniort"],
-    "themes":["accessibilité","tests","WCAG"]
+    "themes":[
+"accessibilité","tests","WCAG"]
   },
 
   {
@@ -77,11 +89,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Nicolas Hoizey"],
-    "themes":["CSS","design","performance"]
+    "themes":[
+"CSS","design","performance"]
   },
 
   {
@@ -89,11 +103,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphael Goetter"],
-    "themes":["CSS"]
+    "themes":[
+"CSS"]
   },
 
   {
@@ -101,11 +117,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Emilie Pistorius"],
-    "themes":["accessibilité","design","méthodologie","UX"]
+    "themes":[
+"accessibilité","design","méthodologie","UX"]
   },
 
   {
@@ -113,11 +131,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Thomas Zilliox"],
-    "themes":["API","JavaScript","méthodologie"]
+    "themes":[
+"API","JavaScript","méthodologie"]
   },
 
   {
@@ -125,11 +145,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Bert Bos"],
-    "themes":["design","méthodologie","retour d'expérience","style guide","W3C"]
+    "themes":[
+"design","méthodologie","retour d'expérience","style guide","W3C"]
   },
 
   {
@@ -137,11 +159,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Hugo Giraudel","Mike Smart"],
-    "themes":["JavaScript","React"]
+    "themes":[
+"JavaScript","React"]
   },
 
   {
@@ -149,11 +173,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Bertrand Keller"],
-    "themes":["accessibilité","design"]
+    "themes":[
+"accessibilité","design"]
   },
 
   {
@@ -161,11 +187,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Esther Onfroy","Rayna Stamboliyska"],
-    "themes":["IoT","sécurité","vie privée"]
+    "themes":[
+"IoT","sécurité","vie privée"]
   },
 
   {
@@ -173,11 +201,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Renaud Chaput"],
-    "themes":["devops"]
+    "themes":[
+"devops"]
   },
 
   {
@@ -185,11 +215,13 @@
     "date":"2018-10-06",
     "year":"2018",
     "day":"samedi",
+    "location":"Salle à déterminer",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Corinne Schillinger"],
-    "themes":["CSS","JavaScript","méthodologie","style guide","tests"]
+    "themes":[
+"CSS","JavaScript","méthodologie","style guide","tests"]
   },
 
   {
@@ -197,11 +229,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"17:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Karl Dubost"],
-    "themes":["méthodologie","métier","retour d'expérience"]
+    "themes":[
+"méthodologie","métier","retour d'expérience"]
   },
 
   {
@@ -209,11 +243,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"17:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thibault Cabanas"],
-    "themes":["design","méthodologie","tests","UX"]
+    "themes":[
+"design","méthodologie","tests","UX"]
   },
 
   {
@@ -221,11 +257,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"16:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Quentin Bouissou"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -233,11 +271,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"16:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Richard Ishida"],
-    "themes":["internationalisation","W3C"]
+    "themes":[
+"internationalisation","W3C"]
   },
 
   {
@@ -245,11 +285,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"15:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sabine Condiescu"],
-    "themes":["design","éthique","UX"]
+    "themes":[
+"design","éthique","UX"]
   },
 
   {
@@ -257,11 +299,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"15:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Emmanuelle Aboaf"],
-    "themes":["éthique","IoT"]
+    "themes":[
+"éthique","IoT"]
   },
 
   {
@@ -269,11 +313,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"14:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jen Looper"],
-    "themes":["IoT","JavaScript","Vue.js"]
+    "themes":[
+"IoT","JavaScript","Vue.js"]
   },
 
   {
@@ -281,11 +327,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"14:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Xavier Vasques","Willy Leloutre"],
-    "themes":["IA","prospective"]
+    "themes":[
+"IA","prospective"]
   },
 
   {
@@ -293,11 +341,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marion Magné"],
-    "themes":["éthique","retour d'expérience","sécurité","vie privée"]
+    "themes":[
+"éthique","retour d'expérience","sécurité","vie privée"]
   },
 
   {
@@ -305,11 +355,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aurélien Levy"],
-    "themes":["accessibilité","WCAG"]
+    "themes":[
+"accessibilité","WCAG"]
   },
 
   {
@@ -317,11 +369,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"11:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jérémie Patonnier","Corinne Schillinger"],
-    "themes":["CSS","SVG"]
+    "themes":[
+"CSS","SVG"]
   },
 
   {
@@ -329,11 +383,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"11:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Rayna Stamboliyska"],
-    "themes":["éthique","IoT","sécurité","vie privée"]
+    "themes":[
+"éthique","IoT","sécurité","vie privée"]
   },
 
   {
@@ -341,11 +397,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"10:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Yoav Weiss"],
-    "themes":["performance"]
+    "themes":[
+"performance"]
   },
 
   {
@@ -353,11 +411,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"10:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Bortzmeyer"],
-    "themes":["éthique","RGPD","sécurité","vie privée"]
+    "themes":[
+"éthique","RGPD","sécurité","vie privée"]
   },
 
   {
@@ -365,11 +425,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"09:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jérôme Dupire"],
-    "themes":["accessibilité","jeux vidéo","UX"]
+    "themes":[
+"accessibilité","jeux vidéo","UX"]
   },
 
   {
@@ -377,11 +439,13 @@
     "date":"2018-10-05",
     "year":"2018",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"09:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cyrille Perois"],
-    "themes":["JavaScript","React","retour d'expérience"]
+    "themes":[
+"JavaScript","React","retour d'expérience"]
   },
 
   {
@@ -389,11 +453,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"17:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Hugo Giraudel"],
-    "themes":["accessibilité","CSS","design","retour d'expérience"]
+    "themes":[
+"accessibilité","CSS","design","retour d'expérience"]
   },
 
   {
@@ -401,11 +467,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"17:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Audrey Buffières","Audrey Vittecoq-Laporte"],
-    "themes":["management","méthodologie","métier","retour d'expérience"]
+    "themes":[
+"management","méthodologie","métier","retour d'expérience"]
   },
 
   {
@@ -413,11 +481,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"16:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Charlie Owen"],
-    "themes":["accessibilité","design","éthique"]
+    "themes":[
+"accessibilité","design","éthique"]
   },
 
   {
@@ -425,11 +495,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"16:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Laurie-Anne Bourdain"],
-    "themes":["RGPD","vie privée"]
+    "themes":[
+"RGPD","vie privée"]
   },
 
   {
@@ -437,11 +509,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"15:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Gaël Poupard"],
-    "themes":["CSS","design","SVG"]
+    "themes":[
+"CSS","design","SVG"]
   },
 
   {
@@ -449,11 +523,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"15:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Maxime Bréhin"],
-    "themes":["devops","méthodologie"]
+    "themes":[
+"devops","méthodologie"]
   },
 
   {
@@ -461,11 +537,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"14:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Rousset"],
-    "themes":["IA","prospective"]
+    "themes":[
+"IA","prospective"]
   },
 
   {
@@ -473,11 +551,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"14:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Chris Ashton"],
-    "themes":["retour d'expérience"]
+    "themes":[
+"retour d'expérience"]
   },
 
   {
@@ -485,11 +565,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["JB Audras"],
-    "themes":["retour d'expérience"]
+    "themes":[
+"retour d'expérience"]
   },
 
   {
@@ -497,11 +579,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Dominique Hazael-Massieux"],
-    "themes":["méthodologie","standardisation","W3C"]
+    "themes":[
+"méthodologie","standardisation","W3C"]
   },
 
   {
@@ -509,11 +593,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"11:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Daniel Glazman"],
-    "themes":["API","JavaScript","retour d'expérience","WebExtensions"]
+    "themes":[
+"API","JavaScript","retour d'expérience","WebExtensions"]
   },
 
   {
@@ -521,11 +607,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"11:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Amélie Boucher"],
-    "themes":["IA","prospective","UX"]
+    "themes":[
+"IA","prospective","UX"]
   },
 
   {
@@ -533,11 +621,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"10:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sébastien Desbenoit"],
-    "themes":["méthodologie","retour d'expérience","UX"]
+    "themes":[
+"méthodologie","retour d'expérience","UX"]
   },
 
   {
@@ -545,11 +635,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"10:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["April King"],
-    "themes":["sécurité","tests"]
+    "themes":[
+"sécurité","tests"]
   },
 
   {
@@ -557,11 +649,13 @@
     "date":"2018-10-04",
     "year":"2018",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"09:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Agnès Haasser"],
-    "themes":["devops","méthodologie","retour d'expérience"]
+    "themes":[
+"devops","méthodologie","retour d'expérience"]
   },
 
   {
@@ -569,11 +663,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle R.02",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Nicolas Hoffmann"],
-    "themes":["CSP","sécurité"]
+    "themes":[
+"CSP","sécurité"]
   },
 
   {
@@ -581,11 +677,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.02",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Sylvie Duchateau","Florian Sanders"],
-    "themes":["accessibilité","RGAA"]
+    "themes":[
+"accessibilité","RGAA"]
   },
 
   {
@@ -593,11 +691,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.05",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Sarah Haïm","Éric Daspet"],
-    "themes":["métier"]
+    "themes":[
+"métier"]
   },
 
   {
@@ -605,11 +705,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle R.02",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Stéphanie Walter"],
-    "themes":["architecture d'information","mobile","UX"]
+    "themes":[
+"architecture d'information","mobile","UX"]
   },
 
   {
@@ -617,11 +719,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.06",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Willy Leloutre","Olivier Furin"],
-    "themes":["expérimentation","IA","IoT","Node.js"]
+    "themes":[
+"expérimentation","IA","IoT","Node.js"]
   },
 
   {
@@ -629,11 +733,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.02",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Delphine Malassingne"],
-    "themes":["outils","sécurité","vie privée"]
+    "themes":[
+"outils","sécurité","vie privée"]
   },
 
   {
@@ -641,11 +747,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Grand Amphi",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Christophe Porteneuve"],
-    "themes":["développement","JavaScript","Webpack"]
+    "themes":[
+"développement","JavaScript","Webpack"]
   },
 
   {
@@ -653,11 +761,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.05",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["David Bruant","Clémentine Hahn"],
-    "themes":["collaboration","méthodologie","métier"]
+    "themes":[
+"collaboration","méthodologie","métier"]
   },
 
   {
@@ -665,11 +775,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle R.02",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Vincent Aniort","Patricia Loubet"],
-    "themes":["accessibilité","audit","ergonomie","UX"]
+    "themes":[
+"accessibilité","audit","ergonomie","UX"]
   },
 
   {
@@ -677,11 +789,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.05",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Bertrand Keller"],
-    "themes":["gestion de contenus","performance","publication"]
+    "themes":[
+"gestion de contenus","performance","publication"]
   },
 
   {
@@ -689,11 +803,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle R.03",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Xavier Julien","Clément Dubois"],
-    "themes":["développement","JavaScript","outils","PWA"]
+    "themes":[
+"développement","JavaScript","outils","PWA"]
   },
 
   {
@@ -701,11 +817,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle R.02",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Aurélien Levy","Nicolas Hoffmann"],
-    "themes":["accessibilité"]
+    "themes":[
+"accessibilité"]
   },
 
   {
@@ -713,11 +831,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.02",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jean-Christophe Saintenoy","Frédéric Bordage"],
-    "themes":["éco-conception","écologie","méthodologie","outils"]
+    "themes":[
+"éco-conception","écologie","méthodologie","outils"]
   },
 
   {
@@ -725,11 +845,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.05",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Sébastien Lejeune"],
-    "themes":["e-mail","intégration"]
+    "themes":[
+"e-mail","intégration"]
   },
 
   {
@@ -737,11 +859,13 @@
     "date":"2017-10-07",
     "year":"2017",
     "day":"samedi",
+    "location":"Salle 1.06",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Julien Dubedout"],
-    "themes":["design","direction artistique"]
+    "themes":[
+"design","direction artistique"]
   },
 
   {
@@ -749,11 +873,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"16:45",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Erwan Richard"],
-    "themes":["développement","éthique","réflexion","vie privée"]
+    "themes":[
+"développement","éthique","réflexion","vie privée"]
   },
 
   {
@@ -761,11 +887,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"16:45",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thibault Mahe"],
-    "themes":["design","méthodologie","métier"]
+    "themes":[
+"design","méthodologie","métier"]
   },
 
   {
@@ -773,11 +901,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"16:20",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Valérie Galassi"],
-    "themes":["métier","qualité","réflexion"]
+    "themes":[
+"métier","qualité","réflexion"]
   },
 
   {
@@ -785,11 +915,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"16:20",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier Jeannel"],
-    "themes":["accessibilité","handicap","inclusion"]
+    "themes":[
+"accessibilité","handicap","inclusion"]
   },
 
   {
@@ -797,11 +929,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"16:05",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Luc Poupard"],
-    "themes":["développement","front-end"]
+    "themes":[
+"développement","front-end"]
   },
 
   {
@@ -809,11 +943,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"16:05",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Lena Chandelier"],
-    "themes":["accessibilité"]
+    "themes":[
+"accessibilité"]
   },
 
   {
@@ -821,11 +957,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"15:50",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sonia Prévost-Mercier"],
-    "themes":["bienveillance","formation","métier"]
+    "themes":[
+"bienveillance","formation","métier"]
   },
 
   {
@@ -833,11 +971,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"15:50",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Fanny C."],
-    "themes":["accessibilité","handicap","inclusion"]
+    "themes":[
+"accessibilité","handicap","inclusion"]
   },
 
   {
@@ -845,11 +985,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"14:45",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thomas Zilliox"],
-    "themes":["CSS","intégration","outils","qualité"]
+    "themes":[
+"CSS","intégration","outils","qualité"]
   },
 
   {
@@ -857,11 +999,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"14:45",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aaron Gustafson"],
-    "themes":["accessibilité","design","UX"]
+    "themes":[
+"accessibilité","design","UX"]
   },
 
   {
@@ -869,11 +1013,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"13:50",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Boris Schapira"],
-    "themes":["design","e-commerce","métier"]
+    "themes":[
+"design","e-commerce","métier"]
   },
 
   {
@@ -881,11 +1027,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"13:50",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christopher Talib"],
-    "themes":["métier","prospective"]
+    "themes":[
+"métier","prospective"]
   },
 
   {
@@ -893,11 +1041,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"11:55",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Brad Frost"],
-    "themes":["collaboration","design","métier","outils","UX"]
+    "themes":[
+"collaboration","design","métier","outils","UX"]
   },
 
   {
@@ -905,11 +1055,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"11:55",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Damien Senger"],
-    "themes":["design","international","métier","retour d'expérience"]
+    "themes":[
+"design","international","métier","retour d'expérience"]
   },
 
   {
@@ -917,11 +1069,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"11:00",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aeris"],
-    "themes":["back-end","sécurité"]
+    "themes":[
+"back-end","sécurité"]
   },
 
   {
@@ -929,11 +1083,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"11:00",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Julien Dubedout","Aurélien Levy"],
-    "themes":["accessibilité","design"]
+    "themes":[
+"accessibilité","design"]
   },
 
   {
@@ -941,11 +1097,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"09:55",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Harry Roberts"],
-    "themes":["développement","performance"]
+    "themes":[
+"développement","performance"]
   },
 
   {
@@ -953,11 +1111,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"09:55",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nathalie Pican","Séverine Malin"],
-    "themes":["accessibilité","handicap","test utilisateur"]
+    "themes":[
+"accessibilité","handicap","test utilisateur"]
   },
 
   {
@@ -965,11 +1125,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Petit amphithéâtre",
     "start":"09:00",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christophe Clouzeau"],
-    "themes":["écologie","prospective"]
+    "themes":[
+"écologie","prospective"]
   },
 
   {
@@ -977,11 +1139,13 @@
     "date":"2017-10-06",
     "year":"2017",
     "day":"vendredi",
+    "location":"Grand amphithéâtre",
     "start":"09:00",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Maryla U."],
-    "themes":["CSS","design"]
+    "themes":[
+"CSS","design"]
   },
 
   {
@@ -989,11 +1153,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"17:25",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Hubert Sablonnière"],
-    "themes":["métier","retour d'expérience"]
+    "themes":[
+"métier","retour d'expérience"]
   },
 
   {
@@ -1001,11 +1167,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"17:25",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Matthieu Bué"],
-    "themes":["développement","front-end","méthodologie","métier","retour d'expérience","UX"]
+    "themes":[
+"développement","front-end","méthodologie","métier","retour d'expérience","UX"]
   },
 
   {
@@ -1013,11 +1181,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"16:30",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Geoffrey Crofte"],
-    "themes":["performance","UI","UX"]
+    "themes":[
+"performance","UI","UX"]
   },
 
   {
@@ -1025,11 +1195,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"16:30",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Chris Lilley"],
-    "themes":["typographie","webfonts"]
+    "themes":[
+"typographie","webfonts"]
   },
 
   {
@@ -1037,11 +1209,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"15:25",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sylvie Duchateau"],
-    "themes":["accessibilité","handicap"]
+    "themes":[
+"accessibilité","handicap"]
   },
 
   {
@@ -1049,11 +1223,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"15:25",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cyrièle Piancastelli"],
-    "themes":["architecture d'information","big data","design","retour d'expérience","UX"]
+    "themes":[
+"architecture d'information","big data","design","retour d'expérience","UX"]
   },
 
   {
@@ -1061,11 +1237,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"15:00",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["My Lê"],
-    "themes":["collaboration","métier","retour d'expérience","UX"]
+    "themes":[
+"collaboration","métier","retour d'expérience","UX"]
   },
 
   {
@@ -1073,11 +1251,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"14:45",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marie Terrier"],
-    "themes":["bienveillance","collaboration","international","méthodologie","qualité","retour d'expérience","UI","UX"]
+    "themes":[
+"bienveillance","collaboration","international","méthodologie","qualité","retour d'expérience","UI","UX"]
   },
 
   {
@@ -1085,11 +1265,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"14:45",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sylvie Clément"],
-    "themes":["back-office","méthodologie","spécifications"]
+    "themes":[
+"back-office","méthodologie","spécifications"]
   },
 
   {
@@ -1097,11 +1279,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"13:50",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aurélien David"],
-    "themes":["API","développement","performance"]
+    "themes":[
+"API","développement","performance"]
   },
 
   {
@@ -1109,11 +1293,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"13:50",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Lea Verou"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -1121,11 +1307,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"12:25",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas Le Cam"],
-    "themes":["méthodologie","métier","retour d'expérience","UX"]
+    "themes":[
+"méthodologie","métier","retour d'expérience","UX"]
   },
 
   {
@@ -1133,11 +1321,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"12:10",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Lebarque"],
-    "themes":["éthique","sécurité","vie privée"]
+    "themes":[
+"éthique","sécurité","vie privée"]
   },
 
   {
@@ -1145,11 +1335,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"11:55",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nathalie Pauchet"],
-    "themes":["inclusion","métier","parité"]
+    "themes":[
+"inclusion","métier","parité"]
   },
 
   {
@@ -1157,11 +1349,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"11:55",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Remy Sharp"],
-    "themes":["API","développement","histoire","performance","retour d'expérience"]
+    "themes":[
+"API","développement","histoire","performance","retour d'expérience"]
   },
 
   {
@@ -1169,11 +1363,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"11:00",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Gilles Roustan"],
-    "themes":["bienveillance","collaboration","développement","méthodologie"]
+    "themes":[
+"bienveillance","collaboration","développement","méthodologie"]
   },
 
   {
@@ -1181,11 +1377,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"11:00",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Elie Sloïm","Denis Boudreau"],
-    "themes":["accessibilité","IA","inclusion","prospective"]
+    "themes":[
+"accessibilité","IA","inclusion","prospective"]
   },
 
   {
@@ -1193,11 +1391,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"10:25",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sylvain Abélard"],
-    "themes":["collaboration","méthodologie","spécifications"]
+    "themes":[
+"collaboration","méthodologie","spécifications"]
   },
 
   {
@@ -1205,11 +1405,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"10:10",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Delphine Malassingne"],
-    "themes":["retour d'expérience","vie privée"]
+    "themes":[
+"retour d'expérience","vie privée"]
   },
 
   {
@@ -1217,11 +1419,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"10:10",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christophe Porteneuve"],
-    "themes":["développement","JavaScript"]
+    "themes":[
+"développement","JavaScript"]
   },
 
   {
@@ -1229,11 +1433,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Petit amphithéâtre",
     "start":"09:15",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Julie Moynat"],
-    "themes":["accessibilité","back-office"]
+    "themes":[
+"accessibilité","back-office"]
   },
 
   {
@@ -1241,11 +1447,13 @@
     "date":"2017-10-05",
     "year":"2017",
     "day":"jeudi",
+    "location":"Grand amphithéâtre",
     "start":"09:15",
-    "duration":"45",
+    "duration":"45 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Laurent Chemla","Julien Dubedout"],
-    "themes":["éthique","histoire","retour d'expérience","vie privée"]
+    "themes":[
+"éthique","histoire","retour d'expérience","vie privée"]
   },
 
   {
@@ -1253,11 +1461,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Guillaume Turri","Agnès Haasser"],
-    "themes":["développement","méthodologie"]
+    "themes":[
+"développement","méthodologie"]
   },
 
   {
@@ -1265,11 +1475,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle R.03",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Laurence Vagner","Corinne Schillinger"],
-    "themes":["métier","retour d'expérience"]
+    "themes":[
+"métier","retour d'expérience"]
   },
 
   {
@@ -1277,11 +1489,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle 1.05",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Goetter"],
-    "themes":["CSS","méthodologie"]
+    "themes":[
+"CSS","méthodologie"]
   },
 
   {
@@ -1289,11 +1503,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle R.03",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Emmanuelle Aboaf"],
-    "themes":["accessibilité","retour d'expérience"]
+    "themes":[
+"accessibilité","retour d'expérience"]
   },
 
   {
@@ -1301,11 +1517,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle R.03",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Alain Vagner","Vincent Lark"],
-    "themes":["développement","javascript"]
+    "themes":[
+"développement","javascript"]
   },
 
   {
@@ -1313,11 +1531,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle 1.05",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Damien Senger"],
-    "themes":["accessibilité","retour d'expérience"]
+    "themes":[
+"accessibilité","retour d'expérience"]
   },
 
   {
@@ -1325,11 +1545,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle R.03",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Yharrassarry"],
-    "themes":["design","méthodologie","UX"]
+    "themes":[
+"design","méthodologie","UX"]
   },
 
   {
@@ -1337,11 +1559,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"PA",
     "start":"13:35",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Pierre Chabiland","Alvin Berthelot"],
-    "themes":["javascript"]
+    "themes":[
+"javascript"]
   },
 
   {
@@ -1349,11 +1573,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Alex Bernier","Olivier Nourry"],
-    "themes":["accessibilité","développement","mobile"]
+    "themes":[
+"accessibilité","développement","mobile"]
   },
 
   {
@@ -1361,11 +1587,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle 1.05",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Willy Leloutre","Olivier Furin"],
-    "themes":["développement","pédagogie"]
+    "themes":[
+"développement","pédagogie"]
   },
 
   {
@@ -1373,11 +1601,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle 1.06",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Christophe Porteneuve"],
-    "themes":["développement","javascript"]
+    "themes":[
+"développement","javascript"]
   },
 
   {
@@ -1385,11 +1615,13 @@
     "date":"2016-10-01",
     "year":"2016",
     "day":"samedi",
+    "location":"Salle R.02",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Melissa Aldana","Vincent Dromer"],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -1397,11 +1629,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"15:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Carine Fillot"],
-    "themes":["accessibilité","IoT","UX"]
+    "themes":[
+"accessibilité","IoT","UX"]
   },
 
   {
@@ -1409,11 +1643,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"15:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Benjamin De Bernardi","Olivier Dolbeau"],
-    "themes":["programmation","retour d'expérience"]
+    "themes":[
+"programmation","retour d'expérience"]
   },
 
   {
@@ -1421,11 +1657,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"PA",
     "start":"15:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Sferruzza"],
-    "themes":["industrialisation","méthodologie"]
+    "themes":[
+"industrialisation","méthodologie"]
   },
 
   {
@@ -1433,11 +1671,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"GA",
     "start":"14:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Eric Gateau","Aurélien Levy"],
-    "themes":["accessibilité","standards"]
+    "themes":[
+"accessibilité","standards"]
   },
 
   {
@@ -1445,11 +1685,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"PA",
     "start":"14:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Charles McCathieNevile","Léonie Watson"],
-    "themes":["développement","standards"]
+    "themes":[
+"développement","standards"]
   },
 
   {
@@ -1457,11 +1699,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"",
     "start":"14:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Daniel Glazman"],
-    "themes":["CSS","UX"]
+    "themes":[
+"CSS","UX"]
   },
 
   {
@@ -1469,11 +1713,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"14:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["John Foliot"],
-    "themes":["accessibilité","standards"]
+    "themes":[
+"accessibilité","standards"]
   },
 
   {
@@ -1481,11 +1727,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"13:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jérémie Pereira","Margaux Chenard"],
-    "themes":["retour d'expérience","UX"]
+    "themes":[
+"retour d'expérience","UX"]
   },
 
   {
@@ -1493,11 +1741,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"11:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Hubert Sablonnière"],
-    "themes":["responsive","web app"]
+    "themes":[
+"responsive","web app"]
   },
 
   {
@@ -1505,11 +1755,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"11:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Damien Beaufils","Abel André"],
-    "themes":["méthodologie","retour d'expérience"]
+    "themes":[
+"méthodologie","retour d'expérience"]
   },
 
   {
@@ -1517,11 +1769,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"GA",
     "start":"11:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["François Zaninotto"],
-    "themes":["développement","méthodologie","sécurité"]
+    "themes":[
+"développement","méthodologie","sécurité"]
   },
 
   {
@@ -1529,11 +1783,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"PA",
     "start":"11:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jiminy Panoz"],
-    "themes":["accessibilité","édition","standards"]
+    "themes":[
+"accessibilité","édition","standards"]
   },
 
   {
@@ -1541,11 +1797,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"10:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Florie Séchaud"],
-    "themes":["design","développement","retour d'expérience"]
+    "themes":[
+"design","développement","retour d'expérience"]
   },
 
   {
@@ -1553,11 +1811,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"10:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Emeline Racon"],
-    "themes":["retour d'expérience","UX"]
+    "themes":[
+"retour d'expérience","UX"]
   },
 
   {
@@ -1565,11 +1825,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"10:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas Guenin","Matthieu Bué"],
-    "themes":["CSS","pédagogie"]
+    "themes":[
+"CSS","pédagogie"]
   },
 
   {
@@ -1577,11 +1839,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"10:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Frank Taillandier","Bertrand Keller"],
-    "themes":["développement","webperf"]
+    "themes":[
+"développement","webperf"]
   },
 
   {
@@ -1589,11 +1853,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"09:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Bruce Lawson"],
-    "themes":["webperf"]
+    "themes":[
+"webperf"]
   },
 
   {
@@ -1601,11 +1867,13 @@
     "date":"2016-09-30",
     "year":"2016",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"09:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas Hoffmann"],
-    "themes":["accessibilité","méthodologie"]
+    "themes":[
+"accessibilité","méthodologie"]
   },
 
   {
@@ -1613,11 +1881,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Amélie Boucher"],
-    "themes":["design","UX"]
+    "themes":[
+"design","UX"]
   },
 
   {
@@ -1625,11 +1895,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marie-Amélie Cotillon"],
-    "themes":["design","UX"]
+    "themes":[
+"design","UX"]
   },
 
   {
@@ -1637,11 +1909,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"16:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Gaël Poupard"],
-    "themes":["accessibilité","CSS"]
+    "themes":[
+"accessibilité","CSS"]
   },
 
   {
@@ -1649,11 +1923,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christophe Porteneuve"],
-    "themes":["développement"]
+    "themes":[
+"développement"]
   },
 
   {
@@ -1661,11 +1937,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Noëlie Andrieu"],
-    "themes":["développement","métier"]
+    "themes":[
+"développement","métier"]
   },
 
   {
@@ -1673,11 +1951,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Frédéric Bordage"],
-    "themes":["design","webperf"]
+    "themes":[
+"design","webperf"]
   },
 
   {
@@ -1685,11 +1965,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jen Looper"],
-    "themes":["IoT","mobile"]
+    "themes":[
+"IoT","mobile"]
   },
 
   {
@@ -1697,11 +1979,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jérémie Jourdin","Benjamin Leroux"],
-    "themes":["sécurité","UX","vie privée"]
+    "themes":[
+"sécurité","UX","vie privée"]
   },
 
   {
@@ -1709,11 +1993,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Avi Itzkovitch"],
-    "themes":["design","IoT","UX"]
+    "themes":[
+"design","IoT","UX"]
   },
 
   {
@@ -1721,11 +2007,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"12:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["My Lê"],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -1733,11 +2021,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"12:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Raphaël Yharrassarry"],
-    "themes":["métier","UX"]
+    "themes":[
+"métier","UX"]
   },
 
   {
@@ -1745,11 +2035,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"12:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Xavier Mouton-Dubosc"],
-    "themes":["sécurité"]
+    "themes":[
+"sécurité"]
   },
 
   {
@@ -1757,11 +2049,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"11:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Bernard Tyers","Belen Barros Pena"],
-    "themes":["mobile","UX"]
+    "themes":[
+"mobile","UX"]
   },
 
   {
@@ -1769,11 +2063,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"10:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aurélie Guillaume"],
-    "themes":["méthodologie","UX"]
+    "themes":[
+"méthodologie","UX"]
   },
 
   {
@@ -1781,11 +2077,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"10:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Erik Escoffier"],
-    "themes":["cartographie","développement"]
+    "themes":[
+"cartographie","développement"]
   },
 
   {
@@ -1793,11 +2091,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Agnès Haasser"],
-    "themes":["développement","métier"]
+    "themes":[
+"développement","métier"]
   },
 
   {
@@ -1805,11 +2105,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thomas Gasc"],
-    "themes":["e-commerce","qualité web","UX"]
+    "themes":[
+"e-commerce","qualité web","UX"]
   },
 
   {
@@ -1817,11 +2119,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"09:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thibault Jouannic"],
-    "themes":["vie privée"]
+    "themes":[
+"vie privée"]
   },
 
   {
@@ -1829,11 +2133,13 @@
     "date":"2016-09-29",
     "year":"2016",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"09:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Benjamin Bouvier"],
-    "themes":["développement","webperf"]
+    "themes":[
+"développement","webperf"]
   },
 
   {
@@ -1841,11 +2147,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Amphi R.01",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Goulven Champenois"],
-    "themes":["Accessibilité","amélioration progressive","Dégradation gracieuse","Interactivité","interface"]
+    "themes":[
+"Accessibilité","amélioration progressive","Dégradation gracieuse","Interactivité","interface"]
   },
 
   {
@@ -1853,11 +2161,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Amphi R.04",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Julien Champagne"],
-    "themes":["design","Méthodologie","observation","UX"]
+    "themes":[
+"design","Méthodologie","observation","UX"]
   },
 
   {
@@ -1865,11 +2175,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Amphi R.02",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Stéphane Deschamps"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -1877,11 +2189,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Salle 1.23",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Vincent Aniort","Loïc Laussel"],
-    "themes":["Accessibilité","automatisation","grunt","nodejs","tests"]
+    "themes":[
+"Accessibilité","automatisation","grunt","nodejs","tests"]
   },
 
   {
@@ -1889,11 +2203,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Salle 1.24",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Martin Naumann"],
-    "themes":["3D","JavaScript","WebGL"]
+    "themes":[
+"3D","JavaScript","WebGL"]
   },
 
   {
@@ -1901,11 +2217,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Salle 1.21",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Nathalie Rosenberg"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -1913,11 +2231,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"PA",
     "start":"13:45",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Michael Akbaraly","François Petitit"],
-    "themes":["AngularJS","JavaScript","nodejs","tests"]
+    "themes":[
+"AngularJS","JavaScript","nodejs","tests"]
   },
 
   {
@@ -1925,11 +2245,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Christophe Porteneuve"],
-    "themes":["JavaScript","langage"]
+    "themes":[
+"JavaScript","langage"]
   },
 
   {
@@ -1937,11 +2259,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Salle 1.24",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Romain Couturier"],
-    "themes":["facilitation graphique","pensée visuelle"]
+    "themes":[
+"facilitation graphique","pensée visuelle"]
   },
 
   {
@@ -1949,11 +2273,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Frank Rousseau"],
-    "themes":["JavaScript","nodejs","npm"]
+    "themes":[
+"JavaScript","nodejs","npm"]
   },
 
   {
@@ -1961,11 +2287,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"PA",
     "start":"10:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Louis-Jean Teitelbaum"],
-    "themes":["prototypage","UX"]
+    "themes":[
+"prototypage","UX"]
   },
 
   {
@@ -1973,11 +2301,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Salle 1.23",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Denis Boudreau"],
-    "themes":["Accessibilité","approche","écran","expérience","introduction","lecteur","Méthodologie"]
+    "themes":[
+"Accessibilité","approche","écran","expérience","introduction","lecteur","Méthodologie"]
   },
 
   {
@@ -1985,11 +2315,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"Amphi R.04",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Carine Lallemand","Guillaume Gronier"],
-    "themes":["Méthodologie","UX"]
+    "themes":[
+"Méthodologie","UX"]
   },
 
   {
@@ -1997,11 +2329,13 @@
     "date":"2015-10-03",
     "year":"2015",
     "day":"samedi",
+    "location":"GA",
     "start":"09:15",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30 <abbr title=\"minutes\">mn</abbr>",
     "type":"Ateliers",
     "speakers":["Thierry Michel"],
-    "themes":["Méthodologie","optimisation","Outils","performance"]
+    "themes":[
+"Méthodologie","optimisation","Outils","performance"]
   },
 
   {
@@ -2009,11 +2343,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"PA",
     "start":"17:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier Nourry"],
-    "themes":["Accessibilité","futur"]
+    "themes":[
+"Accessibilité","futur"]
   },
 
   {
@@ -2021,11 +2357,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Tristan Nitot"],
-    "themes":["Hébergement","logiciel libre","Vie privée"]
+    "themes":[
+"Hébergement","logiciel libre","Vie privée"]
   },
 
   {
@@ -2033,11 +2371,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"GA",
     "start":"15:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Leila Touati"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2045,11 +2385,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marie Guillaumet"],
-    "themes":["communication","design","e-réputation","identité","individu","sémiotique","storytelling","Vie privée"]
+    "themes":[
+"communication","design","e-réputation","identité","individu","sémiotique","storytelling","Vie privée"]
   },
 
   {
@@ -2057,11 +2399,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Martin Naumann"],
-    "themes":["3D","WebGL"]
+    "themes":[
+"3D","WebGL"]
   },
 
   {
@@ -2069,11 +2413,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Bertrand Binois"],
-    "themes":["Accessibilité","responsive"]
+    "themes":[
+"Accessibilité","responsive"]
   },
 
   {
@@ -2081,11 +2427,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Benjamin Fraud","Olivier Dolbeau"],
-    "themes":["découpage","microservices","soa"]
+    "themes":[
+"découpage","microservices","soa"]
   },
 
   {
@@ -2093,11 +2441,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"12:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-Philippe Cabaroc"],
-    "themes":["design","Méthodologie"]
+    "themes":[
+"design","Méthodologie"]
   },
 
   {
@@ -2105,11 +2455,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"12:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Étienne Margraff","David Rousset"],
-    "themes":["front-end","outils"]
+    "themes":[
+"front-end","outils"]
   },
 
   {
@@ -2117,11 +2469,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"PA",
     "start":"11:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas Hoffmann"],
-    "themes":["amélioration continue","front-end","sécurité"]
+    "themes":[
+"amélioration continue","front-end","sécurité"]
   },
 
   {
@@ -2129,11 +2483,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"11:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Matthieu Lux"],
-    "themes":["Babel","JavaScript"]
+    "themes":[
+"Babel","JavaScript"]
   },
 
   {
@@ -2141,11 +2497,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"11:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Ann Wuyts"],
-    "themes":["design","UX","Vie privée"]
+    "themes":[
+"design","UX","Vie privée"]
   },
 
   {
@@ -2153,11 +2511,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"GA",
     "start":"11:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David West"],
-    "themes":["automatisation","culture","linting","qualité","tests"]
+    "themes":[
+"automatisation","culture","linting","qualité","tests"]
   },
 
   {
@@ -2165,11 +2525,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"PA",
     "start":"10:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thierry Michel"],
-    "themes":["Outils","performance"]
+    "themes":[
+"Outils","performance"]
   },
 
   {
@@ -2177,11 +2539,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Amphi 4",
     "start":"10:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Alvin Berthelot"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2189,11 +2553,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"10:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["François Hodierne"],
-    "themes":["Hébergement","HTTP","robots","sécurité","spam"]
+    "themes":[
+"Hébergement","HTTP","robots","sécurité","spam"]
   },
 
   {
@@ -2201,11 +2567,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Maxime Fortelle"],
-    "themes":["ergonomie","interface","psychologie","UX"]
+    "themes":[
+"ergonomie","interface","psychologie","UX"]
   },
 
   {
@@ -2213,11 +2581,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thibault Jouannic"],
-    "themes":["veille techno"]
+    "themes":[
+"veille techno"]
   },
 
   {
@@ -2225,11 +2595,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"",
     "start":"09:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Catherine Verfaillie"],
-    "themes":["Méthodologie","Pair Design","UX"]
+    "themes":[
+"Méthodologie","Pair Design","UX"]
   },
 
   {
@@ -2237,11 +2609,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Auditorium Blin",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Virginie Galindo"],
-    "themes":["sécurité","W3C"]
+    "themes":[
+"sécurité","W3C"]
   },
 
   {
@@ -2249,11 +2623,13 @@
     "date":"2015-10-02",
     "year":"2015",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Agnieszka Maria Walorska"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -2261,11 +2637,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sylvie Duchateau"],
-    "themes":["Accessibilité","formation","handicap","intégration","Méthodologie"]
+    "themes":[
+"Accessibilité","formation","handicap","intégration","Méthodologie"]
   },
 
   {
@@ -2273,11 +2651,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Mickael Dumand"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2285,11 +2665,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"16:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Natacha Hennocq"],
-    "themes":["design","performance","travail d'équipe","UX"]
+    "themes":[
+"design","performance","travail d'équipe","UX"]
   },
 
   {
@@ -2297,11 +2679,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Laurent Guitton"],
-    "themes":["Bonnes pratiques","charte graphique","codestyle","cohérence","CSS","DA","équipe","front-end","HTML","styleguide"]
+    "themes":[
+"Bonnes pratiques","charte graphique","codestyle","cohérence","CSS","DA","équipe","front-end","HTML","styleguide"]
   },
 
   {
@@ -2309,11 +2693,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cédric Tran-Xuan","Allan Denis"],
-    "themes":["streaming API","UI"]
+    "themes":[
+"streaming API","UI"]
   },
 
   {
@@ -2321,11 +2707,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Étienne Samson"],
-    "themes":["accomplissement","apprentissage","grandir"]
+    "themes":[
+"accomplissement","apprentissage","grandir"]
   },
 
   {
@@ -2333,11 +2721,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Rios"],
-    "themes":["HTML","HTTP","Performance web"]
+    "themes":[
+"HTML","HTTP","Performance web"]
   },
 
   {
@@ -2345,11 +2735,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Virginie Caplet"],
-    "themes":["balance","bien-être","creativité","idées","métier","projet"]
+    "themes":[
+"balance","bien-être","creativité","idées","métier","projet"]
   },
 
   {
@@ -2357,11 +2749,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"12:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["François Petitit"],
-    "themes":["identité","sécurité"]
+    "themes":[
+"identité","sécurité"]
   },
 
   {
@@ -2369,11 +2763,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"12:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aurélien Levy"],
-    "themes":["Accessibilité","HTML","JavaScript"]
+    "themes":[
+"Accessibilité","HTML","JavaScript"]
   },
 
   {
@@ -2381,11 +2777,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"12:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sylvain Zyssman"],
-    "themes":["Méthodologie","métier","projet"]
+    "themes":[
+"Méthodologie","métier","projet"]
   },
 
   {
@@ -2393,11 +2791,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"11:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Matthias Dugué"],
-    "themes":["sécurité"]
+    "themes":[
+"sécurité"]
   },
 
   {
@@ -2405,11 +2805,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"11:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Rachel Andrew"],
-    "themes":["CSS"]
+    "themes":[
+"CSS"]
   },
 
   {
@@ -2417,11 +2819,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"10:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Bortzmeyer"],
-    "themes":["Bonnes pratiques","formulaire"]
+    "themes":[
+"Bonnes pratiques","formulaire"]
   },
 
   {
@@ -2429,11 +2833,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Éric Daspet"],
-    "themes":["HTML","JavaScript","mobile","offline"]
+    "themes":[
+"HTML","JavaScript","mobile","offline"]
   },
 
   {
@@ -2441,11 +2847,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Auditorium Blin",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christophe Porteneuve"],
-    "themes":["feedback","live","Outils","prototypage","reload"]
+    "themes":[
+"feedback","live","Outils","prototypage","reload"]
   },
 
   {
@@ -2453,11 +2861,13 @@
     "date":"2015-10-01",
     "year":"2015",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"09:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Adrienne Charmet"],
-    "themes":["législation","militantisme","neutralité du net","Vie privée"]
+    "themes":[
+"législation","militantisme","neutralité du net","Vie privée"]
   },
 
   {
@@ -2465,11 +2875,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Thomas Parisot"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2477,11 +2889,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["David Boureau"],
-    "themes":["développement","méthodologie"]
+    "themes":[
+"développement","méthodologie"]
   },
 
   {
@@ -2489,11 +2903,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"16:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Delphine Malassingne","Rémi Parmentier"],
-    "themes":["développement","métier"]
+    "themes":[
+"développement","métier"]
   },
 
   {
@@ -2501,11 +2917,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Alvin Berthelot"],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -2513,11 +2931,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Rougeron"],
-    "themes":["développement"]
+    "themes":[
+"développement"]
   },
 
   {
@@ -2525,11 +2945,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Benjamin Becquet"],
-    "themes":["cartographie","mobile"]
+    "themes":[
+"cartographie","mobile"]
   },
 
   {
@@ -2537,11 +2959,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"14:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Christophe Porteneuve"],
-    "themes":["développement","JavaScript"]
+    "themes":[
+"développement","JavaScript"]
   },
 
   {
@@ -2549,11 +2973,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Yves Koekkoek"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -2561,11 +2987,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Matthias Dugué","Nicolas Hoizey"],
-    "themes":["RWD"]
+    "themes":[
+"RWD"]
   },
 
   {
@@ -2573,11 +3001,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"11:20",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Julien Wajsberg"],
-    "themes":["développement"]
+    "themes":[
+"développement"]
   },
 
   {
@@ -2585,11 +3015,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Sylvie Duchateau","Victor Brito"],
-    "themes":["accessibilité"]
+    "themes":[
+"accessibilité"]
   },
 
   {
@@ -2597,11 +3029,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Benoit Vrins"],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -2609,11 +3043,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Yannick Croissant"],
-    "themes":["JavaScript"]
+    "themes":[
+"JavaScript"]
   },
 
   {
@@ -2621,11 +3057,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Yacine Rezgui"],
-    "themes":["développement","mobile"]
+    "themes":[
+"développement","mobile"]
   },
 
   {
@@ -2633,11 +3071,13 @@
     "date":"2014-10-18",
     "year":"2014",
     "day":"samedi",
+    "location":"",
     "start":"09:30",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Sophie Schuermans"],
-    "themes":["accessibilité","design","ergonomie"]
+    "themes":[
+"accessibilité","design","ergonomie"]
   },
 
   {
@@ -2645,11 +3085,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Daniel Glazman","Robin Berjon"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2657,11 +3099,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"16:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Alain Vagner"],
-    "themes":["méthodologie"]
+    "themes":[
+"méthodologie"]
   },
 
   {
@@ -2669,11 +3113,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"16:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Vincent Desdoigts"],
-    "themes":["ergonomie"]
+    "themes":[
+"ergonomie"]
   },
 
   {
@@ -2681,11 +3127,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas El Azzi"],
-    "themes":["e-commerce","ergonomie","mobile"]
+    "themes":[
+"e-commerce","ergonomie","mobile"]
   },
 
   {
@@ -2693,11 +3141,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Vanessa Ilmany"],
-    "themes":["méthodologie"]
+    "themes":[
+"méthodologie"]
   },
 
   {
@@ -2705,11 +3155,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"16:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2717,11 +3169,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"15:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jeremie Patonnier"],
-    "themes":["méthodologie","métier"]
+    "themes":[
+"méthodologie","métier"]
   },
 
   {
@@ -2729,11 +3183,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"15:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Clément Hardoüin"],
-    "themes":["design","éthique"]
+    "themes":[
+"design","éthique"]
   },
 
   {
@@ -2741,11 +3197,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"15:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2753,11 +3211,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Philip Tellis"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -2765,11 +3225,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Luc Poupard"],
-    "themes":["société"]
+    "themes":[
+"société"]
   },
 
   {
@@ -2777,11 +3239,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2789,11 +3253,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-Philippe Simonnet"],
-    "themes":["éthique","métier"]
+    "themes":[
+"éthique","métier"]
   },
 
   {
@@ -2801,11 +3267,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Deschamps"],
-    "themes":["métier"]
+    "themes":[
+"métier"]
   },
 
   {
@@ -2813,11 +3281,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Rousset"],
-    "themes":["JavaScript"]
+    "themes":[
+"JavaScript"]
   },
 
   {
@@ -2825,11 +3295,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2837,11 +3309,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"11:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Hubert Sablonnière"],
-    "themes":["développement","ergonomie","JavaScript"]
+    "themes":[
+"développement","ergonomie","JavaScript"]
   },
 
   {
@@ -2849,11 +3323,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"11:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Dennis Lembree"],
-    "themes":["accessibilité"]
+    "themes":[
+"accessibilité"]
   },
 
   {
@@ -2861,11 +3337,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"11:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2873,11 +3351,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"10:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas Steinmetz"],
-    "themes":["backend","performance"]
+    "themes":[
+"backend","performance"]
   },
 
   {
@@ -2885,11 +3365,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Agnès Haasser"],
-    "themes":["développement","méthodologie"]
+    "themes":[
+"développement","méthodologie"]
   },
 
   {
@@ -2897,11 +3379,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jeremie Patonnier"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2909,11 +3393,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2921,11 +3407,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Léonie Marin"],
-    "themes":["culture","ergonomie","UX"]
+    "themes":[
+"culture","ergonomie","UX"]
   },
 
   {
@@ -2933,11 +3421,13 @@
     "date":"2014-10-17",
     "year":"2014",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Julien Wajsberg","Anthony Ricaud"],
-    "themes":["développement","méthodologie"]
+    "themes":[
+"développement","méthodologie"]
   },
 
   {
@@ -2945,11 +3435,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"16:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Billy Gregory"],
-    "themes":["accessibilité","méthodologie","métier"]
+    "themes":[
+"accessibilité","méthodologie","métier"]
   },
 
   {
@@ -2957,11 +3449,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"16:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-Loup Yu"],
-    "themes":["développement","méthodologie","métier","mobile"]
+    "themes":[
+"développement","méthodologie","métier","mobile"]
   },
 
   {
@@ -2969,11 +3463,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"16:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -2981,11 +3477,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"16:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Eric Nouri"],
-    "themes":["e-commerce"]
+    "themes":[
+"e-commerce"]
   },
 
   {
@@ -2993,11 +3491,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"16:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Bastien Jaillot"],
-    "themes":["méthodologie","métier"]
+    "themes":[
+"méthodologie","métier"]
   },
 
   {
@@ -3005,11 +3505,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"16:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3017,11 +3519,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Rémi Parmentier"],
-    "themes":["e-mail","intégration","mobile"]
+    "themes":[
+"e-mail","intégration","mobile"]
   },
 
   {
@@ -3029,11 +3533,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3041,11 +3547,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Vitaly Friedman"],
-    "themes":["RWD"]
+    "themes":[
+"RWD"]
   },
 
   {
@@ -3053,11 +3561,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marko Dugonjić"],
-    "themes":["RWD","typographie"]
+    "themes":[
+"RWD","typographie"]
   },
 
   {
@@ -3065,11 +3575,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Alexandre Jakubiak","Julien Oger"],
-    "themes":["Agile","méthodologie"]
+    "themes":[
+"Agile","méthodologie"]
   },
 
   {
@@ -3077,11 +3589,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3089,11 +3603,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"12:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cyril Balit"],
-    "themes":["intégration","métier"]
+    "themes":[
+"intégration","métier"]
   },
 
   {
@@ -3101,11 +3617,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"12:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Goulven Champenois"],
-    "themes":["métier"]
+    "themes":[
+"métier"]
   },
 
   {
@@ -3113,11 +3631,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"11:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivia Lor"],
-    "themes":["animation","design","UX"]
+    "themes":[
+"animation","design","UX"]
   },
 
   {
@@ -3125,11 +3645,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"11:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Bruce Lawson","Karl Groves"],
-    "themes":["développement","intégration"]
+    "themes":[
+"développement","intégration"]
   },
 
   {
@@ -3137,11 +3659,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"10:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier de Villardi"],
-    "themes":["culture","design"]
+    "themes":[
+"culture","design"]
   },
 
   {
@@ -3149,11 +3673,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Vincent De Oliveira"],
-    "themes":["CSS","design","SVG"]
+    "themes":[
+"CSS","design","SVG"]
   },
 
   {
@@ -3161,11 +3687,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christophe Porteneuve"],
-    "themes":["développement","JavaScript"]
+    "themes":[
+"développement","JavaScript"]
   },
 
   {
@@ -3173,11 +3701,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"09:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Raphaël Yharrassarry"],
-    "themes":["culture","design"]
+    "themes":[
+"culture","design"]
   },
 
   {
@@ -3185,11 +3715,13 @@
     "date":"2014-10-16",
     "year":"2014",
     "day":"jeudi",
+    "location":"",
     "start":"09:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Élie Sloïm","Nicolas Hoffmann"],
-    "themes":["méthodologie","qualité"]
+    "themes":[
+"méthodologie","qualité"]
   },
 
   {
@@ -3197,11 +3729,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Xavier Mouton-Dubosc"],
-    "themes":["pérennité"]
+    "themes":[
+"pérennité"]
   },
 
   {
@@ -3209,11 +3743,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Aurélien Levy"],
-    "themes":["accessibilité"]
+    "themes":[
+"accessibilité"]
   },
 
   {
@@ -3221,11 +3757,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Stéphane Verdier"],
-    "themes":["design","intégration","navigateurs","outils"]
+    "themes":[
+"design","intégration","navigateurs","outils"]
   },
 
   {
@@ -3233,11 +3771,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Rudy Rigot","Jérémie Patonnier"],
-    "themes":["responsive design"]
+    "themes":[
+"responsive design"]
   },
 
   {
@@ -3245,11 +3785,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Arnaud Limbourg"],
-    "themes":["monitoring"]
+    "themes":[
+"monitoring"]
   },
 
   {
@@ -3257,11 +3799,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Maxime Fortelle"],
-    "themes":["maquettage"]
+    "themes":[
+"maquettage"]
   },
 
   {
@@ -3269,11 +3813,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jonathan Rivalan"],
-    "themes":["SVG"]
+    "themes":[
+"SVG"]
   },
 
   {
@@ -3281,11 +3827,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Thomas Bassetto"],
-    "themes":["développement","outils"]
+    "themes":[
+"développement","outils"]
   },
 
   {
@@ -3293,11 +3841,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jean-Pierre Villain"],
-    "themes":["accessibilité","HTML5"]
+    "themes":[
+"accessibilité","HTML5"]
   },
 
   {
@@ -3305,11 +3855,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Julien Champagne","Raphaël Yharrassarry"],
-    "themes":["tests utilisateurs"]
+    "themes":[
+"tests utilisateurs"]
   },
 
   {
@@ -3317,11 +3869,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Catherine Headley","Vincent Dutot"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3329,11 +3883,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Rougeron"],
-    "themes":["JavaScript","tests"]
+    "themes":[
+"JavaScript","tests"]
   },
 
   {
@@ -3341,11 +3897,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Vincent Valentin"],
-    "themes":["typographie"]
+    "themes":[
+"typographie"]
   },
 
   {
@@ -3353,11 +3911,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Goetter","Nicolas Hoffmann"],
-    "themes":["CSS","frameworks"]
+    "themes":[
+"CSS","frameworks"]
   },
 
   {
@@ -3365,11 +3925,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Stephanie Troeth"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -3377,11 +3939,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Michel Buffa"],
-    "themes":["HTML5","JavaScript","web API"]
+    "themes":[
+"HTML5","JavaScript","web API"]
   },
 
   {
@@ -3389,11 +3953,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Estelle Weyl"],
-    "themes":["CSS","HTML5","JavaScript"]
+    "themes":[
+"CSS","HTML5","JavaScript"]
   },
 
   {
@@ -3401,11 +3967,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["David Wursteisen"],
-    "themes":["tests"]
+    "themes":[
+"tests"]
   },
 
   {
@@ -3413,11 +3981,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Bertrand Keller"],
-    "themes":["CSS","frameworks","grilles"]
+    "themes":[
+"CSS","frameworks","grilles"]
   },
 
   {
@@ -3425,11 +3995,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Goulven Champenois"],
-    "themes":["responsive design"]
+    "themes":[
+"responsive design"]
   },
 
   {
@@ -3437,11 +4009,13 @@
     "date":"2013-10-12",
     "year":"2013",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Teddy Marie-Luce"],
-    "themes":["croyances limitatives","métier"]
+    "themes":[
+"croyances limitatives","métier"]
   },
 
   {
@@ -3449,11 +4023,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Robin Berjon","Daniel Glazman"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3461,11 +4037,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"16:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Anne Lacan"],
-    "themes":["décalé"]
+    "themes":[
+"décalé"]
   },
 
   {
@@ -3473,11 +4051,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"16:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Goulven Champenois"],
-    "themes":["accessibilité","web mobile"]
+    "themes":[
+"accessibilité","web mobile"]
   },
 
   {
@@ -3485,11 +4065,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"16:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Frédéric Bon"],
-    "themes":["présence web"]
+    "themes":[
+"présence web"]
   },
 
   {
@@ -3497,11 +4079,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"16:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3509,11 +4093,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"15:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Avi Itzkovitch"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -3521,11 +4107,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"15:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Geoffrey  Dorne "],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -3533,11 +4121,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"15:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3545,11 +4135,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Karl Groves"],
-    "themes":["accessibilité","DOM"]
+    "themes":[
+"accessibilité","DOM"]
   },
 
   {
@@ -3557,11 +4149,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Raphaël Goetter"],
-    "themes":["CSS","HTML","intégration"]
+    "themes":[
+"CSS","HTML","intégration"]
   },
 
   {
@@ -3569,11 +4163,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier Thereaux","Karl Dubost"],
-    "themes":["archivage","pérennité"]
+    "themes":[
+"archivage","pérennité"]
   },
 
   {
@@ -3581,11 +4177,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Yannick Bonnieux"],
-    "themes":["influence"]
+    "themes":[
+"influence"]
   },
 
   {
@@ -3593,11 +4191,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Lou Schwartz"],
-    "themes":["décalé"]
+    "themes":[
+"décalé"]
   },
 
   {
@@ -3605,11 +4205,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Catuhe","David Rousset"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3617,11 +4219,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"12:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3629,11 +4233,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"11:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Daniel Glazman"],
-    "themes":["livres numérique","standards"]
+    "themes":[
+"livres numérique","standards"]
   },
 
   {
@@ -3641,11 +4247,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"11:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Amélie Boucher"],
-    "themes":["UX","web mobile"]
+    "themes":[
+"UX","web mobile"]
   },
 
   {
@@ -3653,11 +4261,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"11:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cyril Balit","Nicolas Massouh","Guillaume Abel"],
-    "themes":["responsive design"]
+    "themes":[
+"responsive design"]
   },
 
   {
@@ -3665,11 +4275,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Xavier Mouton-Dubosc"],
-    "themes":["éthique","neutralité"]
+    "themes":[
+"éthique","neutralité"]
   },
 
   {
@@ -3677,11 +4289,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"10:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Florian Le Goff"],
-    "themes":["analyse des données","ergonomie"]
+    "themes":[
+"analyse des données","ergonomie"]
   },
 
   {
@@ -3689,11 +4303,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"10:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas Hoffmann"],
-    "themes":["intégration"]
+    "themes":[
+"intégration"]
   },
 
   {
@@ -3701,11 +4317,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"10:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sébastien Desbenoit"],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -3713,11 +4331,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"10:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3725,11 +4345,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christopher Schmitt"],
-    "themes":["images","responsive design"]
+    "themes":[
+"images","responsive design"]
   },
 
   {
@@ -3737,11 +4359,13 @@
     "date":"2013-10-11",
     "year":"2013",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier Potonniée"],
-    "themes":["authentification","sécurité"]
+    "themes":[
+"authentification","sécurité"]
   },
 
   {
@@ -3749,11 +4373,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Estelle Weyl"],
-    "themes":["API","HTML5","JavaScript"]
+    "themes":[
+"API","HTML5","JavaScript"]
   },
 
   {
@@ -3761,11 +4387,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Amaëlle Guiton"],
-    "themes":["hacktivisme"]
+    "themes":[
+"hacktivisme"]
   },
 
   {
@@ -3773,11 +4401,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3785,11 +4415,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Delphine Malassingne"],
-    "themes":["qualité"]
+    "themes":[
+"qualité"]
   },
 
   {
@@ -3797,11 +4429,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stephanie Troeth"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -3809,11 +4443,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jérémie Patonnier"],
-    "themes":["web apps"]
+    "themes":[
+"web apps"]
   },
 
   {
@@ -3821,11 +4457,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"15:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Bortzmeyer"],
-    "themes":["HTTPS","sécurité"]
+    "themes":[
+"HTTPS","sécurité"]
   },
 
   {
@@ -3833,11 +4471,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"15:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Raphaël Rougeron"],
-    "themes":["JavaScript"]
+    "themes":[
+"JavaScript"]
   },
 
   {
@@ -3845,11 +4485,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"15:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nicolas Hoizey"],
-    "themes":["CSS","responsive design"]
+    "themes":[
+"CSS","responsive design"]
   },
 
   {
@@ -3857,11 +4499,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-Philippe Encausse"],
-    "themes":["internet des objets"]
+    "themes":[
+"internet des objets"]
   },
 
   {
@@ -3869,11 +4513,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Mariusz Ciesla"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -3881,11 +4527,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-Philippe Cabaroc"],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -3893,11 +4541,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"12:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Johan Ramon"],
-    "themes":["accessibilité"]
+    "themes":[
+"accessibilité"]
   },
 
   {
@@ -3905,11 +4555,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"12:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Julien Oger"],
-    "themes":["décalé","gestion de projet"]
+    "themes":[
+"décalé","gestion de projet"]
   },
 
   {
@@ -3917,11 +4569,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"12:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -3929,11 +4583,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Matthias Dugué"],
-    "themes":["API"]
+    "themes":[
+"API"]
   },
 
   {
@@ -3941,11 +4597,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Florent Maurin"],
-    "themes":["UX","webdocumentaires"]
+    "themes":[
+"UX","webdocumentaires"]
   },
 
   {
@@ -3953,11 +4611,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Steve Faulkner"],
-    "themes":["accessibilité","HTML5"]
+    "themes":[
+"accessibilité","HTML5"]
   },
 
   {
@@ -3965,11 +4625,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"10:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cyril Balit"],
-    "themes":["tests"]
+    "themes":[
+"tests"]
   },
 
   {
@@ -3977,11 +4639,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"10:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Éric Daspet"],
-    "themes":["API"]
+    "themes":[
+"API"]
   },
 
   {
@@ -3989,11 +4653,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"10:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Muriel de Dona"],
-    "themes":["qualité"]
+    "themes":[
+"qualité"]
   },
 
   {
@@ -4001,11 +4667,13 @@
     "date":"2013-10-10",
     "year":"2013",
     "day":"jeudi",
+    "location":"",
     "start":"09:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Julien Dubedout","Florian Boudot","Christophe Andrieu"],
-    "themes":["gestion de projet","métier"]
+    "themes":[
+"gestion de projet","métier"]
   },
 
   {
@@ -4013,11 +4681,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jérémie Patonnier","Corinne Schillinger"],
-    "themes":["CSS3","HTML5","Javascript"]
+    "themes":[
+"CSS3","HTML5","Javascript"]
   },
 
   {
@@ -4025,11 +4695,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Marc Van Rymenant"],
-    "themes":["neurosciences","UX"]
+    "themes":[
+"neurosciences","UX"]
   },
 
   {
@@ -4037,11 +4709,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"15:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Rougeron"],
-    "themes":["HTML5","stockage","web API"]
+    "themes":[
+"HTML5","stockage","web API"]
   },
 
   {
@@ -4049,11 +4723,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Anthony Ricaud"],
-    "themes":["navigateurs"]
+    "themes":[
+"navigateurs"]
   },
 
   {
@@ -4061,11 +4737,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Véronique Gendner"],
-    "themes":["documentation","gestion du temps","méthodologie","veille"]
+    "themes":[
+"documentation","gestion du temps","méthodologie","veille"]
   },
 
   {
@@ -4073,11 +4751,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Romy Duhem Verdière"],
-    "themes":["accessibilité","typographie","webdesign"]
+    "themes":[
+"accessibilité","typographie","webdesign"]
   },
 
   {
@@ -4085,11 +4765,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Bruno Bord","Pablo Pernot"],
-    "themes":["agilité"]
+    "themes":[
+"agilité"]
   },
 
   {
@@ -4097,11 +4779,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Virginie Caplet","Marie Alhomme"],
-    "themes":["prototypage","zoning"]
+    "themes":[
+"prototypage","zoning"]
   },
 
   {
@@ -4109,11 +4793,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Grégoire Hoin","Benoît Vrins"],
-    "themes":["responsive design"]
+    "themes":[
+"responsive design"]
   },
 
   {
@@ -4121,11 +4807,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Frédéric Kayser"],
-    "themes":["compression","images","optimisation","SEO"]
+    "themes":[
+"compression","images","optimisation","SEO"]
   },
 
   {
@@ -4133,11 +4821,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Maxime Fortelle","Goulven Champenois"],
-    "themes":["gestion de projet","méthodes agiles","métier"]
+    "themes":[
+"gestion de projet","méthodes agiles","métier"]
   },
 
   {
@@ -4145,11 +4835,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Thibault Jouannic"],
-    "themes":["freelance","gestion de projet"]
+    "themes":[
+"freelance","gestion de projet"]
   },
 
   {
@@ -4157,11 +4849,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Delphine Malassingne","Élie Sloïm"],
-    "themes":["communautaire","référentiels"]
+    "themes":[
+"communautaire","référentiels"]
   },
 
   {
@@ -4169,11 +4863,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jean-Pierre Vincent"],
-    "themes":["mobile","performance"]
+    "themes":[
+"mobile","performance"]
   },
 
   {
@@ -4181,11 +4877,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Vincent Valentin","Marie Guillaumet"],
-    "themes":["CSS","typographie"]
+    "themes":[
+"CSS","typographie"]
   },
 
   {
@@ -4193,11 +4891,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Thomas Gasc"],
-    "themes":["développement","social"]
+    "themes":[
+"développement","social"]
   },
 
   {
@@ -4205,11 +4905,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jonathan Blanchet"],
-    "themes":["Javascript","RFID","web API"]
+    "themes":[
+"Javascript","RFID","web API"]
   },
 
   {
@@ -4217,11 +4919,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Aurélien Masfrand"],
-    "themes":["CSS","localisation"]
+    "themes":[
+"CSS","localisation"]
   },
 
   {
@@ -4229,11 +4933,13 @@
     "date":"2012-10-20",
     "year":"2012",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Gautier Barrère","Éric Mazzone"],
-    "themes":["agilité","UX"]
+    "themes":[
+"agilité","UX"]
   },
 
   {
@@ -4241,11 +4947,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Robin Berjon","Daniel Glazman"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -4253,11 +4961,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thomas Zilliox"],
-    "themes":["CSS","HTML"]
+    "themes":[
+"CSS","HTML"]
   },
 
   {
@@ -4265,11 +4975,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sébastien Desbenoit","Francis Chouquet"],
-    "themes":["design"]
+    "themes":[
+"design"]
   },
 
   {
@@ -4277,11 +4989,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -4289,11 +5003,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Anthony Ricaud"],
-    "themes":["identité numérique","mobile","privacy"]
+    "themes":[
+"identité numérique","mobile","privacy"]
   },
 
   {
@@ -4301,11 +5017,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Horia Dragomir"],
-    "themes":["mobile"]
+    "themes":[
+"mobile"]
   },
 
   {
@@ -4313,11 +5031,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -4325,11 +5045,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Dominique Sciamma"],
-    "themes":["design","inspiration"]
+    "themes":[
+"design","inspiration"]
   },
 
   {
@@ -4337,11 +5059,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jake Archibald"],
-    "themes":["cache","web API","web apps"]
+    "themes":[
+"cache","web API","web apps"]
   },
 
   {
@@ -4349,11 +5073,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -4361,11 +5087,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Tanguy Lohéac"],
-    "themes":["accessibilité","mobilité"]
+    "themes":[
+"accessibilité","mobilité"]
   },
 
   {
@@ -4373,11 +5101,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Angel","Mathieu Pillard"],
-    "themes":["gestion de projet","méthodologie","métier"]
+    "themes":[
+"gestion de projet","méthodologie","métier"]
   },
 
   {
@@ -4385,11 +5115,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -4397,11 +5129,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"11:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Mikael Randy"],
-    "themes":["livre numérique"]
+    "themes":[
+"livre numérique"]
   },
 
   {
@@ -4409,11 +5143,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"11:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Verdier"],
-    "themes":["3D","animations","WebGL"]
+    "themes":[
+"3D","animations","WebGL"]
   },
 
   {
@@ -4421,11 +5157,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thomas Parisot"],
-    "themes":["métier","qualité"]
+    "themes":[
+"métier","qualité"]
   },
 
   {
@@ -4433,11 +5171,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aarron Walter"],
-    "themes":["design","personas","storytelling"]
+    "themes":[
+"design","personas","storytelling"]
   },
 
   {
@@ -4445,11 +5185,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Élie Sloïm","Pascal Romain"],
-    "themes":["gestion de projet","méthodologie","open data"]
+    "themes":[
+"gestion de projet","méthodologie","open data"]
   },
 
   {
@@ -4457,11 +5199,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"10:40",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier Philippot"],
-    "themes":["green IT","performance"]
+    "themes":[
+"green IT","performance"]
   },
 
   {
@@ -4469,11 +5213,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"10:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thibault Cabanas"],
-    "themes":["jeu"]
+    "themes":[
+"jeu"]
   },
 
   {
@@ -4481,11 +5227,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-François Cauche"],
-    "themes":["mobilité","personas","storytelling"]
+    "themes":[
+"mobilité","personas","storytelling"]
   },
 
   {
@@ -4493,11 +5241,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sébastien Desbenoit"],
-    "themes":["accessibilité","ergonomie","pictogrammes","UX"]
+    "themes":[
+"accessibilité","ergonomie","pictogrammes","UX"]
   },
 
   {
@@ -4505,11 +5255,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cyril Balit"],
-    "themes":["méthodologie","qualité","testing"]
+    "themes":[
+"méthodologie","qualité","testing"]
   },
 
   {
@@ -4517,11 +5269,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christian Bastien"],
-    "themes":["ergonomie","tests utilisateurs","UX"]
+    "themes":[
+"ergonomie","tests utilisateurs","UX"]
   },
 
   {
@@ -4529,11 +5283,13 @@
     "date":"2012-10-19",
     "year":"2012",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Denise Jacobs"],
-    "themes":["design","storytelling"]
+    "themes":[
+"design","storytelling"]
   },
 
   {
@@ -4541,11 +5297,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"17:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thibault Jouannic"],
-    "themes":["gestion de projet","méthodologie","métier"]
+    "themes":[
+"gestion de projet","méthodologie","métier"]
   },
 
   {
@@ -4553,11 +5311,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Lebarque"],
-    "themes":["identité numérique","privacy"]
+    "themes":[
+"identité numérique","privacy"]
   },
 
   {
@@ -4565,11 +5325,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Véronique Marino"],
-    "themes":["personas","storytelling"]
+    "themes":[
+"personas","storytelling"]
   },
 
   {
@@ -4577,11 +5339,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -4589,11 +5353,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Virginie Galindo"],
-    "themes":["sécurité"]
+    "themes":[
+"sécurité"]
   },
 
   {
@@ -4601,11 +5367,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Guillaume Abel"],
-    "themes":["décalé","UX"]
+    "themes":[
+"décalé","UX"]
   },
 
   {
@@ -4613,11 +5381,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -4625,11 +5395,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marko Dugonjić"],
-    "themes":["typographie"]
+    "themes":[
+"typographie"]
   },
 
   {
@@ -4637,11 +5409,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Julien Wajsberg"],
-    "themes":["CSS3","HTML5","Javascript"]
+    "themes":[
+"CSS3","HTML5","Javascript"]
   },
 
   {
@@ -4649,11 +5423,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Langlois"],
-    "themes":["agilité","scrum"]
+    "themes":[
+"agilité","scrum"]
   },
 
   {
@@ -4661,11 +5437,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Frédéric Bardeau"],
-    "themes":["hacktivisme","politique","société"]
+    "themes":[
+"hacktivisme","politique","société"]
   },
 
   {
@@ -4673,11 +5451,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Bruno Michel","Anne-Sophie Tranchet"],
-    "themes":["HTML5","Javascript","mobile"]
+    "themes":[
+"HTML5","Javascript","mobile"]
   },
 
   {
@@ -4685,11 +5465,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Mike Monteiro"],
-    "themes":["design","inspiration","motivation"]
+    "themes":[
+"design","inspiration","motivation"]
   },
 
   {
@@ -4697,11 +5479,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Rudy Rigot"],
-    "themes":["navigateurs"]
+    "themes":[
+"navigateurs"]
   },
 
   {
@@ -4709,11 +5493,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Armony Altinier"],
-    "themes":["accessibilité"]
+    "themes":[
+"accessibilité"]
   },
 
   {
@@ -4721,11 +5507,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Florian Harmel"],
-    "themes":["évangélisation","métier"]
+    "themes":[
+"évangélisation","métier"]
   },
 
   {
@@ -4733,11 +5521,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Vitaly Friedman"],
-    "themes":["responsive design","UX"]
+    "themes":[
+"responsive design","UX"]
   },
 
   {
@@ -4745,11 +5535,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Benjamin Becquet"],
-    "themes":["cartographie","web API","web apps"]
+    "themes":[
+"cartographie","web API","web apps"]
   },
 
   {
@@ -4757,11 +5549,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Régis Kuckaertz"],
-    "themes":["décalé"]
+    "themes":[
+"décalé"]
   },
 
   {
@@ -4769,11 +5563,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Luz Caballero"],
-    "themes":["web API","web apps"]
+    "themes":[
+"web API","web apps"]
   },
 
   {
@@ -4781,11 +5577,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Julien Fusco","Anne-Sophie Tranchet"],
-    "themes":["agilité","gestion de projet","méthodologie"]
+    "themes":[
+"agilité","gestion de projet","méthodologie"]
   },
 
   {
@@ -4793,11 +5591,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Daniel Glazman"],
-    "themes":["CSS"]
+    "themes":[
+"CSS"]
   },
 
   {
@@ -4805,11 +5605,13 @@
     "date":"2012-10-18",
     "year":"2012",
     "day":"jeudi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Grandin Donovan","Claudio Vandi"],
-    "themes":["ergonomie","géolocalisation","UX"]
+    "themes":[
+"ergonomie","géolocalisation","UX"]
   },
 
   {
@@ -4817,11 +5619,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"16:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jonathan Blanchet"],
-    "themes":["Javascript"]
+    "themes":[
+"Javascript"]
   },
 
   {
@@ -4829,11 +5633,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"16:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Pablo Pernot"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -4841,11 +5647,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"16:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Goulven Champenois"],
-    "themes":["Mobile"]
+    "themes":[
+"Mobile"]
   },
 
   {
@@ -4853,11 +5661,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"16:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Denise Jacobs"],
-    "themes":["CSS3"]
+    "themes":[
+"CSS3"]
   },
 
   {
@@ -4865,11 +5675,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"16:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Delphine Malassingne"],
-    "themes":["Métier","Qualité"]
+    "themes":[
+"Métier","Qualité"]
   },
 
   {
@@ -4877,11 +5689,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Romy Duhem-Verdière"],
-    "themes":["Intégration","Métier"]
+    "themes":[
+"Intégration","Métier"]
   },
 
   {
@@ -4889,11 +5703,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Yves Van Goethem"],
-    "themes":["Mobile"]
+    "themes":[
+"Mobile"]
   },
 
   {
@@ -4901,11 +5717,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Florian Boudot"],
-    "themes":["Intégration","Métier"]
+    "themes":[
+"Intégration","Métier"]
   },
 
   {
@@ -4913,11 +5731,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Mathieu Gandin","Thomas Lissajoux"],
-    "themes":["Prototypage"]
+    "themes":[
+"Prototypage"]
   },
 
   {
@@ -4925,11 +5745,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Marc Lipskier"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -4937,11 +5759,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Éric van der Vlist"],
-    "themes":["Archivage"]
+    "themes":[
+"Archivage"]
   },
 
   {
@@ -4949,11 +5773,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Florian Le Goff"],
-    "themes":["Stockage des données"]
+    "themes":[
+"Stockage des données"]
   },
 
   {
@@ -4961,11 +5787,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Stéphane Deschamps"],
-    "themes":["Accessibilité","UX"]
+    "themes":[
+"Accessibilité","UX"]
   },
 
   {
@@ -4973,11 +5801,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Adrien Leygues"],
-    "themes":["Flash","HTML5"]
+    "themes":[
+"Flash","HTML5"]
   },
 
   {
@@ -4985,11 +5815,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Marko Dugonjic"],
-    "themes":["Typographie"]
+    "themes":[
+"Typographie"]
   },
 
   {
@@ -4997,11 +5829,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jérémie Patonnier"],
-    "themes":["SVG"]
+    "themes":[
+"SVG"]
   },
 
   {
@@ -5009,11 +5843,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Julien Dubedout"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5021,11 +5857,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"11:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Olivier Gendrin"],
-    "themes":["CSS","Métier"]
+    "themes":[
+"CSS","Métier"]
   },
 
   {
@@ -5033,11 +5871,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Hugo Hamon"],
-    "themes":["HTTP","Performance"]
+    "themes":[
+"HTTP","Performance"]
   },
 
   {
@@ -5045,11 +5885,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Goetter"],
-    "themes":["CSS3","HTML5"]
+    "themes":[
+"CSS3","HTML5"]
   },
 
   {
@@ -5057,11 +5899,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Monique Brunel"],
-    "themes":["Accessibilité","Ergonomie","UX"]
+    "themes":[
+"Accessibilité","Ergonomie","UX"]
   },
 
   {
@@ -5069,11 +5913,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Aurélien Levy"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5081,11 +5927,13 @@
     "date":"2011-10-15",
     "year":"2011",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Karl Dubost"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5093,11 +5941,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Dominique Hazael-Massieux","David Rousset","Karl Dubost","Paul Rouget","Sam Dutton"],
-    "themes":["HTML5","Mobile","Navigateurs","Technologie"]
+    "themes":[
+"HTML5","Mobile","Navigateurs","Technologie"]
   },
 
   {
@@ -5105,11 +5955,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Benoit Piette"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5117,11 +5969,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Rudy Rigot"],
-    "themes":["KISS","Métier"]
+    "themes":[
+"KISS","Métier"]
   },
 
   {
@@ -5129,11 +5983,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier Thereaux"],
-    "themes":["OpenData"]
+    "themes":[
+"OpenData"]
   },
 
   {
@@ -5141,11 +5997,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Rousset"],
-    "themes":["HTML5"]
+    "themes":[
+"HTML5"]
   },
 
   {
@@ -5153,11 +6011,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Denis Boudreau"],
-    "themes":["Accessibilité","Mobile","SEO"]
+    "themes":[
+"Accessibilité","Mobile","SEO"]
   },
 
   {
@@ -5165,11 +6025,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Larlet"],
-    "themes":["OpenData"]
+    "themes":[
+"OpenData"]
   },
 
   {
@@ -5177,11 +6039,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marco Cedaro"],
-    "themes":["Javascript"]
+    "themes":[
+"Javascript"]
   },
 
   {
@@ -5189,11 +6053,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thierry Stœhr"],
-    "themes":["KISS","Standards"]
+    "themes":[
+"KISS","Standards"]
   },
 
   {
@@ -5201,11 +6067,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christophe Clouzeau"],
-    "themes":["Green IT"]
+    "themes":[
+"Green IT"]
   },
 
   {
@@ -5213,11 +6081,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Peter-Paul Koch"],
-    "themes":["Mobile"]
+    "themes":[
+"Mobile"]
   },
 
   {
@@ -5225,11 +6095,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jérémie Patonnier"],
-    "themes":["Typographie"]
+    "themes":[
+"Typographie"]
   },
 
   {
@@ -5237,11 +6109,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Célinecélines"],
-    "themes":["Métier","UX"]
+    "themes":[
+"Métier","UX"]
   },
 
   {
@@ -5249,11 +6123,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Patrick Chanezon"],
-    "themes":["KISS","Technologie"]
+    "themes":[
+"KISS","Technologie"]
   },
 
   {
@@ -5261,11 +6137,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Thomas Parisot"],
-    "themes":["Intégration","Métier"]
+    "themes":[
+"Intégration","Métier"]
   },
 
   {
@@ -5273,11 +6151,13 @@
     "date":"2011-10-14",
     "year":"2011",
     "day":"vendredi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Denise Jacobs"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5285,11 +6165,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Raphaël Yharrassarry"],
-    "themes":["Ergonomie","UX"]
+    "themes":[
+"Ergonomie","UX"]
   },
 
   {
@@ -5297,11 +6179,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"16:50",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Daniel Glazman","Robin Berjon"],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -5309,11 +6193,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Karl Dubost"],
-    "themes":["Interopérabilité","Navigateurs"]
+    "themes":[
+"Interopérabilité","Navigateurs"]
   },
 
   {
@@ -5321,11 +6207,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Arthur Rigaud"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5333,11 +6221,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Nacéra Benfedda","Amélie Boucher"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -5345,11 +6235,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"15:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Anthony Ricaud"],
-    "themes":["Navigateurs"]
+    "themes":[
+"Navigateurs"]
   },
 
   {
@@ -5357,11 +6249,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Robert Nyman"],
-    "themes":["HTML5"]
+    "themes":[
+"HTML5"]
   },
 
   {
@@ -5369,11 +6263,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"14:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Marc Van Rymenant"],
-    "themes":["Design"]
+    "themes":[
+"Design"]
   },
 
   {
@@ -5381,11 +6277,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Sophie Drouvroy "],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5393,11 +6291,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"12:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Mounir Lamouri"],
-    "themes":["HTML5"]
+    "themes":[
+"HTML5"]
   },
 
   {
@@ -5405,11 +6305,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Andreas Bovens"],
-    "themes":["Mobile"]
+    "themes":[
+"Mobile"]
   },
 
   {
@@ -5417,11 +6319,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"11:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Maurice Svay"],
-    "themes":["Ergonomie","UX"]
+    "themes":[
+"Ergonomie","UX"]
   },
 
   {
@@ -5429,11 +6333,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Rault"],
-    "themes":["Design"]
+    "themes":[
+"Design"]
   },
 
   {
@@ -5441,11 +6347,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Enten","Julien Coulon"],
-    "themes":["Performance"]
+    "themes":[
+"Performance"]
   },
 
   {
@@ -5453,11 +6361,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Élie Sloïm","Laurent Denis"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5465,11 +6375,13 @@
     "date":"2011-10-13",
     "year":"2011",
     "day":"jeudi",
+    "location":"",
     "start":"09:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stéphane Deschamps"],
-    "themes":["KISS","Métier"]
+    "themes":[
+"KISS","Métier"]
   },
 
   {
@@ -5477,11 +6389,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"15:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jean-Pierre Vincent"],
-    "themes":["Performance","Technologie"]
+    "themes":[
+"Performance","Technologie"]
   },
 
   {
@@ -5489,11 +6403,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"15:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["François Petitit","Mickaël Morier"],
-    "themes":["HTML5"]
+    "themes":[
+"HTML5"]
   },
 
   {
@@ -5501,11 +6417,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"15:40",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Olivier de Segonzac"],
-    "themes":["Ergonomie"]
+    "themes":[
+"Ergonomie"]
   },
 
   {
@@ -5513,11 +6431,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Denis Boudreau"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5525,11 +6445,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Christophe Porteneuve "],
-    "themes":["JavaScript","Technologie"]
+    "themes":[
+"JavaScript","Technologie"]
   },
 
   {
@@ -5537,11 +6459,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Loïc Mathaud","Corinne Schillinger"],
-    "themes":["Métier","Qualité"]
+    "themes":[
+"Métier","Qualité"]
   },
 
   {
@@ -5549,11 +6473,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Monique Brunel"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5561,11 +6487,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Sébastien Billard"],
-    "themes":["Ergonomie","SEO"]
+    "themes":[
+"Ergonomie","SEO"]
   },
 
   {
@@ -5573,11 +6501,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"14:00",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Vincent Mayol"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -5585,11 +6515,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"10:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Laurent Morisseau"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5597,11 +6529,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"10:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Eric Mazzone","Marie Baudy","Gautier Barrère"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -5609,11 +6543,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"10:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Delphine Malassingne"],
-    "themes":["Qualité"]
+    "themes":[
+"Qualité"]
   },
 
   {
@@ -5621,11 +6557,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"10:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Fabien Gandon"],
-    "themes":["Web sémantique"]
+    "themes":[
+"Web sémantique"]
   },
 
   {
@@ -5633,11 +6571,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"10:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Julien Dubedout"],
-    "themes":["Design","Qualité"]
+    "themes":[
+"Design","Qualité"]
   },
 
   {
@@ -5645,11 +6585,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"10:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Raphaël Goetter","Pascale Lambert-Charreteur"],
-    "themes":["CSS","HTML5"]
+    "themes":[
+"CSS","HTML5"]
   },
 
   {
@@ -5657,11 +6599,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"10:50",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Thomas Parisot"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5669,11 +6613,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Christophe Porteneuve "],
-    "themes":["Technologie"]
+    "themes":[
+"Technologie"]
   },
 
   {
@@ -5681,11 +6627,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jonathan Blanchet"],
-    "themes":["Technologie","Websockets"]
+    "themes":[
+"Technologie","Websockets"]
   },
 
   {
@@ -5693,11 +6641,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jacques Pyrat"],
-    "themes":["Contenu"]
+    "themes":[
+"Contenu"]
   },
 
   {
@@ -5705,11 +6655,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Jérémie Patonnier"],
-    "themes":["CSS"]
+    "themes":[
+"CSS"]
   },
 
   {
@@ -5717,11 +6669,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Yannick Croissant"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5729,11 +6683,13 @@
     "date":"2010-10-16",
     "year":"2010",
     "day":"samedi",
+    "location":"",
     "start":"09:10",
-    "duration":"90",
+    "duration":"1 <abbr title=\"heure\">h</abbr> 30",
     "type":"Ateliers",
     "speakers":["Laurent Morisseau"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5741,11 +6697,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"16:25",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":[],
-    "themes":[]
+    "themes":[
+]
   },
 
   {
@@ -5753,11 +6711,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"15:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Pascal Aubin"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5765,11 +6725,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"15:30",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Stephanie Troeth"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -5777,11 +6739,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"14:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Éric Daspet"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5789,11 +6753,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"14:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Paul Rouget"],
-    "themes":["HTML5","JavaScript"]
+    "themes":[
+"HTML5","JavaScript"]
   },
 
   {
@@ -5801,11 +6767,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Vincent Aniort","David Molina"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5813,11 +6781,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"13:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Denis Boudreau"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5825,11 +6795,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"13:45",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["James Taylor","Christophe Jolif"],
-    "themes":["Accessibilité","Ergonomie"]
+    "themes":[
+"Accessibilité","Ergonomie"]
   },
 
   {
@@ -5837,11 +6809,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"12:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Ryan O'Connell"],
-    "themes":["Ergonomie"]
+    "themes":[
+"Ergonomie"]
   },
 
   {
@@ -5849,11 +6823,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"Salle Mœbius",
     "start":"12:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Virginie Caplet"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5861,11 +6837,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"11:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Dave Shea"],
-    "themes":["Design"]
+    "themes":[
+"Design"]
   },
 
   {
@@ -5873,11 +6851,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"11:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Cédric Morin"],
-    "themes":["Design"]
+    "themes":[
+"Design"]
   },
 
   {
@@ -5885,11 +6865,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"09:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Tanguy Loheac"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5897,11 +6879,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"09:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Anne-Sophie Fradier"],
-    "themes":["Typographie"]
+    "themes":[
+"Typographie"]
   },
 
   {
@@ -5909,11 +6893,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"08:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["David Rault"],
-    "themes":["Typographie"]
+    "themes":[
+"Typographie"]
   },
 
   {
@@ -5921,11 +6907,13 @@
     "date":"2010-10-15",
     "year":"2010",
     "day":"vendredi",
+    "location":"",
     "start":"08:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-Pierre Vincent"],
-    "themes":["HTML5"]
+    "themes":[
+"HTML5"]
   },
 
   {
@@ -5933,11 +6921,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Francis Chouquet"],
-    "themes":["Design"]
+    "themes":[
+"Design"]
   },
 
   {
@@ -5945,11 +6935,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"17:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Olivier Thereaux"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -5957,11 +6949,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"16:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jake Archibald"],
-    "themes":["JavaScript"]
+    "themes":[
+"JavaScript"]
   },
 
   {
@@ -5969,11 +6963,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"16:05",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Matthieu Mingasson"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -5981,11 +6977,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"14:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Vincent François","Denis Boudreau"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -5993,11 +6991,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"14:55",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Robin Berjon","Dominique Hazael-Massieux","François Daoust"],
-    "themes":["HTML5"]
+    "themes":[
+"HTML5"]
   },
 
   {
@@ -6005,11 +7005,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"14:35",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christophe Cotin Valois","Cédric Magnin"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   },
 
   {
@@ -6017,11 +7019,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"14:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Romy Duhem Verdière"],
-    "themes":["CSS"]
+    "themes":[
+"CSS"]
   },
 
   {
@@ -6029,11 +7033,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Jean-Marc Hardy"],
-    "themes":["Contenu"]
+    "themes":[
+"Contenu"]
   },
 
   {
@@ -6041,11 +7047,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"Salle Mœbius",
     "start":"14:00",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Laurent Denis","Aurélien Levy"],
-    "themes":["Accessibilité"]
+    "themes":[
+"Accessibilité"]
   },
 
   {
@@ -6053,11 +7061,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"11:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Aurélie Valtat"],
-    "themes":["Ergonomie","UX"]
+    "themes":[
+"Ergonomie","UX"]
   },
 
   {
@@ -6065,11 +7075,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"11:20",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Christian Heilmann"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -6077,11 +7089,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Amélie Boucher"],
-    "themes":["Ergonomie","UX"]
+    "themes":[
+"Ergonomie","UX"]
   },
 
   {
@@ -6089,11 +7103,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"10:10",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Quentin Adam"],
-    "themes":["JavaScript"]
+    "themes":[
+"JavaScript"]
   },
 
   {
@@ -6101,11 +7117,13 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"09:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Fabien Basmaison"],
-    "themes":["Métier"]
+    "themes":[
+"Métier"]
   },
 
   {
@@ -6113,10 +7131,12 @@
     "date":"2010-10-14",
     "year":"2010",
     "day":"jeudi",
+    "location":"",
     "start":"09:15",
-    "duration":"50",
+    "duration":"50 <abbr title=\"minutes\">mn</abbr>",
     "type":"Conférences",
     "speakers":["Matt May"],
-    "themes":["UX"]
+    "themes":[
+"UX"]
   }
 ]

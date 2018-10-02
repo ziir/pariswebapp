@@ -23,6 +23,7 @@ type SourceAgenda = Array<{|
   +date: string,
   +year: string,
   +day: Day,
+  +location: string,
   +start: string,
   +duration: string,
   +type: 'Conférences' | 'Ateliers',
@@ -38,14 +39,27 @@ function timeAdd(startTime: string, duration: number): string {
   return `${endHour}:${endMinutes < 10 ? '0' + endMinutes : endMinutes}`;
 }
 
+function parseSourceDuration(source: string): number {
+  const cleanedSource = source
+    .replace(/<.*?>/g, '')
+    .replace(/ /g, '')
+    .replace(/mn$/, '');
+
+  const [h, m] = cleanedSource.split('h');
+  return parseInt(h) * 60 + parseInt(m);
+}
+
 function processAgenda(sourceAgenda: SourceAgenda): Agenda {
-  return sourceAgenda.map(sourceEntry => ({
-    title: sourceEntry.title,
-    speakers: sourceEntry.speakers,
-    location: 'unknown',
-    day: sourceEntry.day,
-    year: parseInt(sourceEntry.year),
-    start: sourceEntry.start,
-    end: timeAdd(sourceEntry.start, parseInt(sourceEntry.duration)),
-  }));
+  return sourceAgenda.map(sourceEntry => {
+    const duration = parseSourceDuration(sourceEntry.duration);
+    return {
+      title: sourceEntry.title,
+      speakers: sourceEntry.speakers,
+      location: sourceEntry.location,
+      day: sourceEntry.day,
+      year: parseInt(sourceEntry.year),
+      start: sourceEntry.start,
+      end: timeAdd(sourceEntry.start, duration),
+    };
+  });
 }
