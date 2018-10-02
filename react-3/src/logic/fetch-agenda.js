@@ -63,7 +63,14 @@ function parseSourceDuration(source: string): number {
     .replace(/mn$/, '');
 
   const [h, m] = cleanedSource.split('h');
-  return parseInt(h) * 60 + parseInt(m);
+  if (m === undefined) {
+    // Case where we have only 1 value in minutes
+    return parseInt(h);
+  } else {
+    // Case where we have 2 values, the first is how many hours, the second is
+    // how many minutes.
+    return parseInt(h) * 60 + parseInt(m);
+  }
 }
 
 function processAgenda(sourceAgenda: SourceAgenda): Agenda {
