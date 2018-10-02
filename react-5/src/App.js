@@ -38,6 +38,7 @@ class App extends Component<{||}, State> {
       const { agenda, lastModified } = agendaResult;
       this.setState({ agenda, lastModified });
     }
+
     this._timeoutId = setTimeout(() => this.fetchData(), FETCH_INTERVAL_MS);
   }
 

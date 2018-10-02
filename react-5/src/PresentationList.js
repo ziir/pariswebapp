@@ -84,7 +84,8 @@ class List extends Component<Props, State> {
   }
 
   handleFilterSearchChange(str: string) {
-    this.setState({ filterString: str.toLowerCase() });
+    const filterString = str.trim().toLowerCase();
+    this.setState({ filterString });
   }
 
   handleSelectedYearChange(year: number | null) {
@@ -144,11 +145,7 @@ class List extends Component<Props, State> {
             onChange={this.handleSelectedTalkCheckbox.bind(this)}
           />
         </label>
-        <InputField
-          label="Filtrer"
-          onChange={this.handleFilterSearchChange}
-          value={filterString}
-        />
+        <InputField label="Filtrer" onChange={this.handleFilterSearchChange} />
         <section>
           {filteredData.length
             ? filteredData.map(({ entry, idx }) => (
