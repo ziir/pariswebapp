@@ -40,6 +40,8 @@ class List extends Component<Props, State> {
 
   handleSelectedYearChange = this.handleSelectedYearChange.bind(this);
   handleSelectedDayChange = this.handleSelectedDayChange.bind(this);
+  handleFilterSearchChange = this.handleFilterSearchChange.bind(this);
+  attendingChangeCallback = this.attendingChangeCallback.bind(this);
 
   availableDays: Array<Day | null> = [null, 'jeudi', 'vendredi', 'samedi'];
 
@@ -144,17 +146,18 @@ class List extends Component<Props, State> {
         </label>
         <InputField
           label="Filtrer"
-          onChange={this.handleFilterSearchChange.bind(this)}
+          onChange={this.handleFilterSearchChange}
           value={filterString}
         />
         <section>
           {filteredData.length
             ? filteredData.map(({ entry, idx }) => (
                 <ListItem
+                  key={idx}
                   entry={entry}
                   index={idx}
                   attendingInitialValue={this.attending[idx]}
-                  changeCallback={this.attendingChangeCallback.bind(this, idx)}
+                  changeCallback={this.attendingChangeCallback}
                 />
               ))
             : "Aucune présentation n'a été sélectionnée par les multiples filtres, essayez de les modifier."}
