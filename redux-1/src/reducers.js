@@ -1,8 +1,25 @@
 // @flow
 
-import type { State } from './types/state';
+import { combineReducers } from 'redux';
+import type { State, AgendaState } from './types/state';
 import type { Action } from './types/actions';
 
-export default function reducer(state: State = {}, action: Action): State {
-  return state;
+type Reducer<State> = (State | void, Action) => State;
+
+function agenda(
+  state: AgendaState | null = null,
+  action: Action
+): AgendaState | null {
+  switch (action.type) {
+    case 'AGENDA_HAS_LOADED':
+      return {
+        agenda: action.agenda,
+        lastModified: action.lastModified,
+      };
+    default:
+      return state;
+  }
 }
+
+const rootReducer: Reducer<State> = combineReducers({ agenda });
+export default rootReducer;

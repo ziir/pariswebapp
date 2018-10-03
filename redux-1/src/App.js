@@ -1,9 +1,12 @@
 // @flow
 
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 import PresentationList from './PresentationList';
 import fetchAgenda from './logic/fetch-agenda';
+import { agendaHasLoaded } from './actions';
+import { getAgenda, getAgendaLastModified } from './selectors';
 
 import type { Agenda } from './types/agenda';
 
@@ -12,14 +15,14 @@ import './App.css';
 
 const FETCH_INTERVAL_MS = 5000;
 
-type State = {|
-  agenda: Agenda | null,
-  lastModified: string | null,
+type Props = {|
+  +agendaHasLoaded: typeof agendaHasLoaded,
+  +agenda: Agenda | null,
+  +agendaLastModified: string | null,
 |};
 
-class App extends Component<{||}, State> {
+class App extends Component<Props> {
   _timeoutId: TimeoutID | null = null;
-  state = { agenda: null, lastModified: null };
 
   componentDidMount() {
     this.fetchData();
@@ -33,16 +36,17 @@ class App extends Component<{||}, State> {
   }
 
   async fetchData() {
-    const agendaResult = await fetchAgenda(this.state.lastModified);
+    const { agendaLastModified, agendaHasLoaded } = this.props;
+    const agendaResult = await fetchAgenda(agendaLastModified);
     if (agendaResult !== null) {
       const { agenda, lastModified } = agendaResult;
-      this.setState({ agenda, lastModified });
+      agendaHasLoaded(agenda, lastModified);
     }
     this._timeoutId = setTimeout(() => this.fetchData(), FETCH_INTERVAL_MS);
   }
 
   render() {
-    const { agenda, lastModified } = this.state;
+    const { agenda, agendaLastModified } = this.props;
 
     return (
       <div className="App">
@@ -56,11 +60,17 @@ class App extends Component<{||}, State> {
           // content changes. This way, `attending` initial values
           // (default or coming from the ) are computed only once in
           // PresentationList's constructor.
-          <PresentationList key={lastModified} agenda={agenda} />
+          <PresentationList key={agendaLastModified} agenda={agenda} />
         ) : null}
       </div>
     );
   }
 }
 
-export default App;
+export default connect(
+  state => ({
+    agenda: getAgenda(state),
+    agendaLastModified: getAgendaLastModified(state),
+  }),
+  { agendaHasLoaded }
+)(App);

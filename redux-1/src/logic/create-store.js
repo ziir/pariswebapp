@@ -23,6 +23,8 @@ export default function createAppStore(): Store {
     );
   }
 
+  console.log(reducers);
+
   const store = createStore(
     reducers,
     composeWithDevTools(applyMiddleware(...middlewares))
