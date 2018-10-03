@@ -9,7 +9,8 @@
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.5",
-    "redux": "^4.0.0"
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6"
   },
   "homepage": "https://parisweb.app/react-4",
   "scripts": {
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "flow-bin": "^0.81.0",
-    "flow-typed": "^2.5.1"
+    "flow-typed": "^2.5.1",
+    "redux-devtools-extension": "^2.13.5"
   }
 }
