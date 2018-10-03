@@ -13,7 +13,6 @@ type Props = {|
 |};
 
 type State = {|
-  attending: Array<Attending>,
   filterString: string,
   selectedYear: number,
   selectedDay: Day | null,
@@ -46,9 +45,6 @@ class List extends Component<Props, State> {
   availableDays: Array<Day | null> = [null, 'jeudi', 'vendredi', 'samedi'];
 
   state = {
-    // This initial value is needed by Flow, but it will be rewritten in
-    // `getDerivedStateFromProps` at the first render.
-    attending: [],
     filterString: '',
     selectedYear: 2018,
     selectedDay: null,
