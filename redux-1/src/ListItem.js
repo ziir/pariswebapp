@@ -1,7 +1,7 @@
 // @flow
 
 import React from 'react';
-import type { ConferenceData } from './types';
+import type { ConferenceData } from './types/agenda';
 
 export type Attending = boolean | null;
 

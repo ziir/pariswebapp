@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import PresentationList from './PresentationList';
 import fetchAgenda from './logic/fetch-agenda';
 
-import type { Agenda } from './types';
+import type { Agenda } from './types/agenda';
 
 import logo from './logo.svg';
 import './App.css';

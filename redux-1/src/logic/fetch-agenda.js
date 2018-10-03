@@ -1,6 +1,6 @@
 // @flow
 
-import type { Agenda, Day } from '../types';
+import type { Agenda, Day } from '../types/agenda';
 
 const AGENDA_URL = 'https://www.paris-web.fr/flux-SJW.json';
 

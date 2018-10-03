@@ -6,7 +6,7 @@ import ListItem, { type Attending } from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
 
-import type { Agenda, ConferenceData, Day } from './types';
+import type { Agenda, ConferenceData, Day } from './types/agenda';
 
 function compareByDateTime(entryA: ConferenceData, entryB: ConferenceData) {
   if (entryA.date !== entryB.date) {
