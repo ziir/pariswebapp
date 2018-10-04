@@ -43,12 +43,12 @@ export function getFilteredData(state: State): AgendaWithIndex | null {
 
   const attendingInformation = getAttendingInformation(state);
 
-  const {
-    filterString,
-    selectedYear,
-    selectedDay,
-    displaySelectedTalks,
-  } = getViewOptions(state);
+  const { selectedYear, selectedDay, displaySelectedTalks } = getViewOptions(
+    state
+  );
+  const filterString = getViewOptions(state)
+    .filterString.trim()
+    .toLowerCase();
 
   return agenda
     .map((entry, idx) => ({ entry, idx }))
