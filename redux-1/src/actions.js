@@ -2,7 +2,7 @@
 
 import type { Action } from './types/actions';
 import type { Agenda, Day } from './types/agenda';
-import type { SortCriteria } from './types/state';
+import type { Attending, SortCriteria } from './types/state';
 
 export function agendaHasLoaded(
   agenda: Agenda,
@@ -35,4 +35,11 @@ export function changeDisplaySelectedTalks(
   displaySelectedTalks: boolean
 ): Action {
   return { type: 'CHANGE_DISPLAY_SELECTED_TALKS', displaySelectedTalks };
+}
+
+export function changeAttendingInformationForIndex(
+  index: number,
+  attending: Attending
+): Action {
+  return { type: 'CHANGE_ATTENDING_INFORMATION', index, attending };
 }

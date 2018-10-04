@@ -2,9 +2,11 @@
 
 import type { Day, Agenda } from './agenda';
 
+export type Attending = boolean | null; // null means "maybe"
 export type State = {|
   +agenda: AgendaState | null,
   +viewOptions: ViewOptionsState,
+  +attendingInformation: Attending[],
 |};
 
 export type AgendaState = {|

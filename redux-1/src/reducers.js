@@ -4,6 +4,7 @@ import { combineReducers } from 'redux';
 import type {
   State,
   AgendaState,
+  Attending,
   ViewOptionsState,
   SortCriteria,
 } from './types/state';
@@ -75,6 +76,23 @@ function displaySelectedTalks(state: boolean = false, action: Action): boolean {
   }
 }
 
+function attendingInformation(
+  state: Attending[] = [],
+  action: Action
+): Attending[] {
+  switch (action.type) {
+    case 'AGENDA_HAS_LOADED':
+      return action.agenda.map(() => false);
+    case 'CHANGE_ATTENDING_INFORMATION': {
+      const newValue = state.slice();
+      newValue[action.index] = action.attending;
+      return newValue;
+    }
+    default:
+      return state;
+  }
+}
+
 const viewOptionsReducer: Reducer<ViewOptionsState> = combineReducers({
   filterString,
   selectedYear,
@@ -86,5 +104,6 @@ const viewOptionsReducer: Reducer<ViewOptionsState> = combineReducers({
 const rootReducer: Reducer<State> = combineReducers({
   agenda,
   viewOptions: viewOptionsReducer,
+  attendingInformation,
 });
 export default rootReducer;

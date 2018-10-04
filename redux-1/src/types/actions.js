@@ -1,7 +1,7 @@
 // @flow
 
 import type { Agenda, Day } from './agenda';
-import type { SortCriteria } from './state';
+import type { Attending, SortCriteria } from './state';
 
 export type Action =
   | {|
@@ -28,4 +28,9 @@ export type Action =
   | {|
       +type: 'CHANGE_DISPLAY_SELECTED_TALKS',
       +displaySelectedTalks: boolean,
+    |}
+  | {|
+      +type: 'CHANGE_ATTENDING_INFORMATION',
+      +index: number,
+      +attending: Attending,
     |};

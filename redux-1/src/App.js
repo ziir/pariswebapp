@@ -8,8 +8,6 @@ import fetchAgenda from './logic/fetch-agenda';
 import { agendaHasLoaded } from './actions';
 import { getAgenda, getAgendaLastModified } from './selectors';
 
-import type { Agenda } from './types/agenda';
-
 import logo from './logo.svg';
 import './App.css';
 
@@ -46,7 +44,7 @@ class App extends Component<Props> {
   }
 
   render() {
-    const { hasAgenda, agendaLastModified } = this.props;
+    const { hasAgenda } = this.props;
 
     return (
       <div className="App">

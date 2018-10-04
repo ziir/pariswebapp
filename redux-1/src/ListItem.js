@@ -1,25 +1,26 @@
 // @flow
 
 import React from 'react';
-import type { ConferenceData } from './types/agenda';
+import { connect } from 'react-redux';
 
-export type Attending = boolean | null;
+import { getAttendingInformation, getAgenda } from './selectors';
+import { changeAttendingInformationForIndex } from './actions';
+import { ensureExists } from './utils/flow';
+
+import type { ConferenceData } from './types/agenda';
+import type { Attending } from './types/state';
 
 type Props = {|
   +index: number,
   +entry: ConferenceData,
-  +attendingInitialValue: Attending,
-  +changeCallback: (index: number, attending: Attending) => any,
+  +attending: Attending,
+  +changeAttendingInformationForIndex: typeof changeAttendingInformationForIndex,
 |};
 
-type State = {
-  attending: Attending,
-};
-
-export default class ListItem extends React.PureComponent<Props, State> {
-  state = { attending: this.props.attendingInitialValue };
-
+class ListItem extends React.PureComponent<Props> {
   handleChange = (evt: SyntheticInputEvent<HTMLInputElement>) => {
+    const { changeAttendingInformationForIndex, index } = this.props;
+
     let attending;
 
     switch (evt.currentTarget.value) {
@@ -34,18 +35,17 @@ export default class ListItem extends React.PureComponent<Props, State> {
         attending = null;
     }
 
-    this.setState({ attending });
-    this.props.changeCallback(this.props.index, attending);
+    changeAttendingInformationForIndex(index, attending);
   };
 
   render() {
-    const { props, state } = this;
+    const { entry, index, attending } = this.props;
 
     return (
       <div>
-        <h3>{props.entry.title}</h3>
+        <h3>{entry.title}</h3>
         <ul>
-          {props.entry.speakers.map(speaker => (
+          {entry.speakers.map(speaker => (
             <li>{speaker}</li>
           ))}
         </ul>
@@ -53,19 +53,19 @@ export default class ListItem extends React.PureComponent<Props, State> {
           This presentation will take place:
           <br />- on{' '}
           <em>
-            {props.entry.day} {props.entry.start} - {props.entry.end}
+            {entry.day} {entry.start} - {entry.end}
           </em>
-          <br />- in room <strong>{props.entry.location}</strong>
+          <br />- in room <strong>{entry.location}</strong>
         </p>
         <fieldset>
           <legend>Attend?</legend>
           <label>
             <input
               type="radio"
-              id={`${props.index}-no`}
-              name={props.index}
+              id={`${index}-no`}
+              name={index}
               value="no"
-              checked={state.attending === false}
+              checked={attending === false}
               onChange={this.handleChange}
             />
             No
@@ -73,10 +73,10 @@ export default class ListItem extends React.PureComponent<Props, State> {
           <label>
             <input
               type="radio"
-              id={`${props.index}-maybe`}
-              name={props.index}
+              id={`${index}-maybe`}
+              name={index}
               value="maybe"
-              checked={state.attending === null}
+              checked={attending === null}
               onChange={this.handleChange}
             />
             Maybe
@@ -84,10 +84,10 @@ export default class ListItem extends React.PureComponent<Props, State> {
           <label>
             <input
               type="radio"
-              id={`${props.index}-yes`}
-              name={props.index}
+              id={`${index}-yes`}
+              name={index}
               value="yes"
-              checked={state.attending === true}
+              checked={attending === true}
               onChange={this.handleChange}
             />
             Yes
@@ -97,3 +97,11 @@ export default class ListItem extends React.PureComponent<Props, State> {
     );
   }
 }
+
+export default connect(
+  (state, props) => ({
+    attending: getAttendingInformation(state)[props.index],
+    entry: ensureExists(getAgenda(state))[props.index],
+  }),
+  { changeAttendingInformationForIndex }
+)(ListItem);

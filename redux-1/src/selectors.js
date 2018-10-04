@@ -1,6 +1,16 @@
 // @flow
+import {
+  compareByDateTime,
+  compareBySpeaker,
+  compareByTitle,
+} from './logic/comparison-functions';
 
-import type { State, ViewOptionsState, SortCriteria } from './types/state';
+import type {
+  Attending,
+  State,
+  ViewOptionsState,
+  SortCriteria,
+} from './types/state';
 import type { Agenda, AgendaWithIndex, ConferenceData } from './types/agenda';
 
 export function getAgenda(state: State): Agenda | null {
@@ -21,11 +31,17 @@ export function getViewOptions(state: State): ViewOptionsState {
   return state.viewOptions;
 }
 
+export function getAttendingInformation(state: State): Attending[] {
+  return state.attendingInformation;
+}
+
 export function getFilteredData(state: State): AgendaWithIndex | null {
   const agenda = getAgenda(state);
   if (!agenda) {
     return null;
   }
+
+  const attendingInformation = getAttendingInformation(state);
 
   const {
     filterString,
@@ -40,49 +56,12 @@ export function getFilteredData(state: State): AgendaWithIndex | null {
       ({ entry, idx }) =>
         entry.year === selectedYear &&
         (selectedDay === null || entry.day === selectedDay) &&
-        (displaySelectedTalks === false || this.attending[idx]) &&
+        (displaySelectedTalks === false || attendingInformation[idx]) &&
         (entry.title.toLowerCase().includes(filterString) ||
           entry.speakers.some(speaker =>
             speaker.toLowerCase().includes(filterString)
           ))
     );
-}
-
-function compareByDateTime(entryA: ConferenceData, entryB: ConferenceData) {
-  if (entryA.date !== entryB.date) {
-    if (entryA.date < entryB.date) {
-      return -1;
-    } else {
-      return 1;
-    }
-  }
-
-  if (entryA.start !== entryB.start) {
-    if (entryA.start < entryB.start) {
-      return -1;
-    } else {
-      return 1;
-    }
-  }
-
-  if (entryA.location !== entryB.location) {
-    if (entryA.location < entryB.location) {
-      return -1;
-    } else {
-      return 1;
-    }
-  }
-
-  return 0;
-}
-
-function compareBySpeaker(entryA: ConferenceData, entryB: ConferenceData) {
-  // Using the first speaker arbitrary
-  return entryA.speakers[0].localeCompare(entryB.speakers[0]);
-}
-
-function compareByTitle(entryA: ConferenceData, entryB: ConferenceData) {
-  return entryA.title.localeCompare(entryB.title);
 }
 
 const sortingFunctions: {

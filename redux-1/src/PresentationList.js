@@ -2,7 +2,7 @@
 
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
-import ListItem, { type Attending } from './ListItem';
+import ListItem from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
 import {
@@ -54,34 +54,11 @@ const SortValueChooser = connect(state => ({
 }))(ValueChooser);
 
 class List extends Component<Props> {
-  attending = (() => {
-    const { props } = this;
-    let storedAttending = [];
-
-    try {
-      storedAttending =
-        JSON.parse(window.localStorage.getItem('attending')) || [];
-    } catch (err) {
-      console.error('Error while parsing stored `attending` data.');
-    }
-
-    return props.agenda.map(
-      (current, idx) =>
-        storedAttending[idx] !== undefined ? storedAttending[idx] : false
-    );
-  })();
-
   handleSelectedYearChange = this.handleSelectedYearChange.bind(this);
   handleFilterSearchChange = this.handleFilterSearchChange.bind(this);
   handleSortCriteriaChange = this.handleSortCriteriaChange.bind(this);
-  attendingChangeCallback = this.attendingChangeCallback.bind(this);
 
   availableDays: Array<Day | null> = [null, 'jeudi', 'vendredi', 'samedi'];
-
-  attendingChangeCallback(index: number, attending: Attending) {
-    this.attending[index] = attending;
-    window.localStorage.setItem('attending', JSON.stringify(this.attending));
-  }
 
   handleFilterSearchChange(str: string) {
     this.props.changeFilterString(str);
@@ -133,15 +110,7 @@ class List extends Component<Props> {
         <SortValueChooser onChange={this.handleSortCriteriaChange} />
         <section>
           {agenda.length
-            ? agenda.map(({ entry, idx }) => (
-                <ListItem
-                  key={idx}
-                  entry={entry}
-                  index={idx}
-                  attendingInitialValue={this.attending[idx]}
-                  changeCallback={this.attendingChangeCallback}
-                />
-              ))
+            ? agenda.map(({ idx }) => <ListItem key={idx} index={idx} />)
             : "Aucune présentation n'a été sélectionnée par les multiples filtres, essayez de les modifier."}
         </section>
       </Fragment>
