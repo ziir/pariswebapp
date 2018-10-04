@@ -41,5 +41,11 @@ export function changeAttendingInformationForIndex(
   index: number,
   attending: Attending
 ): Action {
-  return { type: 'CHANGE_ATTENDING_INFORMATION', index, attending };
+  return { type: 'CHANGE_ATTENDING_INFORMATION_FOR_INDEX', index, attending };
+}
+
+export function changeAttendingInformation(
+  attendingInformation: Attending[]
+): Action {
+  return { type: 'CHANGE_ATTENDING_INFORMATION', attendingInformation };
 }

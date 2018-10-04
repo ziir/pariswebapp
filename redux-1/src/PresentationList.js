@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import ListItem from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
+import LocalStorageManager from './LocalStorageManager';
 import {
   changeFilterString,
   changeSelectedDay,
@@ -92,6 +93,7 @@ class List extends Component<Props> {
 
     return (
       <Fragment>
+        <LocalStorageManager />
         <YearValueChooser onChange={this.handleSelectedYearChange} />
         <DayValueChooser />
         <label>

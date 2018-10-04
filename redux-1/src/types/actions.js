@@ -30,7 +30,11 @@ export type Action =
       +displaySelectedTalks: boolean,
     |}
   | {|
-      +type: 'CHANGE_ATTENDING_INFORMATION',
+      +type: 'CHANGE_ATTENDING_INFORMATION_FOR_INDEX',
       +index: number,
       +attending: Attending,
+    |}
+  | {|
+      +type: 'CHANGE_ATTENDING_INFORMATION',
+      +attendingInformation: Attending[],
     |};

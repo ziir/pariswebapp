@@ -83,7 +83,9 @@ function attendingInformation(
   switch (action.type) {
     case 'AGENDA_HAS_LOADED':
       return action.agenda.map(() => false);
-    case 'CHANGE_ATTENDING_INFORMATION': {
+    case 'CHANGE_ATTENDING_INFORMATION':
+      return action.attendingInformation;
+    case 'CHANGE_ATTENDING_INFORMATION_FOR_INDEX': {
       const newValue = state.slice();
       newValue[action.index] = action.attending;
       return newValue;
