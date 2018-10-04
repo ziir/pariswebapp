@@ -73,6 +73,7 @@ function processAgenda(sourceAgenda: SourceAgenda): Agenda {
       title: sourceEntry.title,
       speakers: sourceEntry.speakers,
       location: sourceEntry.location,
+      date: sourceEntry.date,
       day: sourceEntry.day,
       year: parseInt(sourceEntry.year),
       start: sourceEntry.start,
