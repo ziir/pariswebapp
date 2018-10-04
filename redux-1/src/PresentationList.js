@@ -1,72 +1,59 @@
 // @flow
 
-import memoize from 'memoize-one';
 import React, { Component, Fragment } from 'react';
+import { connect } from 'react-redux';
 import ListItem, { type Attending } from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
+import {
+  changeFilterString,
+  changeSelectedDay,
+  changeSelectedYear,
+  changeSortCriteria,
+  changeDisplaySelectedTalks,
+} from './actions';
+import {
+  getViewOptions,
+  getFilteredAndSortedData,
+  getAvailableYears,
+} from './selectors';
 
-import type { Agenda, ConferenceData, Day } from './types/agenda';
-
-function compareByDateTime(entryA: ConferenceData, entryB: ConferenceData) {
-  if (entryA.date !== entryB.date) {
-    if (entryA.date < entryB.date) {
-      return -1;
-    } else {
-      return 1;
-    }
-  }
-
-  if (entryA.start !== entryB.start) {
-    if (entryA.start < entryB.start) {
-      return -1;
-    } else {
-      return 1;
-    }
-  }
-
-  if (entryA.location !== entryB.location) {
-    if (entryA.location < entryB.location) {
-      return -1;
-    } else {
-      return 1;
-    }
-  }
-
-  return 0;
-}
-
-function compareBySpeaker(entryA: ConferenceData, entryB: ConferenceData) {
-  // Using the first speaker arbitrary
-  return entryA.speakers[0].localeCompare(entryB.speakers[0]);
-}
-
-function compareByTitle(entryA: ConferenceData, entryB: ConferenceData) {
-  return entryA.title.localeCompare(entryB.title);
-}
-
-const sortingFunctions = {
-  titre: compareByTitle,
-  auteur: compareBySpeaker,
-  'date et heure': compareByDateTime,
-};
-
-type SortCriteria = $Keys<typeof sortingFunctions>;
+import type { AgendaWithIndex, Day } from './types/agenda';
+import type { SortCriteria } from './types/state';
 
 type Props = {|
-  +agenda: Agenda,
+  +agenda: AgendaWithIndex,
+  +availableYears: number[],
+  +filterString: string,
+  +displaySelectedTalks: boolean,
+  +changeSelectedYear: typeof changeSelectedYear,
+  +changeSortCriteria: typeof changeSortCriteria,
+  +changeDisplaySelectedTalks: typeof changeDisplaySelectedTalks,
+  +changeFilterString: typeof changeFilterString,
 |};
 
-type State = {|
-  attending: Array<Attending>,
-  filterString: string,
-  selectedYear: number,
-  selectedDay: Day | null,
-  selectedSortCriteria: SortCriteria,
-  displaySelectedTalks: boolean,
-|};
+const YearValueChooser = connect(state => ({
+  label: `Choisissez l'année`,
+  values: getAvailableYears(state),
+  selectedValue: getViewOptions(state).selectedYear,
+}))(ValueChooser);
 
-class List extends Component<Props, State> {
+const DayValueChooser = connect(
+  state => ({
+    label: 'Choisissez le jour',
+    values: [null, 'jeudi', 'vendredi', 'samedi'],
+    selectedValue: getViewOptions(state).selectedDay,
+  }),
+  { onChange: changeSelectedDay }
+)(ValueChooser);
+
+const SortValueChooser = connect(state => ({
+  label: 'Trier par',
+  values: ['date et heure', 'auteur', 'titre'],
+  selectedValue: getViewOptions(state).sortCriteria,
+}))(ValueChooser);
+
+class List extends Component<Props> {
   attending = (() => {
     const { props } = this;
     let storedAttending = [];
@@ -85,64 +72,11 @@ class List extends Component<Props, State> {
   })();
 
   handleSelectedYearChange = this.handleSelectedYearChange.bind(this);
-  handleSelectedDayChange = this.handleSelectedDayChange.bind(this);
   handleFilterSearchChange = this.handleFilterSearchChange.bind(this);
+  handleSortCriteriaChange = this.handleSortCriteriaChange.bind(this);
   attendingChangeCallback = this.attendingChangeCallback.bind(this);
 
   availableDays: Array<Day | null> = [null, 'jeudi', 'vendredi', 'samedi'];
-
-  state = {
-    // This initial value is needed by Flow, but it will be rewritten in
-    // `getDerivedStateFromProps` at the first render.
-    attending: [],
-    filterString: '',
-    selectedYear: 2018,
-    selectedDay: null,
-    selectedSortCriteria: 'date et heure',
-    displaySelectedTalks: false,
-  };
-
-  getFilteredData = memoize(
-    (
-      agenda,
-      filterString,
-      selectedYear,
-      selectedDay,
-      selectedSortCriteria,
-      displaySelectedTalks
-    ) => {
-      const sortingFunction = sortingFunctions[selectedSortCriteria];
-
-      return agenda
-        .map((entry, idx) => ({ entry, idx }))
-        .filter(
-          ({ entry, idx }) =>
-            entry.year === selectedYear &&
-            (selectedDay === null || entry.day === selectedDay) &&
-            (displaySelectedTalks === false || this.attending[idx]) &&
-            (entry.title.toLowerCase().includes(filterString) ||
-              entry.speakers.some(speaker =>
-                speaker.toLowerCase().includes(filterString)
-              ))
-        )
-        .sort(({ entry: entryA }, { entry: entryB }) => {
-          if (entryA.year !== entryB.year) {
-            // This shouldn't happen, but I still put it here in case we change
-            // something later.
-            // This put newer years before older years.
-            return entryB.year - entryA.year;
-          }
-
-          return sortingFunction(entryA, entryB);
-        });
-    }
-  );
-
-  getAvailableYears = memoize(agenda =>
-    [...new Set(this.props.agenda.map(entry => entry.year))].sort(
-      (a, b) => b - a
-    )
-  );
 
   attendingChangeCallback(index: number, attending: Attending) {
     this.attending[index] = attending;
@@ -150,7 +84,7 @@ class List extends Component<Props, State> {
   }
 
   handleFilterSearchChange(str: string) {
-    this.setState({ filterString: str.toLowerCase() });
+    this.props.changeFilterString(str);
   }
 
   handleSelectedYearChange(year: number | null) {
@@ -158,61 +92,31 @@ class List extends Component<Props, State> {
       // Shouldn't happen, but this makes Flow happy
       return;
     }
-    this.setState({ selectedYear: year });
-  }
-
-  handleSelectedDayChange(day: Day | null) {
-    this.setState({ selectedDay: day });
+    this.props.changeSelectedYear(year);
   }
 
   handleSortCriteriaChange(sortCriteria: SortCriteria | null) {
+    const { changeSortCriteria } = this.props;
     if (sortCriteria === null) {
       // Shouldn't happen, but this makes Flow happy
       return;
     }
 
-    this.setState({ selectedSortCriteria: sortCriteria });
+    changeSortCriteria(sortCriteria);
   }
 
   handleSelectedTalkCheckbox(e: SyntheticInputEvent<HTMLInputElement>) {
-    this.setState({ displaySelectedTalks: e.currentTarget.checked });
+    const { changeDisplaySelectedTalks } = this.props;
+    changeDisplaySelectedTalks(e.currentTarget.checked);
   }
 
   render() {
-    const { agenda } = this.props;
-    const {
-      filterString,
-      selectedYear,
-      selectedDay,
-      selectedSortCriteria,
-      displaySelectedTalks,
-    } = this.state;
-
-    const filteredData = this.getFilteredData(
-      agenda,
-      filterString,
-      selectedYear,
-      selectedDay,
-      selectedSortCriteria,
-      displaySelectedTalks
-    );
-
-    const availableYears = this.getAvailableYears(agenda);
+    const { agenda, filterString, displaySelectedTalks } = this.props;
 
     return (
       <Fragment>
-        <ValueChooser
-          label="Choisissez l'année"
-          values={availableYears}
-          selectedValue={selectedYear}
-          onChange={this.handleSelectedYearChange}
-        />
-        <ValueChooser
-          label="Choisissez le jour"
-          values={this.availableDays}
-          selectedValue={selectedDay}
-          onChange={this.handleSelectedDayChange}
-        />
+        <YearValueChooser onChange={this.handleSelectedYearChange} />
+        <DayValueChooser />
         <label>
           Afficher uniquement les talks sélectionnés{' '}
           <input
@@ -226,15 +130,10 @@ class List extends Component<Props, State> {
           onChange={this.handleFilterSearchChange}
           value={filterString}
         />
-        <ValueChooser
-          label="Trier par"
-          values={['date et heure', 'auteur', 'titre']}
-          selectedValue={selectedSortCriteria}
-          onChange={this.handleSortCriteriaChange.bind(this)}
-        />
+        <SortValueChooser onChange={this.handleSortCriteriaChange} />
         <section>
-          {filteredData.length
-            ? filteredData.map(({ entry, idx }) => (
+          {agenda.length
+            ? agenda.map(({ entry, idx }) => (
                 <ListItem
                   key={idx}
                   entry={entry}
@@ -250,4 +149,17 @@ class List extends Component<Props, State> {
   }
 }
 
-export default List;
+export default connect(
+  state => ({
+    agenda: getFilteredAndSortedData(state),
+    availableYears: getAvailableYears(state),
+    filterString: getViewOptions(state).filterString,
+    displaySelectedTalks: getViewOptions(state).displaySelectedTalks,
+  }),
+  {
+    changeSortCriteria,
+    changeSelectedYear,
+    changeDisplaySelectedTalks,
+    changeFilterString,
+  }
+)(List);

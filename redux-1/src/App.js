@@ -17,7 +17,7 @@ const FETCH_INTERVAL_MS = 5000;
 
 type Props = {|
   +agendaHasLoaded: typeof agendaHasLoaded,
-  +agenda: Agenda | null,
+  +hasAgenda: boolean,
   +agendaLastModified: string | null,
 |};
 
@@ -46,7 +46,7 @@ class App extends Component<Props> {
   }
 
   render() {
-    const { agenda, agendaLastModified } = this.props;
+    const { hasAgenda, agendaLastModified } = this.props;
 
     return (
       <div className="App">
@@ -54,13 +54,13 @@ class App extends Component<Props> {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Paris Web App</h1>
         </header>
-        {agenda ? (
+        {hasAgenda ? (
           // Use `lastModified` as `key` here allows to simplify
           // remount the `PresentationList` component whenever the agenda
           // content changes. This way, `attending` initial values
           // (default or coming from the ) are computed only once in
           // PresentationList's constructor.
-          <PresentationList key={agendaLastModified} agenda={agenda} />
+          <PresentationList />
         ) : null}
       </div>
     );
@@ -69,7 +69,7 @@ class App extends Component<Props> {
 
 export default connect(
   state => ({
-    agenda: getAgenda(state),
+    hasAgenda: getAgenda(state) !== null,
     agendaLastModified: getAgendaLastModified(state),
   }),
   { agendaHasLoaded }

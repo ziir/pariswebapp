@@ -12,3 +12,7 @@ export type ConferenceData = {|
   +end: string,
 |};
 export type Agenda = $ReadOnlyArray<ConferenceData>;
+export type AgendaWithIndex = $ReadOnlyArray<{
+  entry: ConferenceData,
+  idx: number,
+}>;

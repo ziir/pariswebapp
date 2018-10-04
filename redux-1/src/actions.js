@@ -1,7 +1,8 @@
 // @flow
 
 import type { Action } from './types/actions';
-import type { Agenda } from './types/agenda';
+import type { Agenda, Day } from './types/agenda';
+import type { SortCriteria } from './types/state';
 
 export function agendaHasLoaded(
   agenda: Agenda,
@@ -12,4 +13,26 @@ export function agendaHasLoaded(
     agenda,
     lastModified,
   };
+}
+
+export function changeFilterString(filterString: string): Action {
+  return { type: 'CHANGE_FILTER_STRING', filterString };
+}
+
+export function changeSelectedYear(year: number): Action {
+  return { type: 'CHANGE_SELECTED_YEAR', year };
+}
+
+export function changeSelectedDay(day: Day | null): Action {
+  return { type: 'CHANGE_SELECTED_DAY', day };
+}
+
+export function changeSortCriteria(sortCriteria: SortCriteria): Action {
+  return { type: 'CHANGE_SORT_CRITERIA', sortCriteria };
+}
+
+export function changeDisplaySelectedTalks(
+  displaySelectedTalks: boolean
+): Action {
+  return { type: 'CHANGE_DISPLAY_SELECTED_TALKS', displaySelectedTalks };
 }
