@@ -5,6 +5,7 @@ export type ConferenceData = {|
   +title: string,
   +speakers: Array<string>,
   +location: string,
+  +date: string,
   +day: Day,
   +year: number,
   +start: string,
