@@ -103,17 +103,8 @@ class List extends Component<Props, State> {
   };
 
   getFilteredData = memoize(
-    (
-      agenda,
-      filterString,
-      selectedYear,
-      selectedDay,
-      selectedSortCriteria,
-      displaySelectedTalks
-    ) => {
-      const sortingFunction = sortingFunctions[selectedSortCriteria];
-
-      return agenda
+    (agenda, filterString, selectedYear, selectedDay, displaySelectedTalks) =>
+      agenda
         .map((entry, idx) => ({ entry, idx }))
         .filter(
           ({ entry, idx }) =>
@@ -125,18 +116,21 @@ class List extends Component<Props, State> {
                 speaker.toLowerCase().includes(filterString)
               ))
         )
-        .sort(({ entry: entryA }, { entry: entryB }) => {
-          if (entryA.year !== entryB.year) {
-            // This shouldn't happen, but I still put it here in case we change
-            // something later.
-            // This put newer years before older years.
-            return entryB.year - entryA.year;
-          }
-
-          return sortingFunction(entryA, entryB);
-        });
-    }
   );
+
+  getSortedData = memoize((filteredData, selectedSortCriteria) => {
+    const sortingFunction = sortingFunctions[selectedSortCriteria];
+    return filteredData.slice().sort(({ entry: entryA }, { entry: entryB }) => {
+      if (entryA.year !== entryB.year) {
+        // This shouldn't happen, but I still put it here in case we change
+        // something later.
+        // This put newer years before older years.
+        return entryB.year - entryA.year;
+      }
+
+      return sortingFunction(entryA, entryB);
+    });
+  });
 
   getAvailableYears = memoize(agenda =>
     [...new Set(this.props.agenda.map(entry => entry.year))].sort(
@@ -193,11 +187,12 @@ class List extends Component<Props, State> {
       filterString,
       selectedYear,
       selectedDay,
-      selectedSortCriteria,
       displaySelectedTalks
     );
 
     const availableYears = this.getAvailableYears(agenda);
+
+    const sortedData = this.getSortedData(filteredData, selectedSortCriteria);
 
     return (
       <Fragment>
@@ -233,8 +228,8 @@ class List extends Component<Props, State> {
           onChange={this.handleSortCriteriaChange}
         />
         <section>
-          {filteredData.length
-            ? filteredData.map(({ entry, idx }) => (
+          {sortedData.length
+            ? sortedData.map(({ entry, idx }) => (
                 <ListItem
                   entry={entry}
                   index={idx}
