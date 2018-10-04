@@ -104,11 +104,7 @@ class List extends Component<Props> {
             onChange={this.handleSelectedTalkCheckbox.bind(this)}
           />
         </label>
-        <InputField
-          label="Filtrer"
-          onChange={this.handleFilterSearchChange}
-          value={filterString}
-        />
+        <InputField label="Filtrer" onChange={this.handleFilterSearchChange} />
         <SortValueChooser onChange={this.handleSortCriteriaChange} />
         <section>
           {agenda.length
