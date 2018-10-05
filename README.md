@@ -41,13 +41,15 @@ Domain is registered via [GANDI](https://www.gandi.net).
 
 [Register a domain name via GANDI](https://shop.gandi.net/domain/suggest)
 
+The [Paris Web App homepage](https://parisweb.app) lists the available apps.
+
+Note: the apps are deployed in a semi-production mode to allow (react) profiling.
+
 Each app is accessible using the following pattern:
 - https://parisweb.app/react-1
 - https://parisweb.app/react-2
 - https://parisweb.app/react-3
 - etc...
-
-Note: At the moment, https://parisweb.app (apex) serves a `302 redirect` to https://www.paris-web.fr
 
 ## Deployment
 

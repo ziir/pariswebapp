@@ -49,14 +49,23 @@ const options = {
       source: 'redux-:id/:file',
       destination: 'redux-:id/build/:file',
     },
+    {
+      source: '/',
+      destination: 'public/index.html',
+    },
+    {
+      source: '/fonts/:font',
+      destination: 'public/fonts/:font',
+    },
+    {
+      source: '/:asset',
+      destination: 'public/:asset',
+    },
   ],
 };
 
 if (env === 'production') {
   options.directoryListing = false;
-  options.redirects = [
-    { source: '/', type: 302, destination: 'https://www.paris-web.fr/' },
-  ];
 }
 
 const server = http.createServer((req, res) => {
