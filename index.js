@@ -29,6 +29,26 @@ const options = {
       source: 'react-:id/:file',
       destination: 'react-:id/build/:file',
     },
+    {
+      source: 'redux-:id',
+      destination: 'redux-:id/build/index.html',
+    },
+    {
+      source: 'redux-:id/static/js/:file',
+      destination: 'redux-:id/build/static/js/:file',
+    },
+    {
+      source: 'redux-:id/static/css/:file',
+      destination: 'redux-:id/build/static/css/:file',
+    },
+    {
+      source: 'redux-:id/static/media/:file',
+      destination: 'redux-:id/build/static/media/:file',
+    },
+    {
+      source: 'redux-:id/:file',
+      destination: 'redux-:id/build/:file',
+    },
   ],
 };
 
