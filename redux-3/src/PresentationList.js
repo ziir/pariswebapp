@@ -22,6 +22,8 @@ import {
 import type { AgendaWithIndex, Day } from './types/agenda';
 import type { SortCriteria } from './types/state';
 
+import './PresentationList.css';
+
 type Props = {|
   +agenda: AgendaWithIndex,
   +availableYears: number[],
@@ -109,7 +111,13 @@ class List extends Component<Props> {
         <SortValueChooser onChange={this.handleSortCriteriaChange} />
         <section>
           {agenda.length
-            ? agenda.map(({ idx }) => <ListItem key={idx} index={idx} />)
+            ? agenda.map(({ idx }) => (
+                <ListItem
+                  className="PresentationList-Item"
+                  key={idx}
+                  index={idx}
+                />
+              ))
             : "Aucune présentation n'a été sélectionnée par les multiples filtres, essayez de les modifier."}
         </section>
       </Fragment>
