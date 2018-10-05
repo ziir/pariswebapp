@@ -25,7 +25,6 @@ import type { SortCriteria } from './types/state';
 type Props = {|
   +agenda: AgendaWithIndex,
   +availableYears: number[],
-  +filterString: string,
   +displaySelectedTalks: boolean,
   +changeSelectedYear: typeof changeSelectedYear,
   +changeSortCriteria: typeof changeSortCriteria,
@@ -89,7 +88,7 @@ class List extends Component<Props> {
   }
 
   render() {
-    const { agenda, filterString, displaySelectedTalks } = this.props;
+    const { agenda, displaySelectedTalks } = this.props;
 
     return (
       <Fragment>
@@ -119,7 +118,6 @@ class List extends Component<Props> {
 const mapStateToProps = state => ({
   agenda: getFilteredAndSortedData(state),
   availableYears: getAvailableYears(state),
-  filterString: getViewOptions(state).filterString,
   displaySelectedTalks: getViewOptions(state).displaySelectedTalks,
 });
 const mapDispatchToProps = {
