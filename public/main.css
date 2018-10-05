@@ -21,17 +21,12 @@
   --font-size-h1: 2.6rem;
   --font-size-h2: 1.8rem;
   --font-size-h3: 1.8rem;
-  --font-size-h4: 1.5rem;
-  --font-size-h5: 1.5rem;
-  --font-size-h6: 1.5rem;
   --line-height-base: 1.5;
 
   /* Spacing */
   --spacing-xsmall: 1rem;
   --spacing-small: 2rem;
   --spacing: 4rem;
-  --spacing-medium: 8rem;
-  --spacing-large: 16rem;
 
   /* Misc */
   --border-radius: 3px;
@@ -48,7 +43,7 @@
 /* -- Base -- */
 
 :root {
-  font-size: 80%;
+  font-size: 70%;
 }
 
 * {
@@ -99,10 +94,22 @@ a:hover {
 }
 
 p {
-  margin-top: var(--spacing-small);
+  margin-top: 0;
   margin-bottom: var(--spacing-small);
 
   hyphens: auto;
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
 }
 
 /* -- Forms -- */
@@ -152,12 +159,14 @@ main {
   max-width: 40em;
   margin: 0 auto;
   padding: var(--spacing-xsmall);
+  padding-top: var(--spacing-small);
 }
 
 /* --- App Component --- */
 
 .logo {
   height: 80px;
+  width: auto;
 }
 
 header {
@@ -165,4 +174,8 @@ header {
   text-align: center;
   background-color: #25222c;
   color: white;
+}
+
+header h1 {
+  margin-bottom: 0;
 }
