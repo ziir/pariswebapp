@@ -48,17 +48,19 @@ class App extends Component<{||}, State> {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="" />
           <h1 className="App-title">Paris Web App</h1>
         </header>
-        {agenda ? (
-          // Use `lastModified` as `key` here allows to simplify
-          // remount the `PresentationList` component whenever the agenda
-          // content changes. This way, `attending` initial values
-          // (default or coming from the ) are computed only once in
-          // PresentationList's constructor.
-          <PresentationList key={lastModified} agenda={agenda} />
-        ) : null}
+        <main>
+          {agenda ? (
+            // Use `lastModified` as `key` here allows to simplify
+            // remount the `PresentationList` component whenever the agenda
+            // content changes. This way, `attending` initial values
+            // (default or coming from the ) are computed only once in
+            // PresentationList's constructor.
+            <PresentationList key={lastModified} agenda={agenda} />
+          ) : null}
+        </main>
       </div>
     );
   }

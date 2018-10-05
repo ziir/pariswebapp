@@ -24,18 +24,20 @@ export default class ValueChooser<
 
     return (
       <nav className="ValueChooser">
-        {label}:{' '}
-        {values.map(value => (
-          <button
-            type="button"
-            className={cx('ValueChooser-button', {
-              'ValueChooser-button_selected': value === selectedValue,
-            })}
-            onClick={this.handleClick.bind(this, value)}
-          >
-            {value === null ? 'Sans filtre' : value}
-          </button>
-        ))}
+        <span>{label}</span>
+        <div>
+          {values.map(value => (
+            <button
+              type="button"
+              className={cx('ValueChooser-button', {
+                'ValueChooser-button_selected': value === selectedValue,
+              })}
+              onClick={this.handleClick.bind(this, value)}
+            >
+              {value === null ? 'Sans filtre' : value}
+            </button>
+          ))}
+        </div>
       </nav>
     );
   }
