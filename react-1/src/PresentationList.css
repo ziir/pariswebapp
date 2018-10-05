@@ -1,0 +1,14 @@
+.PresentationList-Item {
+  padding: var(--spacing-xsmall);
+  margin-bottom: var(--spacing-small);
+  border-width: var(--border-radius);
+  border-style: solid;
+}
+
+.PresentationList-Item:nth-child(odd) {
+  border-color: var(--color-blue);
+}
+
+.PresentationList-Item:nth-child(even) {
+  border-color: var(--color-pink);
+}

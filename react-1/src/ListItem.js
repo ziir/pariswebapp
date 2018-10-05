@@ -10,11 +10,12 @@ type Props = {|
   +attending: Attending,
   +entry: ConferenceData,
   +handleChange: (attending: Attending) => any,
+  className: string,
 |};
 
 function ListItem(props: Props) {
   return (
-    <div>
+    <div className={props.className}>
       <h3>{props.entry.title}</h3>
       <ul>
         {props.entry.speakers.map(speaker => (

@@ -5,6 +5,7 @@ import ListItem, { type Attending } from './ListItem';
 import InputField from './InputField';
 import ValueChooser from './ValueChooser';
 import type { Agenda, ConferenceData, Day } from './types';
+import './PresentationList.css';
 
 function compareByDateTime(entryA: ConferenceData, entryB: ConferenceData) {
   if (entryA.date !== entryB.date) {
@@ -223,6 +224,7 @@ class List extends Component<Props, State> {
           {filteredData.length
             ? filteredData.map(({ entry, idx }) => (
                 <ListItem
+                  className="PresentationList-Item"
                   entry={entry}
                   index={idx}
                   attending={this.state.attending[idx]}
