@@ -38,18 +38,20 @@ const YearValueChooser = connect(state => ({
   selectedValue: getViewOptions(state).selectedYear,
 }))(ValueChooser);
 
+const availableDays = [null, 'jeudi', 'vendredi', 'samedi'];
 const DayValueChooser = connect(
   state => ({
     label: 'Choisissez le jour',
-    values: [null, 'jeudi', 'vendredi', 'samedi'],
+    values: availableDays,
     selectedValue: getViewOptions(state).selectedDay,
   }),
   { onChange: changeSelectedDay }
 )(ValueChooser);
 
+const availableSortCriterias = ['date et heure', 'auteur', 'titre'];
 const SortValueChooser = connect(state => ({
   label: 'Trier par',
-  values: ['date et heure', 'auteur', 'titre'],
+  values: availableSortCriterias,
   selectedValue: getViewOptions(state).sortCriteria,
 }))(ValueChooser);
 

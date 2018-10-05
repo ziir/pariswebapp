@@ -96,10 +96,12 @@ export const getFilteredAndSortedData: Selector<AgendaWithIndex | null> = create
   }
 );
 
-export function getAvailableYears(state: State): number[] {
-  const agenda = getAgenda(state);
-  if (agenda === null) {
-    return [];
+export const getAvailableYears: Selector<number[]> = createSelector(
+  getAgenda,
+  agenda => {
+    if (agenda === null) {
+      return [];
+    }
+    return [...new Set(agenda.map(entry => entry.year))].sort((a, b) => b - a);
   }
-  return [...new Set(agenda.map(entry => entry.year))].sort((a, b) => b - a);
-}
+);
