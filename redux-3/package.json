@@ -52,7 +52,7 @@
     "webpack-manifest-plugin": "1.3.2",
     "whatwg-fetch": "2.0.3"
   },
-  "homepage": "https://parisweb.app/react-4",
+  "homepage": "https://parisweb.app/redux-3",
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
