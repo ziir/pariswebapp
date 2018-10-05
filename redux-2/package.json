@@ -1,0 +1,28 @@
+{
+  "name": "react-4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "lodash.debounce": "^4.0.8",
+    "memoize-one": "^4.0.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6"
+  },
+  "homepage": "https://parisweb.app/react-4",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.81.0",
+    "flow-typed": "^2.5.1"
+  }
+}
