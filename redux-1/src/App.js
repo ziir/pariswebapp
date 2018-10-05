@@ -65,10 +65,13 @@ class App extends Component<Props> {
   }
 }
 
+const mapStateToProps = state => ({
+  hasAgenda: getAgenda(state) !== null,
+  agendaLastModified: getAgendaLastModified(state),
+});
+const mapDispatchToProps = { agendaHasLoaded };
+
 export default connect(
-  state => ({
-    hasAgenda: getAgenda(state) !== null,
-    agendaLastModified: getAgendaLastModified(state),
-  }),
-  { agendaHasLoaded }
+  mapStateToProps,
+  mapDispatchToProps
 )(App);

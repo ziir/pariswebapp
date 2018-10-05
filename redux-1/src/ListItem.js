@@ -98,10 +98,13 @@ class ListItem extends React.PureComponent<Props> {
   }
 }
 
+const mapStateToProps = (state, props) => ({
+  attending: getAttendingInformation(state)[props.index],
+  entry: ensureExists(getAgenda(state))[props.index],
+});
+const mapDispatchToProps = { changeAttendingInformationForIndex };
+
 export default connect(
-  (state, props) => ({
-    attending: getAttendingInformation(state)[props.index],
-    entry: ensureExists(getAgenda(state))[props.index],
-  }),
-  { changeAttendingInformationForIndex }
+  mapStateToProps,
+  mapDispatchToProps
 )(ListItem);

@@ -116,17 +116,20 @@ class List extends Component<Props> {
   }
 }
 
+const mapStateToProps = state => ({
+  agenda: getFilteredAndSortedData(state),
+  availableYears: getAvailableYears(state),
+  filterString: getViewOptions(state).filterString,
+  displaySelectedTalks: getViewOptions(state).displaySelectedTalks,
+});
+const mapDispatchToProps = {
+  changeSortCriteria,
+  changeSelectedYear,
+  changeDisplaySelectedTalks,
+  changeFilterString,
+};
+
 export default connect(
-  state => ({
-    agenda: getFilteredAndSortedData(state),
-    availableYears: getAvailableYears(state),
-    filterString: getViewOptions(state).filterString,
-    displaySelectedTalks: getViewOptions(state).displaySelectedTalks,
-  }),
-  {
-    changeSortCriteria,
-    changeSelectedYear,
-    changeDisplaySelectedTalks,
-    changeFilterString,
-  }
+  mapStateToProps,
+  mapDispatchToProps
 )(List);
