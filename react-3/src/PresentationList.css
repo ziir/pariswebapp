@@ -3,12 +3,22 @@
   margin-bottom: var(--spacing-small);
   border-width: var(--border-radius);
   border-style: solid;
+  border-color: var(--border-color);
 }
 
 .PresentationList-Item:nth-child(odd) {
-  border-color: var(--color-blue);
+  --border-color: var(--color-blue);
 }
 
 .PresentationList-Item:nth-child(even) {
-  border-color: var(--color-pink);
+  --border-color: var(--color-pink);
+}
+
+.PresentationList-Item.state-attending-yes {
+  outline: var(--selected-border-width) solid var(--border-color);
+}
+
+.PresentationList-Item.state-attending-maybe {
+  outline: var(--selected-border-width) dotted var(--border-color);
+  border-color: transparent;
 }
