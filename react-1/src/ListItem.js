@@ -1,6 +1,7 @@
 // @flow
 
 import React from 'react';
+import classNames from 'classnames';
 import type { ConferenceData } from './types';
 
 export type Attending = boolean | null;
@@ -14,8 +15,14 @@ type Props = {|
 |};
 
 function ListItem(props: Props) {
+  const className = classNames(props.className, {
+    'state-attending-yes': props.attending,
+    'state-attending-maybe': props.attending === null,
+    'state-attending-no': props.attending === false,
+  });
+
   return (
-    <div className={props.className}>
+    <div className={className}>
       <h3>{props.entry.title}</h3>
       <ul>
         {props.entry.speakers.map(speaker => (
