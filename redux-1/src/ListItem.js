@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { connect } from 'react-redux';
+import classNames from 'classnames';
 
 import { getAttendingInformation, getAgenda } from './selectors';
 import { changeAttendingInformationForIndex } from './actions';
@@ -41,9 +42,14 @@ class ListItem extends React.PureComponent<Props> {
 
   render() {
     const { className, entry, index, attending } = this.props;
+    const mergedClassName = classNames(className, {
+      'state-attending-yes': attending,
+      'state-attending-maybe': attending === null,
+      'state-attending-no': attending === false,
+    });
 
     return (
-      <div className={className}>
+      <div className={mergedClassName}>
         <h3>{entry.title}</h3>
         <ul>
           {entry.speakers.map(speaker => (
