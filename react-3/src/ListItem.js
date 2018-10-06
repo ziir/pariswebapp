@@ -1,6 +1,7 @@
 // @flow
 
 import React from 'react';
+import classNames from 'classnames';
 import type { ConferenceData } from './types';
 
 export type Attending = boolean | null;
@@ -41,9 +42,14 @@ export default class ListItem extends React.Component<Props, State> {
 
   render() {
     const { props, state } = this;
+    const className = classNames(props.className, {
+      'state-attending-yes': state.attending,
+      'state-attending-maybe': state.attending === null,
+      'state-attending-no': state.attending === false,
+    });
 
     return (
-      <div className={props.className}>
+      <div className={className}>
         <h3>{props.entry.title}</h3>
         <ul>
           {props.entry.speakers.map(speaker => (
