@@ -45,10 +45,10 @@ class App extends Component<{||}, State> {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="" />
           <h1 className="App-title">Paris Web App</h1>
         </header>
-        {agenda ? <PresentationList agenda={agenda} /> : null}
+        <main>{agenda ? <PresentationList agenda={agenda} /> : null}</main>
       </div>
     );
   }

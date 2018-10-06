@@ -7,6 +7,7 @@ import InputField from './InputField';
 import ValueChooser from './ValueChooser';
 
 import type { Agenda, ConferenceData, Day } from './types';
+import './PresentationList.css';
 
 function compareByDateTime(entryA: ConferenceData, entryB: ConferenceData) {
   if (entryA.date !== entryB.date) {
@@ -230,6 +231,7 @@ class List extends Component<Props, State> {
           {sortedData.length
             ? sortedData.map(({ entry, idx }) => (
                 <ListItem
+                  className="PresentationList-Item"
                   key={idx}
                   entry={entry}
                   index={idx}

@@ -10,6 +10,7 @@ type Props = {|
   +entry: ConferenceData,
   +attendingInitialValue: Attending,
   +changeCallback: (attending: Attending) => any,
+  +className: string,
 |};
 
 type State = {
@@ -42,7 +43,7 @@ export default class ListItem extends React.Component<Props, State> {
     const { props, state } = this;
 
     return (
-      <div>
+      <div className={props.className}>
         <h3>{props.entry.title}</h3>
         <ul>
           {props.entry.speakers.map(speaker => (

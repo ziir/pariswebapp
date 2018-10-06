@@ -15,6 +15,7 @@ type Props = {|
   +entry: ConferenceData,
   +attending: Attending,
   +changeAttendingInformationForIndex: typeof changeAttendingInformationForIndex,
+  +className: string,
 |};
 
 class ListItem extends React.PureComponent<Props> {
@@ -39,10 +40,10 @@ class ListItem extends React.PureComponent<Props> {
   };
 
   render() {
-    const { entry, index, attending } = this.props;
+    const { className, entry, index, attending } = this.props;
 
     return (
-      <div>
+      <div className={className}>
         <h3>{entry.title}</h3>
         <ul>
           {entry.speakers.map(speaker => (

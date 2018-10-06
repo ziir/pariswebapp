@@ -1,10 +1,37 @@
-.ValueChooser-button {
-  background: #ccc;
-  border: 1px solid #aaa;
+.ValueChooser {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--spacing-small);
 }
 
-.ValueChooser-button_selected {
-  background: #888;
-  border-color: #666;
+.ValueChooser span {
+  font-weight: bold;
+  text-align: left;
+}
+
+.ValueChooser-button {
+  font-weight: bold;
+  padding: var(--spacing-xsmall);
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: var(--color-blue);
   color: white;
+  transition: background-color 0.25s ease;
+}
+
+.ValueChooser-button:not(:last-of-type) {
+  margin-right: var(--spacing-xsmall);
+}
+
+.ValueChooser-button:hover {
+  background-color: var(--color-blue-secondary);
+}
+
+.ValueChooser-button:focus {
+  background-color: var(--color-pink-secondary);
+}
+
+.ValueChooser-button_selected,
+.ValueChooser-button_selected:hover {
+  background-color: var(--color-pink);
 }
